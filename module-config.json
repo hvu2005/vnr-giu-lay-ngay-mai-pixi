@@ -1,0 +1,8 @@
+{
+    "__PIXI__": "true",
+    "__THREE__": "false",
+    "__MATTER__": "false",
+    "__CANNON__": "false",
+    "__PROFILER__": "false",
+    "__EDITOR__": "false"
+}

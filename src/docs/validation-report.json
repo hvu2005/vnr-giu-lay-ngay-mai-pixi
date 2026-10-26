@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "version": "2.0",
+  "scenes": 10,
+  "objects": 60,
+  "requiredObjects": 50,
+  "hiddenObjects": 10,
+  "objectsWithMeaning": 60,
+  "cutscenes": 10,
+  "minigames": 3,
+  "timelineCards": 18,
+  "archiveEntries": 10,
+  "sources": 30,
+  "scenePath": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10"
+  ],
+  "issues": [],
+  "limits": [
+    "Structural content checks only",
+    "Final art, audio and integration not produced",
+    "Final hitbox alignment and visual Page layout not verified"
+  ]
+}

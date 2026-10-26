@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0, user-scalable = 0, minimal-ui" />
+    <link rel="icon" type="image/png" href="https://falcongames.com/wp-content/uploads/2022/05/Vector.png" />
+
+    <title>Giữ lấy ngày mai</title>
+    <style>
+        /* ── NỀN GAME NẰM Ở ĐÂY, KHÔNG NẰM TRONG PIXI ──────────────────────
+           Renderer pixi dựng với `backgroundAlpha: 0`
+           (`src/engine/adapters/pixi/pixi-renderer.js`), mà pixi lại lấy chính
+           cờ đó để xin context WebGL `alpha: true` — nên canvas TRONG SUỐT
+           thật, không phải trong suốt giả bằng màu đen.
+
+           Tức mọi chỗ game không vẽ tới đều lộ ra cái `--game-bg` bên dưới.
+           Muốn đổi nền thì sửa đúng một dòng này: màu phẳng, gradient, hay
+           `url(...)` với ảnh nhúng data-URI đều được.
+
+           Đang để `transparent` — không có gì được tô sau game cả, để trống chỗ
+           cho nền CSS đưa vào sau. Màu của bản Unity là `#2f2769`
+           (`Camera.backgroundColor`), muốn quay lại thì thay đúng dòng dưới. */
+        :root {
+            --game-bg: #120c08;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+
+            background: var(--game-bg);
+        }
+
+        /* Chỉ canvas render (con trực tiếp của body). Nếu để `canvas` chung thì
+           3 canvas panel bên trong stats cũng thành absolute → div stats co về
+           0x0, click đổi panel FPS/MS/MB không ăn. */
+        body > canvas {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Không khai sẵn <canvas> ở đây: `bootstrap` không nhận `context` nào nên
+         `PixiRenderer` tự tạo canvas rồi `appendChild` vào body. Canvas khai tay
+         sẽ nằm chết một chỗ với cỡ mặc định 300×150. -->
+    <script src="./main.js">
+    </script>
+</body>
+
+</html>

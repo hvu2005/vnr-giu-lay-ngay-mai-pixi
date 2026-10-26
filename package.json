@@ -1,0 +1,28 @@
+{
+  "name": "giu-lay-ngay-mai-pixi",
+  "version": "0.1.0",
+  "description": "Giữ lấy ngày mai — game point & click giáo dục lịch sử (1945–1975), PixiJS",
+  "main": "main.js",
+  "scripts": {
+    "build": "node build.js",
+    "app": "node src/engine/tooling/engine-app.js",
+    "assets": "python tools/prepare-assets.py"
+  },
+  "type": "module",
+  "author": "hvu",
+  "license": "MIT",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "gsap": "^3.15.0",
+    "matter-js": "^0.20.0",
+    "open": "^11.0.0",
+    "pixi-filters": "^6.1.5",
+    "pixi.js": "^8.18.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.184.0",
+    "three-stdlib": "^2.36.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.0"
+  }
+}

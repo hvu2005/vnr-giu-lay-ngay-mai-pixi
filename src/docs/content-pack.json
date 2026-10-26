@@ -1,0 +1,3498 @@
+{
+  "meta": {
+    "title": "Giữ lấy ngày mai",
+    "version": "2.0",
+    "status": "ten_event_scenes_content_revision",
+    "createdDate": "2026-10-25",
+    "language": "vi-VN",
+    "period": "1945–1975",
+    "tagline": "Ba mươi năm. Nhiều thế hệ. Một khát vọng hòa bình.",
+    "referenceCanvas": {
+      "width": 1280,
+      "height": 720,
+      "safeYMin": 80,
+      "safeYMax": 670
+    },
+    "estimatedMainMinutes": [
+      45,
+      70
+    ],
+    "schemaCompatibility": "proposed_independent_schema_not_integrated",
+    "assetStatus": "briefs_only_no_final_images_or_audio",
+    "editorialRule": "Mỗi scene là một sự kiện có tên rõ, thời điểm rõ và hình nhận diện; mỗi object phải giải thích một mắt xích của sự kiện."
+  },
+  "chapters": [
+    {
+      "id": "CH01",
+      "title": "Từ độc lập tới Điện Biên Phủ và Giơnevơ",
+      "range": "1945–1954",
+      "sceneIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "question": "Nền độc lập được công bố, bảo vệ và khẳng định như thế nào?",
+      "arc": "Ba Đình → Toàn quốc kháng chiến → Điện Biên Phủ → Giơnevơ.",
+      "endLine": "Chiến thắng và ngoại giao mở ra giai đoạn mới, trong khi mục tiêu thống nhất vẫn tiếp tục."
+    },
+    {
+      "id": "CH02",
+      "title": "Đấu tranh thống nhất và bước ngoặt Mậu Thân",
+      "range": "1959–1968",
+      "sceneIds": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "question": "Chi viện và phong trào ở miền Nam phát triển thành những bước ngoặt như thế nào?",
+      "arc": "Mở đường Trường Sơn → Đồng Khởi Bến Tre → Mậu Thân 1968.",
+      "endLine": "Cuộc đấu tranh mở rộng, với những chuyển biến lớn và nhiều mất mát."
+    },
+    {
+      "id": "CH03",
+      "title": "Từ Hà Nội 1972 tới ngày 30 tháng 4",
+      "range": "1972–1975",
+      "sceneIds": [
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "question": "Những bước ngoặt cuối cuộc chiến nối tới hòa bình và đoàn tụ ra sao?",
+      "arc": "Hà Nội 1972 → Hiệp định Paris → Dinh Độc Lập 30/4/1975.",
+      "endLine": "Chiến tranh khép lại, hàn gắn và xây dựng tiếp tục."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "chapter": "CH01",
+      "title": "Tuyên ngôn Độc lập tại Ba Đình",
+      "date": "2/9/1945",
+      "place": "Rìa quảng trường Ba Đình, Hà Nội",
+      "sources": [
+        "H01"
+      ],
+      "historicalAnchor": "Ngày 2/9/1945 tại Ba Đình, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa.",
+      "opening": "Quảng trường đông người. Trên lễ đài, Chủ tịch Hồ Chí Minh chuẩn bị công bố Tuyên ngôn Độc lập.",
+      "objective": "Khám phá người công bố, văn kiện và cộng đồng chứng kiến sự ra đời của nước Việt Nam Dân chủ Cộng hòa.",
+      "insight": "Ngày 2/9/1945 đánh dấu sự ra đời của một nhà nước độc lập.",
+      "staging": "Lễ đài ở trung cảnh phải, đám đông và cờ ở trái. Chọn vùng giấy trên bục sẽ mở cận cảnh UI, không phóng to một tờ giấy khổng lồ trong không gian. Hình người thật dựa trên ảnh tư liệu, không tạo lời thoại cho Hồ Chí Minh.",
+      "light": "Nắng chiều từ trái; đỏ cờ, kem giấy, xanh cây; ánh sáng sáng rõ, không tạo vẻ lễ hội hiện đại.",
+      "ambience": "Tiếng người, vải cờ, bước chân; nhạc mộc nhẹ. Bản lời đọc Tuyên ngôn chỉ dùng bản ghi có nguồn và quyền sử dụng; bản dựng thử dùng người dẫn diễn giải.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Cờ đỏ sao vàng",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.15,
+            0.69
+          ],
+          "support": "Cán cờ trong tay người dự lễ",
+          "text": "Dưới những lá cờ đỏ sao vàng, người dân cùng chứng kiến thời khắc công bố nền độc lập.",
+          "meaning": "Giúp nhận diện ngày lễ và cộng đồng cùng chia sẻ một nền độc lập.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H01"
+          ],
+          "id": "S01_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Cờ đỏ sao vàng",
+          "completionEvent": "detail_read",
+          "hint": "Tìm cờ đỏ sao vàng ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 192,
+            "cy": 497,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Chủ tịch Hồ Chí Minh trên lễ đài",
+          "kind": "archive",
+          "layer": "BG",
+          "anchor": [
+            0.59,
+            0.36
+          ],
+          "support": "Đứng trên sàn lễ đài, sau bục",
+          "text": "Ngày 2/9/1945, Chủ tịch Hồ Chí Minh thay mặt Chính phủ lâm thời đọc Tuyên ngôn Độc lập tại Ba Đình.",
+          "meaning": "Xác định ai công bố văn kiện và nhân danh tổ chức nào.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H01"
+          ],
+          "id": "S01_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Chủ tịch Hồ Chí Minh trên lễ đài",
+          "completionEvent": "detail_read",
+          "hint": "Tìm chủ tịch hồ chí minh trên lễ đài ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 755,
+            "cy": 259,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Bản Tuyên ngôn trên bục",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.7,
+            0.51
+          ],
+          "support": "Giấy đặt trên mặt bục; click mở cận cảnh",
+          "text": "Tuyên ngôn Độc lập công bố sự ra đời của nước Việt Nam Dân chủ Cộng hòa và khẳng định quyền độc lập của dân tộc.",
+          "meaning": "Đưa người mới tới nội dung cốt lõi của sự kiện, thay cho một tờ giấy trang trí.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H01"
+          ],
+          "id": "S01_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Bản Tuyên ngôn trên bục",
+          "completionEvent": "detail_read",
+          "hint": "Tìm bản tuyên ngôn trên bục ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 896,
+            "cy": 367,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Đoàn người dự lễ",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.36,
+            0.73
+          ],
+          "support": "Đứng trên mặt đất quảng trường",
+          "text": "Người dân thuộc nhiều tầng lớp tới dự lễ. Nền độc lập vừa được công bố gắn với tương lai chung của họ.",
+          "meaning": "Giải thích đây là sự kiện của cả cộng đồng, không chỉ một bài diễn văn.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H01"
+          ],
+          "id": "S01_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Đoàn người dự lễ",
+          "completionEvent": "detail_read",
+          "hint": "Tìm đoàn người dự lễ ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 461,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Micro trên lễ đài",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.85,
+            0.38
+          ],
+          "support": "Gắn trên giá cạnh bục, theo ảnh tham khảo",
+          "text": "Lời tuyên bố trên lễ đài hướng tới nhân dân trong nước và thế giới. Mở thẻ diễn giải ý nghĩa của việc công bố độc lập.",
+          "meaning": "Nối hình ảnh buổi lễ với tính chất tuyên bố công khai của văn kiện.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H01"
+          ],
+          "id": "S01_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Micro trên lễ đài",
+          "completionEvent": "detail_read",
+          "hint": "Tìm micro trên lễ đài ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 1088,
+            "cy": 274,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Giỏ kim chỉ may cờ",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.46
+          ],
+          "support": "Giỏ đặt trên ghế, lộ kim chỉ và vải đỏ",
+          "text": "Chi tiết dàn dựng nhắc tới sự chuẩn bị của người dân cho ngày lễ. Lá cờ trên cao có thể bắt đầu từ những bàn tay may vá.",
+          "meaning": "Bổ sung vai trò đóng góp của người dân vào buổi lễ; không giới thiệu như kỷ vật xác thực.",
+          "evidence": "illustrative",
+          "hidden": true,
+          "id": "S01_H1",
+          "required": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "sourceIds": [],
+          "popupTitle": "Giỏ kim chỉ may cờ",
+          "completionEvent": "detail_read",
+          "hint": "Tìm giỏ kim chỉ may cờ ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 331,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Từ lễ đài Ba Đình, một văn kiện được công bố trước nhân dân."
+        ],
+        [
+          "Người dẫn",
+          "Tuyên ngôn Độc lập tuyên bố nước Việt Nam Dân chủ Cộng hòa ra đời."
+        ],
+        [
+          "Người dẫn",
+          "Nền độc lập ấy sẽ phải được bảo vệ qua những thử thách tiếp theo."
+        ]
+      ],
+      "archiveTitle": "Một nền độc lập vừa ra đời",
+      "archive": "Ngày 2/9/1945, tại Ba Đình ở Hà Nội, Chủ tịch Hồ Chí Minh công bố Tuyên ngôn Độc lập, đánh dấu sự ra đời của nước Việt Nam Dân chủ Cộng hòa. Các object lần lượt giới thiệu người công bố, văn kiện, biểu tượng quốc gia, người dự lễ và tính chất tuyên bố công khai. Bố cục dựa trên ảnh tham khảo; vị trí đạo cụ và giỏ may cờ là dàn dựng, không phải hồ sơ hiện vật của buổi lễ.",
+      "closing": "Một quốc gia độc lập vừa ra đời. Giữ lấy nền độc lập trở thành nhiệm vụ tiếp theo.",
+      "cutscene": {
+        "frames": [
+          [
+            "Hình lễ Độc lập chuyển sang đường phố Nam Bộ có chướng ngại và người dân cùng tham gia kháng chiến.",
+            "Ngày 23/9/1945, Nam Bộ bước vào kháng chiến chống thực dân Pháp trở lại."
+          ],
+          [
+            "Bản đồ Việt Nam nối từ Nam ra Bắc; phố Hà Nội hiện trong ánh chiều cuối năm 1946.",
+            "Thử thách với nền độc lập ngày càng lớn."
+          ]
+        ],
+        "card": "19 · 12 · 1946 — Toàn quốc kháng chiến",
+        "duration": 24,
+        "sourceIds": [
+          "H02",
+          "H03"
+        ],
+        "id": "CS01",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "19 · 12 · 1946 — Toàn quốc kháng chiến"
+        }
+      },
+      "artPrompt": "Hand-painted 2D historical point-and-click scene Ba Dinh Hanoi September 2 1945, independence platform midground right with historically referenced Ho Chi Minh figure behind lectern and period microphone, diverse civilians foreground left carrying red flag with yellow star, manuscript only visible through later UI closeup, sewing basket on grounded stool, warm daylight, consistent scale and shadows, no modern mausoleum, no readable text.",
+      "order": 1,
+      "archiveId": "AR01",
+      "nextSceneId": "S02",
+      "completion": {
+        "requiredObjectIds": [
+          "S01_O1",
+          "S01_O2",
+          "S01_O3",
+          "S01_O4",
+          "S01_O5"
+        ],
+        "minigameId": null,
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Lễ đài, Chủ tịch Hồ Chí Minh và cờ đỏ sao vàng",
+      "question": "Ngày 2/9/1945 đã công bố điều gì với nhân dân và thế giới?"
+    },
+    {
+      "id": "S02",
+      "chapter": "CH01",
+      "title": "Toàn quốc kháng chiến",
+      "date": "Đêm 19/12/1946",
+      "place": "Một chiến lũy trên phố Hà Nội, bố cục tổng hợp",
+      "sources": [
+        "H03",
+        "H25"
+      ],
+      "historicalAnchor": "Ngày 19/12/1946, Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến; cả nước bước vào cuộc kháng chiến trường kỳ.",
+      "opening": "Đèn phố đã tắt. Giữa đường, giường tủ và vật liệu tạo thành chiến lũy; người dân và lực lượng tự vệ cùng có mặt.",
+      "objective": "Nhận biết mốc toàn quốc kháng chiến và vai trò của quân dân trong bảo vệ nền độc lập.",
+      "insight": "Kháng chiến bắt đầu bằng quyết tâm chung và sự tham gia của nhiều lực lượng.",
+      "staging": "Một phố Hà Nội ban đêm; chiến lũy có nền đỡ rõ, gia đình tản cư ở một bên, người liên lạc đi giữa các nhà. Văn kiện Lời kêu gọi mở dưới dạng thẻ UI, không đặt bản in chưa phát hành vào cảnh.",
+      "light": "Ánh chiều lạnh qua cửa trái; đèn dầu ấm trong nhà.",
+      "ambience": "Tiếng gọi nhau, bước chân, vật dụng dịch chuyển; âm thanh chiến sự ở xa và có thể giảm.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Chiến lũy bằng giường tủ",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.16,
+            0.72
+          ],
+          "support": "Đồ gỗ và bao đất đặt chồng vững trên mặt đường",
+          "text": "Giường, tủ và nhiều vật dụng được đưa ra đường làm chiến lũy. Không gian sinh hoạt trở thành nơi quân dân bảo vệ thành phố.",
+          "meaning": "Giải thích hình ảnh đặc trưng của Hà Nội kháng chiến và sự tham gia trực tiếp của người dân.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H25"
+          ],
+          "id": "S02_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Chiến lũy bằng giường tủ",
+          "completionEvent": "detail_read",
+          "hint": "Tìm chiến lũy bằng giường tủ ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 205,
+            "cy": 518,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Chiến sĩ tự vệ",
+          "kind": "dialogue",
+          "layer": "MG",
+          "anchor": [
+            0.35,
+            0.53
+          ],
+          "support": "Đứng sau chiến lũy, chân trên đường",
+          "text": "Lực lượng tự vệ cùng bộ đội và nhân dân tham gia chiến đấu. Cảnh này thể hiện tinh thần bảo vệ Thủ đô.",
+          "meaning": "Cho biết ai đang tham gia cuộc kháng chiến trong đô thị.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H25"
+          ],
+          "id": "S02_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Chiến sĩ tự vệ",
+          "completionEvent": "detail_read",
+          "hint": "Tìm chiến sĩ tự vệ ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 448,
+            "cy": 382,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Dãy đèn phố đã tắt",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.83,
+            0.3
+          ],
+          "support": "Đèn treo trên cột và mặt tiền nhà",
+          "text": "Đêm 19/12/1946, điện Hà Nội tắt trước khi cuộc chiến đấu bùng lên. Bóng tối trong cảnh là dấu hiệu của thời khắc mở đầu.",
+          "meaning": "Biến một chi tiết môi trường thành dấu mốc thời gian có nội dung lịch sử.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H25"
+          ],
+          "id": "S02_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Dãy đèn phố đã tắt",
+          "completionEvent": "detail_read",
+          "hint": "Tìm dãy đèn phố đã tắt ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1062,
+            "cy": 216,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Người liên lạc",
+          "kind": "archive",
+          "layer": "MG",
+          "anchor": [
+            0.55,
+            0.42
+          ],
+          "support": "Đứng tại bậc cửa, tay giữ túi công văn",
+          "text": "Người liên lạc nối các vị trí trong thành phố. Từ đây, mở văn kiện Lời kêu gọi toàn quốc kháng chiến ngày 19/12/1946.",
+          "meaning": "Nối hoạt động trong phố với quyết định kháng chiến trên phạm vi toàn quốc.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H03",
+            "H25"
+          ],
+          "id": "S02_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Người liên lạc",
+          "completionEvent": "detail_read",
+          "hint": "Tìm người liên lạc ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 704,
+            "cy": 302,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Gia đình tản cư",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.68,
+            0.63
+          ],
+          "support": "Đi trên lối bên đường với hành lý mang trên vai",
+          "text": "Tản cư đưa người dân và những công việc cần thiết ra khỏi nơi chiến đấu. Giữ sức người là một phần của chuẩn bị kháng chiến lâu dài.",
+          "meaning": "Giải thích mục đích của cuộc rời phố, không chỉ gợi cảm giác chia tay.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H03"
+          ],
+          "id": "S02_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Gia đình tản cư",
+          "completionEvent": "detail_read",
+          "hint": "Tìm gia đình tản cư ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 870,
+            "cy": 454,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Toa xe điện chắn phố",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.09,
+            0.43
+          ],
+          "support": "Toa đặt trên đường ray, bị khuất một phần sau góc nhà",
+          "text": "Toa xe điện cũng được dùng làm chướng ngại trên phố Hà Nội. Cơ sở hạ tầng đô thị tham gia vào không gian chiến đấu.",
+          "meaning": "Bổ sung một dấu hiệu đặc trưng của chiến lũy Hà Nội, có nguồn trực tiếp.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H25"
+          ],
+          "hidden": true,
+          "id": "S02_H1",
+          "required": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Toa xe điện chắn phố",
+          "completionEvent": "detail_read",
+          "hint": "Tìm toa xe điện chắn phố ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 115,
+            "cy": 310,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người liên lạc hư cấu",
+          "Bà con đang đưa người nhà rời phố. Những người ở lại tiếp tục giữ vị trí."
+        ],
+        [
+          "Người dẫn",
+          "Lời kêu gọi toàn quốc kháng chiến ngày 19/12/1946 gắn với quyết tâm bảo vệ nền độc lập."
+        ],
+        [
+          "Người dẫn",
+          "Từ đây, cuộc kháng chiến phải dựa vào sức bền của cả nước."
+        ]
+      ],
+      "archiveTitle": "Vì sao có Toàn quốc kháng chiến",
+      "archive": "Sau những nỗ lực thương lượng, quan hệ Việt Pháp tiếp tục căng thẳng. Ngày 19/12/1946 đánh dấu toàn quốc kháng chiến. Ở Hà Nội, việc tắt điện và các chiến lũy trên phố gắn với thời điểm mở đầu chiến đấu. Người dân tham gia xây chướng ngại, tản cư và hỗ trợ lực lượng chiến đấu. Lời kêu gọi được đọc trong Archive như văn kiện lịch sử; cảnh không khẳng định một gia đình đã nghe bản phát thanh vào đúng giờ được vẽ.",
+      "closing": "Từ những chiến lũy trong phố, cuộc kháng chiến bước sang một chặng đường dài.",
+      "cutscene": {
+        "frames": [
+          [
+            "Mốc 1947 và 1950 hiện lần lượt trên sơ đồ: Việt Bắc được bảo vệ, rồi biên giới được khai thông.",
+            "Kháng chiến lớn lên qua việc giữ căn cứ, xây dựng lực lượng và mở rộng kết nối."
+          ],
+          [
+            "Những đoàn dân công và bộ đội hướng về Tây Bắc; sơ đồ dừng ở Điện Biên Phủ.",
+            "Tới năm 1954, sức huy động của cả hậu phương góp vào một chiến dịch quyết định."
+          ]
+        ],
+        "card": "7 · 5 · 1954 — Chiến thắng Điện Biên Phủ",
+        "duration": 30,
+        "sourceIds": [
+          "H04",
+          "H05",
+          "H06",
+          "H07"
+        ],
+        "id": "CS02",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "7 · 5 · 1954 — Chiến thắng Điện Biên Phủ"
+        }
+      },
+      "artPrompt": "Hand-painted 2D Hanoi street barricade night December 19 1946, grounded furniture barricade built from cupboards and bed frames, self-defense fighters and courier, family evacuating along side passage, dark unlit streetlamps, partly occluded tram car in background, period wooden houses, restrained distant battle atmosphere, no modern vehicles, no text.",
+      "order": 2,
+      "archiveId": "AR02",
+      "nextSceneId": "S03",
+      "completion": {
+        "requiredObjectIds": [
+          "S02_O1",
+          "S02_O2",
+          "S02_O3",
+          "S02_O4",
+          "S02_O5"
+        ],
+        "minigameId": null,
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Giường tủ thành chiến lũy, phố tắt điện và người tự vệ",
+      "question": "Vì sao cả nước bước vào kháng chiến và người dân tham gia bằng cách nào?"
+    },
+    {
+      "id": "S03",
+      "chapter": "CH01",
+      "title": "Chiến thắng Điện Biên Phủ",
+      "date": "7/5/1954",
+      "place": "Không gian minh họa tổng hợp chiến trường Điện Biên Phủ",
+      "sources": [
+        "H06",
+        "H07"
+      ],
+      "historicalAnchor": "Chiến thắng Điện Biên Phủ ngày 7/5/1954 gắn với nỗ lực chiến đấu và bảo đảm hậu cần của quân dân.",
+      "opening": "Những giao thông hào dẫn mắt tới khu chỉ huy. Sau nhiều ngày chiến đấu, lá cờ chiến thắng xuất hiện trên hầm Đờ Cát.",
+      "objective": "Nhận ra địa điểm kết thúc chiến dịch và nối chiến đấu với hậu cần.",
+      "insight": "Thắng lợi quân sự gắn với tổ chức chiến đấu và sức huy động từ hậu phương.",
+      "staging": "Bố cục minh họa cô đọng, có chú thích rõ; không nhận là toàn bộ vật đều nhìn thấy từ một vị trí thực địa. Hầm ở BG, hào ở MG, xe đạp thồ ở đường tiếp tế FG. Không trưng bày công trình bảo tàng hiện đại.",
+      "light": "Ánh sớm mờ từ trái; sương xanh xám, mặt người và giấy ngả ấm.",
+      "ambience": "Nan hoa khẽ rung, tiếng dây kéo, tiếng người nhận hàng, bước chân bùn.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Hầm chỉ huy Đờ Cát",
+          "kind": "archive",
+          "layer": "BG",
+          "anchor": [
+            0.84,
+            0.34
+          ],
+          "support": "Hầm thấp ăn vào địa hình, mái và bao đất có khối",
+          "text": "Đây là hình ảnh khu chỉ huy của tập đoàn cứ điểm. Việc chiếm sở chỉ huy ngày 7/5/1954 đánh dấu thời khắc quyết định của chiến thắng.",
+          "meaning": "Cung cấp biểu tượng địa điểm dễ nhận ra và diễn biến chốt của sự kiện.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H06"
+          ],
+          "id": "S03_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Hầm chỉ huy Đờ Cát",
+          "completionEvent": "detail_read",
+          "hint": "Tìm hầm chỉ huy đờ cát ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1075,
+            "cy": 245,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Lá cờ trên nóc hầm",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.66,
+            0.27
+          ],
+          "support": "Cán cờ được người chiến sĩ giữ hoặc cắm chắc theo brief",
+          "text": "Lá cờ chiến thắng trên hầm chỉ huy trở thành hình ảnh gắn với Điện Biên Phủ ngày 7/5/1954.",
+          "meaning": "Giúp nhớ thời điểm kết thúc chiến dịch qua một hình ảnh đặc trưng.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H06"
+          ],
+          "id": "S03_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Lá cờ trên nóc hầm",
+          "completionEvent": "detail_read",
+          "hint": "Tìm lá cờ trên nóc hầm ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 845,
+            "cy": 194,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Hệ thống giao thông hào",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.52,
+            0.48
+          ],
+          "support": "Hào đào liền mặt đất theo địa hình",
+          "text": "Hệ thống hào thể hiện quá trình bao vây và tiến gần các vị trí phòng ngự. Chiến thắng là kết quả của một chiến dịch kéo dài.",
+          "meaning": "Giải thích chiến dịch có quá trình chuẩn bị và tiến công, tránh hiểu như một khoảnh khắc đơn lẻ.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H06"
+          ],
+          "id": "S03_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Hệ thống giao thông hào",
+          "completionEvent": "detail_read",
+          "hint": "Tìm hệ thống giao thông hào ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 666,
+            "cy": 346,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Xe đạp thồ chở hàng",
+          "kind": "minigame",
+          "layer": "FG",
+          "anchor": [
+            0.17,
+            0.7
+          ],
+          "support": "Hai bánh chạm đường; bao tải đặt trên khung",
+          "text": "Xe đạp thồ là phương tiện tiếp tế tiêu biểu của chiến dịch. Khám phá chuỗi công việc đưa hàng từ hậu phương tới nơi sử dụng.",
+          "meaning": "Nối chiến thắng với hậu cần và lực lượng dân công.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H07"
+          ],
+          "id": "S03_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Xe đạp thồ chở hàng",
+          "completionEvent": "detail_read",
+          "hint": "Tìm xe đạp thồ chở hàng ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 218,
+            "cy": 504,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Nhóm chiến sĩ tại trận địa",
+          "kind": "dialogue",
+          "layer": "MG",
+          "anchor": [
+            0.35,
+            0.5
+          ],
+          "support": "Đứng trong và cạnh hào, đúng tỷ lệ chiều sâu",
+          "text": "Bộ đội trực tiếp chiến đấu tại mặt trận, cùng sự hỗ trợ của dân công và nhân dân làm nên thắng lợi.",
+          "meaning": "Đặt con người vào quan hệ giữa chiến đấu và bảo đảm chiến dịch.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H06",
+            "H07"
+          ],
+          "id": "S03_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Nhóm chiến sĩ tại trận địa",
+          "completionEvent": "detail_read",
+          "hint": "Tìm nhóm chiến sĩ tại trận địa ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 448,
+            "cy": 360,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Sổ tay dân công",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.44
+          ],
+          "support": "Lộ trong túi vải đặt cạnh xe",
+          "text": "Sổ tay dân công là loại tư liệu về hoạt động vận chuyển. Những dòng ghi chép giúp thấy phần công việc phía sau mặt trận.",
+          "meaning": "Mở thêm một cách đọc lịch sử qua hiện vật và ghi chép của lực lượng hậu cần.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H07"
+          ],
+          "hidden": true,
+          "id": "S03_H1",
+          "required": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Sổ tay dân công",
+          "completionEvent": "detail_read",
+          "hint": "Tìm sổ tay dân công ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 317,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Những đường hào cho thấy cuộc chiến đấu tiến gần từng bước."
+        ],
+        [
+          "Chiến sĩ hư cấu",
+          "Phía sau chúng tôi còn những người mở đường, đưa gạo và chuyển từng chuyến hàng."
+        ],
+        [
+          "Người dẫn",
+          "Ngày 7/5/1954, chiến dịch Điện Biên Phủ kết thúc thắng lợi."
+        ]
+      ],
+      "archiveTitle": "Điện Biên Phủ nhìn từ tuyến tiếp tế",
+      "archive": "Ngày 7/5/1954 đánh dấu thắng lợi của chiến dịch Điện Biên Phủ. Trong quá trình chuẩn bị và chiến đấu, lực lượng dân công cùng bộ đội đảm nhiệm việc vận chuyển, mở đường và tiếp tế. Các hiện vật được bảo tàng giới thiệu gồm xe đạp thồ, sọt gùi, dụng cụ làm đường và sổ tay dân công. Cảnh chơi lấy cảm hứng từ những loại hiện vật này, không sao chép lý lịch của một chiếc xe cụ thể.",
+      "closing": "Chiến thắng Điện Biên Phủ tạo bước ngoặt, đưa cuộc đấu tranh tới bàn hội nghị Giơnevơ.",
+      "cutscene": {
+        "frames": [
+          [
+            "Lá cờ trên hầm chỉ huy chuyển thành lá cờ trước bàn hội nghị quốc tế.",
+            "Chiến thắng trên chiến trường tạo điều kiện quan trọng cho đấu tranh ngoại giao."
+          ],
+          [
+            "Trên bàn xuất hiện hai tập văn kiện với các mốc ngày 20 và 21/7/1954.",
+            "Một giai đoạn mới được xác lập qua các văn kiện Giơnevơ."
+          ]
+        ],
+        "card": "20–21 · 7 · 1954 — Giơnevơ",
+        "duration": 24,
+        "sourceIds": [
+          "H08",
+          "H09"
+        ],
+        "id": "CS03",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "20–21 · 7 · 1954 — Giơnevơ"
+        }
+      },
+      "artPrompt": "Hand-painted 2D editorial historical panorama Dien Bien Phu May 7 1954, low De Castries command bunker background with victory flag, connected trenches midground, Vietnamese soldiers, supply carrying bicycle on foreground supply path with porter notebook partly visible, explicitly condensed campaign composition rather than geographic survey, natural daylight, all objects grounded, no modern museum, no text.",
+      "order": 3,
+      "archiveId": "AR03",
+      "nextSceneId": "S04",
+      "completion": {
+        "requiredObjectIds": [
+          "S03_O1",
+          "S03_O2",
+          "S03_O3",
+          "S03_O4",
+          "S03_O5"
+        ],
+        "minigameId": "MG01",
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Hầm Đờ Cát, cờ chiến thắng, giao thông hào và xe đạp thồ",
+      "question": "Điều gì làm nên chiến thắng Điện Biên Phủ?",
+      "minigame": "MG01"
+    },
+    {
+      "id": "S04",
+      "chapter": "CH01",
+      "title": "Hội nghị Giơnevơ",
+      "date": "20–21/7/1954",
+      "place": "Phòng hội nghị Giơnevơ, bố cục minh họa cuối hội nghị",
+      "sources": [
+        "H08",
+        "H09"
+      ],
+      "historicalAnchor": "Các văn kiện Giơnevơ năm 1954 đặt ra đình chỉ chiến sự và giới tuyến quân sự tạm thời; thống nhất đất nước vẫn là mục tiêu phía trước.",
+      "opening": "Trên bàn hội nghị là các văn kiện và bảng tên phái đoàn. Một sơ đồ mở ra để giải thích giới tuyến quân sự tạm thời.",
+      "objective": "Phân biệt đình chỉ chiến sự, giới tuyến tạm thời và mục tiêu thống nhất.",
+      "insight": "Đình chỉ chiến sự là bước chuyển quan trọng; nhiệm vụ thống nhất vẫn còn.",
+      "staging": "Phục dựng minh họa phòng hội nghị, văn kiện mở qua cận cảnh UI. Không vẽ mọi phái đoàn cùng ký Tuyên bố cuối cùng; không mô tả giới tuyến như biên giới quốc gia. Sơ đồ là lớp diễn giải mở từ bản đồ trên giá.",
+      "light": "Ánh cửa sổ trái, trắng xám và xanh nhạt; ấm ở mặt giấy.",
+      "ambience": "Tiếng giấy, bút máy đặt xuống, đồng hồ tường; âm nhạc thưa.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Văn kiện đình chỉ chiến sự",
+          "kind": "archive",
+          "layer": "FG",
+          "anchor": [
+            0.16,
+            0.73
+          ],
+          "support": "Trong bìa đặt trên bàn hội nghị",
+          "text": "Văn kiện đình chỉ chiến sự được ký ngày 20/7/1954. Người chơi đọc bản diễn giải về ngừng bắn và việc tập kết lực lượng.",
+          "meaning": "Giải thích kết quả trực tiếp của thương lượng sau chiến thắng quân sự.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H08"
+          ],
+          "id": "S04_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Văn kiện đình chỉ chiến sự",
+          "completionEvent": "detail_read",
+          "hint": "Tìm văn kiện đình chỉ chiến sự ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 205,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Phạm Văn Đồng và đoàn Việt Nam",
+          "kind": "archive",
+          "layer": "MG",
+          "anchor": [
+            0.35,
+            0.49
+          ],
+          "support": "Ngồi tại bàn, phục trang theo ảnh",
+          "text": "Phạm Văn Đồng dẫn đầu đoàn Việt Nam Dân chủ Cộng hòa tại Hội nghị Giơnevơ, đưa yêu cầu của Việt Nam tới bàn đàm phán.",
+          "meaning": "Cho người mới biết ai đại diện Việt Nam và ngoại giao có vai trò gì.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H09"
+          ],
+          "id": "S04_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Phạm Văn Đồng và đoàn Việt Nam",
+          "completionEvent": "detail_read",
+          "hint": "Tìm phạm văn đồng và đoàn việt nam ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 448,
+            "cy": 353,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Sơ đồ giới tuyến quân sự",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.84,
+            0.31
+          ],
+          "support": "Bản đồ trên giá; mở UI có chú giải",
+          "text": "Giới tuyến quân sự ở khu vực vĩ tuyến 17 có tính tạm thời. Nó không được hiểu như một biên giới quốc gia lâu dài.",
+          "meaning": "Ngăn nhầm lẫn quan trọng nhất khi người mới tiếp cận mốc 1954.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H08",
+            "H09"
+          ],
+          "id": "S04_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Sơ đồ giới tuyến quân sự",
+          "completionEvent": "detail_read",
+          "hint": "Tìm sơ đồ giới tuyến quân sự ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1075,
+            "cy": 223,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Tuyên bố cuối cùng ngày 21/7",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.54,
+            0.73
+          ],
+          "support": "Tập giấy riêng trên đầu bàn bên kia",
+          "text": "Ngày 21/7/1954, hội nghị kết thúc với Tuyên bố cuối cùng. Nội dung đề cập các quyền dân tộc cơ bản và hướng tới thống nhất.",
+          "meaning": "Phân biệt hai ngày và hai loại văn bản, đồng thời mở câu chuyện chia cắt.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H08"
+          ],
+          "id": "S04_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Tuyên bố cuối cùng ngày 21/7",
+          "completionEvent": "detail_read",
+          "hint": "Tìm tuyên bố cuối cùng ngày 21/7 ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 691,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Bảng tên các phái đoàn",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.69,
+            0.46
+          ],
+          "support": "Đặt trên các bàn, không thành menu lơ lửng",
+          "text": "Nhiều phái đoàn tham gia hội nghị. Kết quả thương lượng gắn với bối cảnh và quan hệ quốc tế phức tạp.",
+          "meaning": "Giúp hiểu Giơnevơ là hội nghị quốc tế có nhiều bên, không chỉ cuộc gặp giữa hai người.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H08",
+            "H09"
+          ],
+          "id": "S04_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Bảng tên các phái đoàn",
+          "completionEvent": "detail_read",
+          "hint": "Tìm bảng tên các phái đoàn ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 883,
+            "cy": 331,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Thẻ ghi mốc tổng tuyển cử",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.46
+          ],
+          "support": "Thẻ chú giải UI mở từ trang tài liệu lộ dưới bìa",
+          "text": "Các văn kiện đặt ra hướng tới tổng tuyển cử thống nhất. Một mục tiêu được ghi trên giấy vẫn cần được thực hiện sau hội nghị.",
+          "meaning": "Bổ sung câu hỏi vì sao hành trình chưa kết thúc ở 1954.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H08",
+            "H09"
+          ],
+          "hidden": true,
+          "id": "S04_H1",
+          "required": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Thẻ ghi mốc tổng tuyển cử",
+          "completionEvent": "detail_read",
+          "hint": "Tìm thẻ ghi mốc tổng tuyển cử ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 331,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Các văn kiện đình chỉ chiến sự và Tuyên bố cuối cùng là những phần cần phân biệt."
+        ],
+        [
+          "Người dẫn",
+          "Giới tuyến quân sự được xác định là tạm thời."
+        ],
+        [
+          "Người dẫn",
+          "Sau hội nghị, mong ước thống nhất đất nước vẫn tiếp tục."
+        ]
+      ],
+      "archiveTitle": "Đọc đúng mốc Giơnevơ",
+      "archive": "Theo bài viết của Bộ Ngoại giao, văn kiện đình chỉ chiến sự được ký ngày 20/7/1954; ngày 21/7 hội nghị kết thúc và thông qua Tuyên bố cuối cùng. Giới tuyến quân sự được xác định là tạm thời. Bản game trình bày nội dung qua sơ đồ và diễn giải, không dựng một bản hiệp định để người chơi sửa đổi. Không mô tả Tuyên bố cuối cùng như văn bản có chữ ký của tất cả các phái đoàn.",
+      "closing": "Chiến tranh chống Pháp khép lại. Hành trình đấu tranh thống nhất bước sang giai đoạn mới.",
+      "cutscene": {
+        "frames": [
+          [
+            "Sơ đồ giới tuyến tạm thời chuyển sang hai miền; thẻ ngắn cho biết mong ước thống nhất tiếp tục.",
+            "Sau hội nghị, đất nước bước vào những năm chia cắt."
+          ],
+          [
+            "Mốc 19/5/1959 hiện trên giấy; hình gùi hàng và đường rừng xuất hiện.",
+            "Một tuyến chi viện được khai mở để nối người, hàng và thông tin giữa hai miền."
+          ]
+        ],
+        "card": "1959 — Mở đường Trường Sơn",
+        "duration": 24,
+        "sourceIds": [
+          "H08",
+          "H11"
+        ],
+        "id": "CS04",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "1959 — Mở đường Trường Sơn"
+        }
+      },
+      "artPrompt": "Hand-painted 2D Geneva July 1954 conference hall inspired by period reference photos, Pham Van Dong and Vietnamese delegation at table, separate armistice folder and final declaration folder, multiple delegation nameplates left blank, geographic easel map left blank for explanatory overlay, no universal signing of final declaration, no modern equipment, no readable text.",
+      "order": 4,
+      "archiveId": "AR04",
+      "nextSceneId": "S05",
+      "completion": {
+        "requiredObjectIds": [
+          "S04_O1",
+          "S04_O2",
+          "S04_O3",
+          "S04_O4",
+          "S04_O5"
+        ],
+        "minigameId": null,
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Bàn hội nghị quốc tế, Phạm Văn Đồng và văn kiện Giơnevơ",
+      "question": "Sau Điện Biên Phủ, chiến tranh được giải quyết trên bàn ngoại giao như thế nào?"
+    },
+    {
+      "id": "S05",
+      "chapter": "CH02",
+      "title": "Mở đường Trường Sơn",
+      "date": "Năm 1959",
+      "place": "Khe Hó, vùng Vĩnh Linh; cảnh minh họa giai đoạn mở tuyến",
+      "sources": [
+        "H11"
+      ],
+      "historicalAnchor": "Ngày 19/5/1959, nhiệm vụ mở tuyến chi viện được giao cho Đoàn công tác quân sự đặc biệt, gắn với truyền thống Đoàn 559 và đường Trường Sơn.",
+      "opening": "Trước mắt là một lối rừng hẹp. Người chiến sĩ nhận gùi hàng; một công văn được bọc lại để chuyển cùng chặng đường.",
+      "objective": "Hiểu mục đích chi viện, phương thức gùi bộ ban đầu và vai trò kết nối hai miền.",
+      "insight": "Trường Sơn bắt đầu như một tuyến kết nối người, hàng và thông tin, rồi phát triển theo cuộc kháng chiến.",
+      "staging": "Cảnh giai đoạn mở tuyến ở Khe Hó trong năm 1959, không vẽ lễ thành lập tại Khe Hó ngày 19/5. Chỉ có gùi bộ và đường mòn; chưa đưa xe tải, đường nhựa, đường ống hay mạng binh trạm giai đoạn sau vào ảnh.",
+      "light": "Ánh sớm xuyên tán cây từ trái; rừng xanh, đất sẫm và vải bạc.",
+      "ambience": "Tiếng rừng, bước chân, dây gùi; không có tiếng động cơ.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Gùi hàng",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.16,
+            0.72
+          ],
+          "support": "Đặt trên giá tre thấp, quai và kiện hàng có sức nặng",
+          "text": "Giai đoạn đầu, hàng được gùi bằng sức người qua đường rừng. Mỗi gùi là một phần của tuyến chi viện Bắc Nam.",
+          "meaning": "Chỉ ra phương thức vận chuyển ban đầu, tránh hình dung Trường Sơn đã có xe cơ giới ngay từ 1959.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H11"
+          ],
+          "id": "S05_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Gùi hàng",
+          "completionEvent": "detail_read",
+          "hint": "Tìm gùi hàng ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 205,
+            "cy": 518,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Chiến sĩ giao liên",
+          "kind": "dialogue",
+          "layer": "MG",
+          "anchor": [
+            0.35,
+            0.51
+          ],
+          "support": "Đứng trên đường mòn, giữ quai gùi",
+          "text": "Giao liên đảm nhiệm việc nối các chặng, đưa đón người và chuyển tin. Con đường cần người hiểu tuyến và giữ liên lạc.",
+          "meaning": "Giải thích vai trò của con người vận hành tuyến thay vì chỉ nói về một con đường vật lý.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H11"
+          ],
+          "id": "S05_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Chiến sĩ giao liên",
+          "completionEvent": "detail_read",
+          "hint": "Tìm chiến sĩ giao liên ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 448,
+            "cy": 367,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Kiện hàng quân sự",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.54,
+            0.73
+          ],
+          "support": "Đặt trên phản gỗ, bao gói kín",
+          "text": "Tuyến được mở để chi viện cho miền Nam. Những kiện hàng là dấu hiệu trực tiếp của nhiệm vụ này, được quan sát như tư liệu.",
+          "meaning": "Làm rõ đường được mở để làm gì; không biến gùi hàng thành hành lý đi du lịch.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H11"
+          ],
+          "id": "S05_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Kiện hàng quân sự",
+          "completionEvent": "detail_read",
+          "hint": "Tìm kiện hàng quân sự ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 691,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Sơ đồ nối Bắc Nam",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.69,
+            0.42
+          ],
+          "support": "Giấy trên bảng tựa vách lán; mở sơ đồ UI",
+          "text": "Sơ đồ minh họa nối hậu phương miền Bắc với chiến trường miền Nam. Đây là quan hệ chi viện, không phải bản đồ tuyến hành quân chi tiết.",
+          "meaning": "Đặt mục đích của đường Trường Sơn vào bối cảnh đất nước chia cắt.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H11"
+          ],
+          "id": "S05_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Sơ đồ nối Bắc Nam",
+          "completionEvent": "detail_read",
+          "hint": "Tìm sơ đồ nối bắc nam ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 883,
+            "cy": 302,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Lối mòn từ Khe Hó",
+          "kind": "archive",
+          "layer": "BG",
+          "anchor": [
+            0.85,
+            0.29
+          ],
+          "support": "Đường rừng bám địa hình và mất dần sau tán cây",
+          "text": "Khe Hó là điểm xuất phát ban đầu của tuyến. Từ đường mòn gùi bộ, Trường Sơn phát triển thành mạng chi viện qua nhiều năm.",
+          "meaning": "Gắn sự kiện với một địa danh cụ thể và cho thấy tiến trình phát triển.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H11"
+          ],
+          "id": "S05_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Lối mòn từ Khe Hó",
+          "completionEvent": "detail_read",
+          "hint": "Tìm lối mòn từ khe hó ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1088,
+            "cy": 209,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Bọc công văn",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.46
+          ],
+          "support": "Lộ ở ngăn túi giao liên đặt trên ghế",
+          "text": "Tuyến còn chuyển công văn, tài liệu theo cả hai chiều. Trường Sơn nối thông tin cùng với người và hàng.",
+          "meaning": "Bổ sung chức năng liên lạc, giúp nhìn tuyến chi viện đầy đủ hơn.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H11"
+          ],
+          "hidden": true,
+          "id": "S05_H1",
+          "required": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Bọc công văn",
+          "completionEvent": "detail_read",
+          "hint": "Tìm bọc công văn ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 331,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Nhiệm vụ mở tuyến chi viện được giao từ tháng 5/1959."
+        ],
+        [
+          "Chiến sĩ giao liên hư cấu",
+          "Chúng tôi đưa người, hàng và công văn qua từng chặng đường rừng."
+        ],
+        [
+          "Người dẫn",
+          "Những chặng nhỏ ban đầu sẽ góp phần hình thành một mạng chi viện lớn."
+        ]
+      ],
+      "archiveTitle": "Đường Trường Sơn bắt đầu như thế nào",
+      "archive": "Ngày 19/5/1959 là mốc giao nhiệm vụ mở tuyến chi viện, trở thành ngày truyền thống của Đoàn 559. Khe Hó được chọn làm điểm xuất phát ban đầu. Phương thức vận chuyển giai đoạn đầu chủ yếu là gùi bộ. Nhiệm vụ còn có đưa đón cán bộ, bộ đội và chuyển công văn hai chiều. Bố cục trong game minh họa giai đoạn khai mở; các hình thức vận tải phát triển về sau được giới thiệu trong cutscene hoặc Archive, tách khỏi ảnh năm 1959.",
+      "closing": "Một lối mòn mở ra để người và hàng tiếp tục tới miền Nam.",
+      "cutscene": {
+        "frames": [
+          [
+            "Gùi hàng chuyền qua từng chặng; người và công văn đi theo tuyến rừng.",
+            "Những chặng chi viện góp sức cho cuộc đấu tranh ở miền Nam."
+          ],
+          [
+            "Lối rừng chuyển sang đường làng Bến Tre, tiếng trống mõ xuất hiện.",
+            "Đầu năm 1960, Đồng Khởi ở Bến Tre trở thành một dấu mốc nổi bật."
+          ]
+        ],
+        "card": "17 · 1 · 1960 — Đồng Khởi Bến Tre",
+        "duration": 24,
+        "sourceIds": [
+          "H11",
+          "H10",
+          "H26"
+        ],
+        "id": "CS05",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "17 · 1 · 1960 — Đồng Khởi Bến Tre"
+        }
+      },
+      "artPrompt": "Hand-painted 2D Khe Ho forest path Vinh Linh in 1959 during initial Truong Son route development, military couriers carrying baskets and wrapped supplies by foot, parcel on low bamboo platform, simple schematic sheet at shelter, wrapped dispatch partly visible, coherent forest light, no trucks, no pipelines, no paved road, no readable text.",
+      "order": 5,
+      "archiveId": "AR05",
+      "nextSceneId": "S06",
+      "completion": {
+        "requiredObjectIds": [
+          "S05_O1",
+          "S05_O2",
+          "S05_O3",
+          "S05_O4",
+          "S05_O5"
+        ],
+        "minigameId": null,
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "eventDate": "19/5/1959",
+      "recognition": "Đường rừng, người gùi hàng và tuyến nối Bắc Nam",
+      "question": "Vì sao cần mở đường Trường Sơn và những chuyến chi viện đầu tiên được thực hiện ra sao?"
+    },
+    {
+      "id": "S06",
+      "chapter": "CH02",
+      "title": "Đồng Khởi Bến Tre",
+      "date": "17/1/1960 và những ngày đầu phong trào",
+      "place": "Một đường làng thuộc vùng Mỏ Cày, Bến Tre; bố cục tổng hợp",
+      "sources": [
+        "H10",
+        "H26"
+      ],
+      "historicalAnchor": "Phong trào Đồng Khởi ở Bến Tre bùng lên từ ngày 17/1/1960, phát huy sức mạnh của quần chúng nhân dân.",
+      "opening": "Tiếng trống mõ vang từ trong xóm. Người dân tập hợp trên đường làng; phụ nữ, thanh niên cùng hướng về khu trung tâm xã.",
+      "objective": "Hiểu sức mạnh quần chúng, các hình thức đấu tranh và địa bàn khởi đầu Đồng Khởi.",
+      "insight": "Đồng Khởi phát triển từ sự tham gia tập thể của nhân dân, kết hợp nhiều hình thức đấu tranh.",
+      "staging": "Đường làng dẫn ra khu trung tâm xã, trống và mõ có người giữ hoặc giá đỡ. Cổng trụ sở xã là kiến trúc minh họa; click mở thông tin về thay đổi quyền kiểm soát, không tái dựng một tòa nhà đã kiểm chứng.",
+      "light": "Sáng dịu qua tán dừa từ phải; xanh lá, đất vàng và vải nâu.",
+      "ambience": "Tiếng lá dừa, chèo khua xa, chuyện trò nhỏ, tiếng mõ ở xa như dấu hiệu bối cảnh.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Trống và mõ tre",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.16,
+            0.71
+          ],
+          "support": "Trống trên giá gỗ; mõ tre do người cầm",
+          "text": "Trống, mõ và thanh la gắn với ngày Đồng Khởi ở Bến Tre. Âm thanh quen thuộc trở thành dấu hiệu tập hợp quần chúng.",
+          "meaning": "Tạo dấu hiệu nhận biết rõ cho sự kiện và giải thích công dụng của âm thanh.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H26"
+          ],
+          "id": "S06_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Trống và mõ tre",
+          "completionEvent": "detail_read",
+          "hint": "Tìm trống và mõ tre ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 205,
+            "cy": 511,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Đoàn phụ nữ trong phong trào",
+          "kind": "dialogue",
+          "layer": "MG",
+          "anchor": [
+            0.35,
+            0.53
+          ],
+          "support": "Đứng và bước trên mặt đường làng",
+          "text": "Phụ nữ là lực lượng nổi bật trong phong trào đấu tranh ở Bến Tre. Hình ảnh này gắn Đồng Khởi với sức mạnh quần chúng.",
+          "meaning": "Đưa một lực lượng có dấu ấn rõ vào cảnh thay vì NPC đứng ngẫu nhiên.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H10",
+            "H26"
+          ],
+          "id": "S06_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Đoàn phụ nữ trong phong trào",
+          "completionEvent": "detail_read",
+          "hint": "Tìm đoàn phụ nữ trong phong trào ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 448,
+            "cy": 382,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Đường làng tới ba xã khởi đầu",
+          "kind": "archive",
+          "layer": "BG",
+          "anchor": [
+            0.85,
+            0.3
+          ],
+          "support": "Đường liên tục; click mở sơ đồ ba địa danh",
+          "text": "Định Thủy, Phước Hiệp và Bình Khánh gắn với những ngày đầu Đồng Khởi ở Bến Tre, bắt đầu từ mốc 17/1/1960.",
+          "meaning": "Giúp người mới nhớ địa điểm và mốc thời gian qua một sơ đồ đơn giản.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H10",
+            "H26"
+          ],
+          "id": "S06_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Đường làng tới ba xã khởi đầu",
+          "completionEvent": "detail_read",
+          "hint": "Tìm đường làng tới ba xã khởi đầu ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1088,
+            "cy": 216,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Cổng trụ sở cấp xã",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.64,
+            0.3
+          ],
+          "support": "Cổng gắn với tường và con đường",
+          "text": "Phong trào làm thay đổi quyền kiểm soát tại nhiều địa phương. Mục tiêu là phá sự kìm kẹp và giành quyền làm chủ ở cơ sở.",
+          "meaning": "Giải thích người dân đứng lên nhằm đạt điều gì, không chỉ cho thấy một đoàn người đi bộ.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H10"
+          ],
+          "id": "S06_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Cổng trụ sở cấp xã",
+          "completionEvent": "detail_read",
+          "hint": "Tìm cổng trụ sở cấp xã ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 819,
+            "cy": 216,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Nhóm tự vệ và quần chúng",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.68,
+            0.57
+          ],
+          "support": "Đứng bên đường, trang bị thể hiện tiết chế",
+          "text": "Đồng Khởi kết hợp lực lượng chính trị quần chúng với sự hỗ trợ của lực lượng vũ trang và hoạt động binh vận.",
+          "meaning": "Cho thấy tính phối hợp của phong trào; tránh thu hẹp thành một cuộc biểu tình duy nhất.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H10",
+            "H26"
+          ],
+          "id": "S06_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Nhóm tự vệ và quần chúng",
+          "completionEvent": "detail_read",
+          "hint": "Tìm nhóm tự vệ và quần chúng ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 870,
+            "cy": 410,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Loa tay",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.44
+          ],
+          "support": "Đặt trên ghế dưới mái hiên",
+          "text": "Lời kêu gọi và vận động cũng là một phần của đấu tranh. Chiếc loa mở thêm thông tin về vai trò tuyên truyền, binh vận.",
+          "meaning": "Bổ sung hình thức đấu tranh bằng vận động, khác với trống mõ dùng tập hợp.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H10"
+          ],
+          "hidden": true,
+          "id": "S06_H1",
+          "required": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Loa tay",
+          "completionEvent": "detail_read",
+          "hint": "Tìm loa tay ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 317,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người phụ nữ hư cấu",
+          "Người ở xóm này đi cùng người xóm bên. Mỗi người góp một phần, rồi cùng thành một đoàn."
+        ],
+        [
+          "Người dẫn",
+          "Từ những ngày đầu ở Bến Tre, phong trào lan rộng."
+        ],
+        [
+          "Người dẫn",
+          "Sự phối hợp giữa lực lượng chính trị quần chúng và lực lượng vũ trang làm rõ tính chất của Đồng Khởi."
+        ]
+      ],
+      "archiveTitle": "Đồng Khởi và sức mạnh quần chúng",
+      "archive": "Ngày 17/1/1960 là mốc khởi đầu Đồng Khởi ở Bến Tre. Phong trào phát triển bằng sự tham gia rộng rãi của nhân dân, kết hợp nhiều hình thức đấu tranh. Cảnh sân nhà tập trung vào sự kết nối giữa những người dân, đặc biệt qua nhân vật phụ nữ. Những cuộc trò chuyện, giỏ cơm và chuyến đò là dàn dựng nhằm thể hiện tính cộng đồng.",
+      "closing": "Tiếng trống mõ đưa một xóm làng vào nhịp chuyển động của phong trào.",
+      "cutscene": {
+        "frames": [
+          [
+            "Đoàn người trong phong trào chuyển thành thẻ 20/12/1960 về sự ra đời của Mặt trận Dân tộc Giải phóng miền Nam Việt Nam.",
+            "Cuộc đấu tranh tiếp tục phát triển về lực lượng và tổ chức."
+          ],
+          [
+            "Sơ đồ chuyển tới các đô thị miền Nam trong Tết 1968; dừng ở cơ sở Biệt động Sài Gòn.",
+            "Một cuộc tổng tiến công tạo biến động lớn trong chiến tranh."
+          ]
+        ],
+        "card": "Tết Mậu Thân · 1968",
+        "duration": 24,
+        "sourceIds": [
+          "H23",
+          "H12"
+        ],
+        "id": "CS06",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "Tết Mậu Thân · 1968"
+        }
+      },
+      "artPrompt": "Hand-painted 2D Dong Khoi Ben Tre January 1960 rural village road, drum on wooden support and handheld bamboo signal block foreground, village women and civilian crowd midground with small self-defense group, road leading to village administrative entrance background, hand megaphone partly visible on stool, coconut palms, natural daylight, no modern monument, no text.",
+      "order": 6,
+      "archiveId": "AR06",
+      "nextSceneId": "S07",
+      "completion": {
+        "requiredObjectIds": [
+          "S06_O1",
+          "S06_O2",
+          "S06_O3",
+          "S06_O4",
+          "S06_O5"
+        ],
+        "minigameId": null,
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Trống mõ, đoàn người và phụ nữ nông thôn Bến Tre",
+      "question": "Vì sao Đồng Khởi là phong trào quần chúng và người dân tham gia như thế nào?"
+    },
+    {
+      "id": "S07",
+      "chapter": "CH02",
+      "title": "Tổng tiến công và nổi dậy Mậu Thân",
+      "date": "Tết Mậu Thân 1968",
+      "place": "Cơ sở Biệt động 287/70 Phan Đình Phùng, Sài Gòn; nay là đường Nguyễn Đình Chiểu",
+      "sources": [
+        "H12",
+        "H27"
+      ],
+      "historicalAnchor": "Cuộc Tổng tiến công và nổi dậy Xuân Mậu Thân 1968 tạo tác động chính trị lớn; lực lượng tham gia cũng chịu tổn thất nặng.",
+      "opening": "Trong căn nhà nhỏ, một nhóm biệt động chuẩn bị lên đường. Phần cắt lớp dưới nền cho thấy căn hầm gắn với hoạt động của cơ sở.",
+      "objective": "Nhận biết không gian đô thị, vai trò cơ sở nội thành và thời điểm Tết; đọc cả tác động lẫn tổn thất.",
+      "insight": "Một cơ sở bí mật giúp hiểu công tác chuẩn bị trong đô thị; kết quả Mậu Thân phải được nhìn cả về tác động và cái giá phải trả.",
+      "staging": "Minh họa cắt lớp căn nhà, không nhận là bản vẽ di tích. Phòng trên, cửa ra hẻm và phần hầm giữ quan hệ không gian rõ. Không vẽ Dinh Độc Lập nằm ngay ngoài cửa; không mô tả cách xây, giấu hoặc vận hành vũ khí.",
+      "light": "Đèn trong phòng ấm, phần hầm tối hơn; cửa hẻm xanh xám.",
+      "ambience": "Tiếng người nói thấp, tiếng phố Tết xa; không có nhạc chiến thắng trong lúc chuẩn bị.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Cửa hầm dưới nền nhà",
+          "kind": "archive",
+          "layer": "MG",
+          "anchor": [
+            0.4,
+            0.55
+          ],
+          "support": "Nắp nằm trong nền, cắt lớp cho thấy quan hệ với hầm",
+          "text": "Căn nhà có hầm phục vụ hoạt động của Biệt động Sài Gòn. Cơ sở nội thành là một phần của công tác chuẩn bị Mậu Thân.",
+          "meaning": "Gắn cảnh với địa điểm lịch sử có thật, dễ nhận diện hơn một căn nhà Tết chung chung.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H27"
+          ],
+          "id": "S07_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Cửa hầm dưới nền nhà",
+          "completionEvent": "detail_read",
+          "hint": "Tìm cửa hầm dưới nền nhà ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 512,
+            "cy": 396,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Các kiện vũ khí trong hầm",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.17,
+            0.73
+          ],
+          "support": "Kiện đặt trên nền hầm và giá thấp",
+          "text": "Cơ sở từng chứa vũ khí phục vụ lực lượng biệt động. Người chơi chỉ khám phá vai trò lịch sử, không thao tác sử dụng.",
+          "meaning": "Giải thích căn hầm tồn tại để phục vụ việc gì.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H27"
+          ],
+          "id": "S07_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Các kiện vũ khí trong hầm",
+          "completionEvent": "detail_read",
+          "hint": "Tìm các kiện vũ khí trong hầm ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 218,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Nhóm chiến sĩ biệt động",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.63,
+            0.42
+          ],
+          "support": "Đứng trong phòng, đúng mặt sàn",
+          "text": "Lực lượng biệt động hoạt động trong đô thị và tham gia tiến công các mục tiêu tại Sài Gòn dịp Tết Mậu Thân.",
+          "meaning": "Cho người mới biết nhóm người nào gắn với căn nhà và sự kiện.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H12",
+            "H27"
+          ],
+          "id": "S07_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Nhóm chiến sĩ biệt động",
+          "completionEvent": "detail_read",
+          "hint": "Tìm nhóm chiến sĩ biệt động ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 806,
+            "cy": 302,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Xe tải nhỏ ngoài cửa",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.85,
+            0.48
+          ],
+          "support": "Hai bánh trên hẻm; chỉ một phần xe nhìn qua cửa",
+          "text": "Phương tiện vận chuyển nối cơ sở nội thành với công tác chuẩn bị và di chuyển lực lượng. Căn nhà thuộc một mạng hoạt động rộng hơn.",
+          "meaning": "Nối địa điểm với các khâu chuẩn bị, không trình bày như một căn hầm tách rời.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H27"
+          ],
+          "id": "S07_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Xe tải nhỏ ngoài cửa",
+          "completionEvent": "detail_read",
+          "hint": "Tìm xe tải nhỏ ngoài cửa ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1088,
+            "cy": 346,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Cửa ra hẻm Sài Gòn",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.84,
+            0.27
+          ],
+          "support": "Khung cửa gắn tường, hẻm lùi sâu",
+          "text": "Cuộc tiến công hướng vào nhiều đô thị và mục tiêu quan trọng. Sài Gòn là một địa bàn nổi bật của Mậu Thân 1968.",
+          "meaning": "Mở rộng từ một cơ sở sang phạm vi cuộc tổng tiến công.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H12"
+          ],
+          "id": "S07_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Cửa ra hẻm Sài Gòn",
+          "completionEvent": "detail_read",
+          "hint": "Tìm cửa ra hẻm sài gòn ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1075,
+            "cy": 194,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Tờ lịch Tết Mậu Thân",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.44
+          ],
+          "support": "Treo ở góc phòng; không mô phỏng ngày âm lịch chưa đối chiếu",
+          "text": "Thời điểm Tết là dấu hiệu quan trọng để nhớ sự kiện. Người chơi mở thẻ giải thích tên gọi Tết Mậu Thân 1968.",
+          "meaning": "Giúp người mới nối tên Mậu Thân với dịp Tết, không dùng một vật ẩn chỉ để trang trí.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H12"
+          ],
+          "hidden": true,
+          "id": "S07_H1",
+          "required": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Tờ lịch Tết Mậu Thân",
+          "completionEvent": "detail_read",
+          "hint": "Tìm tờ lịch tết mậu thân ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 317,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Cơ sở nội thành là một phần của công tác chuẩn bị cho cuộc tiến công."
+        ],
+        [
+          "Người dẫn",
+          "Thời điểm Tết và các mục tiêu đô thị tạo nên dấu ấn dễ nhận biết của Mậu Thân."
+        ],
+        [
+          "Người dẫn",
+          "Tác động chính trị lớn đi cùng những tổn thất nặng nề; Archive trình bày cả hai."
+        ]
+      ],
+      "archiveTitle": "Mậu Thân nhìn từ một cơ sở nội thành",
+      "archive": "Ngôi nhà 287/70 Phan Đình Phùng, nay là đường Nguyễn Đình Chiểu, gắn với cơ sở của Biệt động Sài Gòn và việc chuẩn bị cho cuộc tiến công dịp Tết Mậu Thân 1968. Cảnh cắt lớp minh họa vai trò căn hầm và sự chuẩn bị trong lòng đô thị. Đây chỉ là một điểm nhìn trong cuộc tổng tiến công rộng lớn. Phần tư liệu chốt nhắc cả tác động chính trị, chiến lược và tổn thất nặng; không kết luận rằng mọi mục tiêu đều đạt được hoặc nội đô được giữ lâu dài.",
+      "closing": "Căn nhà là một mắt xích của cuộc tiến công rộng lớn, không phải toàn bộ câu chuyện Mậu Thân.",
+      "cutscene": {
+        "frames": [
+          [
+            "Sơ đồ Mậu Thân có hai dòng Tác động chiến lược và Tổn thất; chuyển sang đường Đồng Lộc với mốc 24/7/1968.",
+            "Những chuyển biến lớn đi cùng mất mát. Xin dành một khoảng lặng tưởng nhớ mười nữ thanh niên xung phong Đồng Lộc."
+          ],
+          [
+            "Sau nút Tiếp tục, thẻ thời gian chuyển tới tháng 12/1972 và không gian Hà Nội.",
+            "Cuối năm 1972, quân dân miền Bắc đối mặt cuộc tập kích đường không bằng B52."
+          ]
+        ],
+        "card": "12 · 1972 — Hà Nội Điện Biên Phủ trên không",
+        "duration": 28,
+        "sourceIds": [
+          "H12",
+          "H13",
+          "H14"
+        ],
+        "transition": "Dừng ở mốc tưởng niệm Đồng Lộc cho tới khi người chơi chọn Tiếp tục; không phát âm thanh mừng thành tích.",
+        "id": "CS07",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "12 · 1972 — Hà Nội Điện Biên Phủ trên không"
+        }
+      },
+      "artPrompt": "Hand-painted 2D explanatory cutaway of a Saigon resistance house at 287/70 Phan Dinh Phung during Tet 1968, upper room and cellar aligned in perspective, hatch connected to floor, closed supply crates in cellar, small group of urban resistance fighters upstairs, partly visible small period truck through alley doorway, Tet calendar left blank, no palace outside door, no construction instructions, no readable text.",
+      "order": 7,
+      "archiveId": "AR07",
+      "nextSceneId": "S08",
+      "completion": {
+        "requiredObjectIds": [
+          "S07_O1",
+          "S07_O2",
+          "S07_O3",
+          "S07_O4",
+          "S07_O5"
+        ],
+        "minigameId": null,
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Căn nhà và hầm Biệt động Sài Gòn, chuẩn bị trong dịp Tết",
+      "question": "Vì sao Mậu Thân là cuộc tiến công bất ngờ vào đô thị và có tác động lớn?"
+    },
+    {
+      "id": "S08",
+      "chapter": "CH03",
+      "title": "Hà Nội Điện Biên Phủ trên không",
+      "date": "Cuối tháng 12/1972",
+      "place": "Khu vực hồ Hữu Tiệp, Ngọc Hà, Hà Nội; bố cục minh họa sau khi B52 rơi",
+      "sources": [
+        "H14",
+        "H15",
+        "H28"
+      ],
+      "historicalAnchor": "Từ 18 đến 29/12/1972, Hà Nội, Hải Phòng và một số địa phương miền Bắc đối mặt cuộc tập kích đường không; quân dân tổ chức chiến đấu và bảo vệ đời sống.",
+      "opening": "Mảnh xác máy bay nằm trên mặt hồ. Bên lối xuống hầm, người dân lắng nghe tin và tìm nhau sau một đêm dài.",
+      "objective": "Nhận ra B52, vai trò phòng không và nỗ lực bảo vệ người dân trong 12 ngày đêm.",
+      "insight": "Chiến đấu bảo vệ bầu trời và tổ chức đời sống dân cư cùng tạo sức chống chịu của thành phố.",
+      "staging": "Lấy xác B52 tại hồ Hữu Tiệp làm hình nhận diện. Không đưa lan can, bia di tích hoặc cảnh quan cải tạo hiện nay vào năm 1972. Hầm, loa và người trong cảnh là bố cục dàn dựng quanh khu dân cư, không xác nhận vị trí từng vật theo ảnh hồ.",
+      "light": "Ánh đèn trong hầm ấm, sân đêm xanh sẫm; không dùng chớp nháy dồn dập.",
+      "ambience": "Tiếng radio và trò chuyện thấp; còi báo động ngắn có thể giảm/tắt.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Mảnh xác B52 trên hồ",
+          "kind": "archive",
+          "layer": "BG",
+          "anchor": [
+            0.83,
+            0.34
+          ],
+          "support": "Khối xác nghiêng vào lòng hồ, tiếp xúc nước và bùn",
+          "text": "Xác B52 ở hồ Hữu Tiệp gắn với cuộc tập kích cuối tháng 12/1972. Đây là dấu tích giúp nhận diện sự kiện Điện Biên Phủ trên không.",
+          "meaning": "Cho người mới một hình ảnh đặc trưng và đối tượng của cuộc chiến trên không.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H14",
+            "H28"
+          ],
+          "id": "S08_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Mảnh xác B52 trên hồ",
+          "completionEvent": "detail_read",
+          "hint": "Tìm mảnh xác b52 trên hồ ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1062,
+            "cy": 245,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Lối xuống hầm phòng không",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.16,
+            0.72
+          ],
+          "support": "Bậc hầm liền nền, có mái che thấp",
+          "text": "Hầm phòng không và công tác sơ tán góp phần bảo vệ người dân. Chiến tranh tác động trực tiếp tới sinh hoạt trong thành phố.",
+          "meaning": "Giải thích hậu quả của ném bom đối với dân cư và mục đích chuẩn bị phòng tránh.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H14",
+            "H15"
+          ],
+          "id": "S08_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Lối xuống hầm phòng không",
+          "completionEvent": "detail_read",
+          "hint": "Tìm lối xuống hầm phòng không ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 205,
+            "cy": 518,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Loa truyền tin khu dân cư",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.64,
+            0.27
+          ],
+          "support": "Loa gắn trên cột theo hình thức thời kỳ",
+          "text": "Thông tin báo động và liên lạc hỗ trợ người dân trong những ngày bị đánh phá. Âm thanh game là diễn giải, không giả bản ghi lịch sử.",
+          "meaning": "Đặt âm thanh vào chức năng thông tin thay vì chỉ tạo không khí căng thẳng.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H15"
+          ],
+          "id": "S08_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Loa truyền tin khu dân cư",
+          "completionEvent": "detail_read",
+          "hint": "Tìm loa truyền tin khu dân cư ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 819,
+            "cy": 194,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Chiến sĩ phòng không",
+          "kind": "dialogue",
+          "layer": "MG",
+          "anchor": [
+            0.37,
+            0.5
+          ],
+          "support": "Đứng trên lối cạnh hồ",
+          "text": "Lực lượng phòng không là nòng cốt đánh trả cuộc tập kích. Click mở thẻ minh họa các công việc bảo vệ bầu trời.",
+          "meaning": "Giải thích ai đánh trả B52; chân dung trong cảnh là nhân vật tổng hợp.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H14"
+          ],
+          "id": "S08_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Chiến sĩ phòng không",
+          "completionEvent": "detail_read",
+          "hint": "Tìm chiến sĩ phòng không ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 474,
+            "cy": 360,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Tổ dân phòng",
+          "kind": "minigame",
+          "layer": "MG",
+          "anchor": [
+            0.68,
+            0.6
+          ],
+          "support": "Ngồi và đứng bên bàn trực thấp",
+          "text": "Dân phòng cùng nhiều lực lượng hỗ trợ sơ tán, cứu hộ và liên lạc. Ghép các công việc để thấy cách thành phố tự bảo vệ.",
+          "meaning": "Bổ sung sức mạnh của hậu phương và đời sống, phân biệt với nhiệm vụ chiến đấu trên không.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H15"
+          ],
+          "id": "S08_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Tổ dân phòng",
+          "completionEvent": "detail_read",
+          "hint": "Tìm tổ dân phòng ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 870,
+            "cy": 432,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Sổ ghi nơi sơ tán",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.44
+          ],
+          "support": "Trên bàn trực, lộ dưới bìa",
+          "text": "Sổ dàn dựng ghi những lời nhắn về nơi các gia đình đã tới. Nó giải thích vì sao giữ liên lạc là một việc cần thiết.",
+          "meaning": "Cho thấy sơ tán tạo nhu cầu tìm và báo tin người thân; không dùng như kỷ vật có thật.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H15"
+          ],
+          "hidden": true,
+          "id": "S08_H1",
+          "required": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Sổ ghi nơi sơ tán",
+          "completionEvent": "detail_read",
+          "hint": "Tìm sổ ghi nơi sơ tán ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 317,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Mảnh xác B52 khiến cuộc tập kích hiện ra bằng một dấu tích cụ thể."
+        ],
+        [
+          "Chiến sĩ phòng không hư cấu",
+          "Trên bầu trời có lực lượng chiến đấu; dưới mặt đất, bà con cùng dân phòng lo cho người dân."
+        ],
+        [
+          "Người dẫn",
+          "Cuộc chiến để lại cả chiến công và mất mát trong đời sống thành phố."
+        ]
+      ],
+      "archiveTitle": "B52 và Hà Nội tháng 12/1972",
+      "archive": "Từ 18 đến 29/12/1972, Mỹ mở cuộc tập kích đường không lớn vào Hà Nội, Hải Phòng và một số địa phương miền Bắc. Xác B52 tại hồ Hữu Tiệp gắn với những ngày này, trở thành dấu tích dễ nhận biết của sự kiện. Cảnh giúp người chơi kết nối máy bay, lực lượng phòng không và đời sống dân cư. Việc sơ tán, hỗ trợ, cứu hộ và giữ liên lạc cũng được trình bày; không dùng thống kê thiệt hại để làm điểm số.",
+      "closing": "Dấu tích trên mặt hồ và lối xuống hầm kể hai phần của cùng một thử thách.",
+      "cutscene": {
+        "frames": [
+          [
+            "Hồ Hữu Tiệp, hầm phòng không và người dân chuyển sang khung sáng hơn của đầu năm 1973.",
+            "Chiến đấu, đời sống và ngoại giao tiếp tục gắn với nhau."
+          ],
+          [
+            "Tờ bản tin và bìa văn kiện dẫn tới Trung tâm hội nghị ở Paris.",
+            "Ngày 27/1/1973, Hiệp định Paris được ký chính thức."
+          ]
+        ],
+        "card": "27 · 1 · 1973 — Ký Hiệp định Paris",
+        "duration": 24,
+        "sourceIds": [
+          "H16",
+          "H17"
+        ],
+        "id": "CS08",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "27 · 1 · 1973 — Ký Hiệp định Paris"
+        }
+      },
+      "artPrompt": "Hand-painted 2D Huu Tiep pond Ngoc Ha Hanoi late December 1972, B52 wreckage embedded in pond with realistic water contact, nearby illustrative residential air-raid shelter entrance, civil defense volunteers and composite air-defense serviceman, fixed period loudspeaker and message ledger on table, somber morning daylight, no modern memorial plaques or renovated railings, no text.",
+      "order": 8,
+      "archiveId": "AR08",
+      "nextSceneId": "S09",
+      "completion": {
+        "requiredObjectIds": [
+          "S08_O1",
+          "S08_O2",
+          "S08_O3",
+          "S08_O4",
+          "S08_O5"
+        ],
+        "minigameId": "MG02",
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Xác B52 ở hồ Hữu Tiệp và hầm phòng không",
+      "question": "Cuộc tập kích bằng B52 đặt thành phố trước thử thách gì và quân dân đối phó ra sao?",
+      "minigame": "MG02"
+    },
+    {
+      "id": "S09",
+      "chapter": "CH03",
+      "title": "Ký Hiệp định Paris",
+      "date": "27/1/1973",
+      "place": "Trung tâm hội nghị Kléber, Paris; bố cục minh họa lễ ký và khu báo chí",
+      "sources": [
+        "H16",
+        "H17",
+        "H29"
+      ],
+      "historicalAnchor": "Hiệp định Paris được ký chính thức ngày 27/1/1973; việc ký kết là mốc quan trọng, trong khi chiến tranh tại Việt Nam chưa kết thúc ngay.",
+      "opening": "Các văn kiện được đặt trên bàn ký. Bảng tên bốn bên và những ống kính báo chí cho thấy một sự kiện được thế giới theo dõi.",
+      "objective": "Nhận biết người đại diện, nội dung chính và giới hạn của mốc ngoại giao 1973.",
+      "insight": "Hiệp định là bước tiến quan trọng về rút quân và hòa bình; diễn biến sau ký kết vẫn cần được hiểu riêng.",
+      "staging": "Bố cục dựa trên ảnh lễ ký, không tự gán mọi vị trí ghế là chính xác. Nguyễn Thị Bình và các đại diện chỉ có thẻ giới thiệu; mọi lời giải thích dùng giọng người dẫn. Không vẽ Lê Đức Thọ ký chính thức ngày 27/1.",
+      "light": "Nắng đông nhạt qua cửa trái; mặt bàn sáng, góc phòng xanh xám.",
+      "ambience": "Tiếng giấy, máy ảnh và âm phòng hội nghị; lời dẫn diễn giải, không giả giọng nhân vật lịch sử.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Bản Hiệp định Paris",
+          "kind": "archive",
+          "layer": "FG",
+          "anchor": [
+            0.16,
+            0.73
+          ],
+          "support": "Trên bàn ký; click mở cận cảnh diễn giải",
+          "text": "Hiệp định Paris được ký chính thức ngày 27/1/1973. Người chơi đọc nội dung về chấm dứt chiến tranh, rút quân và các quyền dân tộc cơ bản.",
+          "meaning": "Đưa người mới tới điều sự kiện thực sự đạt được, thay cho một cảnh bắt tay chung chung.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H16",
+            "H17"
+          ],
+          "id": "S09_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Bản Hiệp định Paris",
+          "completionEvent": "detail_read",
+          "hint": "Tìm bản hiệp định paris ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 205,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Nguyễn Thị Bình tại bàn ký",
+          "kind": "archive",
+          "layer": "MG",
+          "anchor": [
+            0.36,
+            0.43
+          ],
+          "support": "Ngồi sau bàn, theo ảnh tư liệu tham khảo",
+          "text": "Nguyễn Thị Bình đại diện Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam ký Hiệp định Paris ngày 27/1/1973.",
+          "meaning": "Gắn sự kiện với một gương mặt và vai trò ngoại giao cụ thể.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H29"
+          ],
+          "id": "S09_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Nguyễn Thị Bình tại bàn ký",
+          "completionEvent": "detail_read",
+          "hint": "Tìm nguyễn thị bình tại bàn ký ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 461,
+            "cy": 310,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Bảng tên bốn bên",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.55,
+            0.56
+          ],
+          "support": "Các bảng nhỏ trên mặt bàn, mở UI phóng lớn",
+          "text": "Bốn bên: Việt Nam Dân chủ Cộng hòa, Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam, Hoa Kỳ và Việt Nam Cộng hòa.",
+          "meaning": "Giải thích thành phần tham gia và tránh nhầm đây chỉ là lễ ký giữa hai bên.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H16"
+          ],
+          "id": "S09_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Bảng tên bốn bên",
+          "completionEvent": "detail_read",
+          "hint": "Tìm bảng tên bốn bên ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 704,
+            "cy": 403,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Bút ký văn kiện",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.68,
+            0.73
+          ],
+          "support": "Nằm cạnh bìa giấy trên bàn",
+          "text": "Chữ ký xác lập những cam kết trong văn kiện. Người chơi mở phần giải thích việc ký kết và quá trình thi hành sau đó.",
+          "meaning": "Phân biệt sự kiện ký văn bản với việc hòa bình đã hoàn toàn được thực hiện.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H16",
+            "H17"
+          ],
+          "id": "S09_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Bút ký văn kiện",
+          "completionEvent": "detail_read",
+          "hint": "Tìm bút ký văn kiện ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 870,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Máy ảnh và micro báo chí",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.85,
+            0.3
+          ],
+          "support": "Trên chân máy tại khu báo chí, không lơ lửng",
+          "text": "Hội nghị còn gắn với dư luận quốc tế và hoạt động thông tin. Ngoại giao phối hợp với đấu tranh quân sự, chính trị.",
+          "meaning": "Mở ý nghĩa quốc tế của sự kiện, khác với mục tiêu giới thiệu bốn bên.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H29"
+          ],
+          "id": "S09_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Máy ảnh và micro báo chí",
+          "completionEvent": "detail_read",
+          "hint": "Tìm máy ảnh và micro báo chí ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1088,
+            "cy": 216,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Hồ sơ đàm phán từ năm 1968",
+          "kind": "inspect",
+          "layer": "FG",
+          "anchor": [
+            0.08,
+            0.44
+          ],
+          "support": "Tập hồ sơ lộ ở bàn phụ, nhãn do engine render",
+          "text": "Kết quả năm 1973 đến sau nhiều năm đàm phán. Hồ sơ dàn dựng giúp nối Mậu Thân 1968 với chặng ngoại giao kéo dài.",
+          "meaning": "Cho thấy hiệp định là kết quả một quá trình, không xuất hiện chỉ sau một buổi họp.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H16",
+            "H29"
+          ],
+          "hidden": true,
+          "id": "S09_H1",
+          "required": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Hồ sơ đàm phán từ năm 1968",
+          "completionEvent": "detail_read",
+          "hint": "Tìm hồ sơ đàm phán từ năm 1968 ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 102,
+            "cy": 317,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Bốn bên ký Hiệp định Paris ngày 27/1/1973."
+        ],
+        [
+          "Người dẫn",
+          "Nội dung có việc rút quân Mỹ và tôn trọng các quyền dân tộc cơ bản của Việt Nam."
+        ],
+        [
+          "Người dẫn",
+          "Chiến tranh chưa kết thúc ngay sau ngày ký. Timeline tiếp tục tới năm 1975."
+        ]
+      ],
+      "archiveTitle": "Paris và chặng đường sau chữ ký",
+      "archive": "Hiệp định Paris được ký chính thức ngày 27/1/1973 với sự tham gia của bốn bên. Nguyễn Thị Bình là người ký đại diện Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam; Nguyễn Duy Trinh ký đại diện Việt Nam Dân chủ Cộng hòa. Các object giải thích văn kiện, người đại diện, thành phần tham dự và vai trò thông tin quốc tế. Mốc ký chính thức cần phân biệt với ký tắt ngày 23/1. Việc thực hiện cam kết và diễn biến chiến tranh sau ký kết được kể tiếp trong Timeline tới năm 1975.",
+      "closing": "Một bước tiến trên bàn ký mở ra chặng đường tiếp theo, chứ chưa khép toàn bộ cuộc chiến.",
+      "cutscene": {
+        "frames": [
+          [
+            "Timeline đi qua 1973 và 1974; chiến tranh vẫn tiếp diễn. Bản đồ hiện mốc Buôn Ma Thuột 10–11/3/1975.",
+            "Sau hiệp định, hành trình chưa kết thúc. Mùa xuân 1975 mở ra chuyển biến nhanh chóng."
+          ],
+          [
+            "Các mốc Huế 26/3, Đà Nẵng 29/3 và Chiến dịch Hồ Chí Minh 26–30/4 hiện theo thứ tự; kết ở Dinh Độc Lập.",
+            "Nhịp phát triển của cuộc tiến công dẫn tới thời khắc cuối tháng tư ở Sài Gòn."
+          ]
+        ],
+        "card": "30 · 4 · 1975 — Dinh Độc Lập",
+        "duration": 30,
+        "sourceIds": [
+          "H17",
+          "H19",
+          "H22",
+          "H20"
+        ],
+        "id": "CS09",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "30 · 4 · 1975 — Dinh Độc Lập"
+        }
+      },
+      "artPrompt": "Hand-painted 2D Paris Kleber conference signing ceremony January 27 1973 inspired by documentary reference, Nguyen Thi Binh seated at signing table, agreement folder and pen, four party nameplates blank for engine text, press camera and microphone on stands at side, negotiation archive folder partly visible on side table, no Le Duc Tho signing reenactment, no text.",
+      "order": 9,
+      "archiveId": "AR09",
+      "nextSceneId": "S10",
+      "completion": {
+        "requiredObjectIds": [
+          "S09_O1",
+          "S09_O2",
+          "S09_O3",
+          "S09_O4",
+          "S09_O5"
+        ],
+        "minigameId": null,
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Nguyễn Thị Bình, bàn ký, văn kiện và bảng tên bốn bên",
+      "question": "Hiệp định Paris đạt được điều gì và vì sao hành trình chưa dừng ở năm 1973?"
+    },
+    {
+      "id": "S10",
+      "chapter": "CH03",
+      "title": "Ngày 30 tháng 4 tại Dinh Độc Lập",
+      "date": "Trưa 30/4/1975, sau thời khắc 11 giờ 30",
+      "place": "Sân và cổng Dinh Độc Lập, Sài Gòn; bố cục minh họa cô đọng",
+      "sources": [
+        "H20",
+        "H21",
+        "H23",
+        "H24",
+        "H30"
+      ],
+      "historicalAnchor": "Ngày 30/4/1975, Chiến dịch Hồ Chí Minh kết thúc thắng lợi; lá cờ Mặt trận Dân tộc Giải phóng miền Nam tung bay trên nóc Dinh Độc Lập lúc 11 giờ 30.",
+      "opening": "Cánh cổng đã bị phá đổ. Những chiếc xe tăng dừng trong sân; trên nóc Dinh, lá cờ Mặt trận Dân tộc Giải phóng miền Nam tung bay.",
+      "objective": "Nhận ra các dấu hiệu của sự kiện 30/4, phân biệt hai xe tăng và nối lại hành trình 1945–1975.",
+      "insight": "Thắng lợi ngày 30/4/1975 khép chặng chiến tranh, mở ra đoàn tụ và công việc hàn gắn.",
+      "staging": "Sân Dinh nhìn từ góc thấp có cổng và xe tăng, lá cờ trên nóc đủ rõ. Không cho nhìn xuyên vào mọi phòng trong Dinh. Radio trên bàn trực là đạo cụ minh họa để mở bản tin diễn giải; không nhận là máy đã thu bản ghi gốc.",
+      "light": "Nắng chiều từ trái; bảng màu ấm sáng, xanh lá trở lại; cảm xúc nhẹ dần, không phủ giấy màu kiểu lễ hội.",
+      "ambience": "Tiếng người trong sân, động cơ xa, bản tin diễn giải; nhạc chậm chỉ mở sau phần tư liệu.",
+      "objects": [
+        {
+          "key": "O1",
+          "name": "Xe tăng 390",
+          "kind": "archive",
+          "layer": "FG",
+          "anchor": [
+            0.2,
+            0.69
+          ],
+          "support": "Xích xe tiếp xúc sân, có bóng và trọng lượng",
+          "text": "Xe tăng 390 húc đổ cổng chính Dinh Độc Lập ngày 30/4/1975. Đây là hình ảnh nhận diện nổi bật của thời khắc tiến vào Dinh.",
+          "meaning": "Giúp nhớ biểu tượng chính và phân biệt đúng xe tăng húc cổng chính.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H30"
+          ],
+          "id": "S10_O1",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Xe tăng 390",
+          "completionEvent": "detail_read",
+          "hint": "Tìm xe tăng 390 ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 256,
+            "cy": 497,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O2",
+          "name": "Cổng Dinh Độc Lập",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.48,
+            0.52
+          ],
+          "support": "Cánh cổng đổ nối đúng bản lề và mặt sân",
+          "text": "Dinh Độc Lập là nơi làm việc của chính quyền Việt Nam Cộng hòa. Việc chiếm Dinh gắn với thời điểm kết thúc Chiến dịch Hồ Chí Minh.",
+          "meaning": "Giải thích vì sao một cánh cổng và tòa nhà trở thành địa điểm biểu tượng.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H20",
+            "H21"
+          ],
+          "id": "S10_O2",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Cổng Dinh Độc Lập",
+          "completionEvent": "detail_read",
+          "hint": "Tìm cổng dinh độc lập ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 614,
+            "cy": 374,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O3",
+          "name": "Cờ trên nóc Dinh",
+          "kind": "inspect",
+          "layer": "BG",
+          "anchor": [
+            0.72,
+            0.23
+          ],
+          "support": "Cán cờ cố định trên nóc, đúng hướng gió",
+          "text": "Lúc 11 giờ 30 ngày 30/4/1975, cờ Mặt trận Dân tộc Giải phóng miền Nam tung bay trên nóc Dinh Độc Lập.",
+          "meaning": "Đưa vào thời khắc cụ thể và biểu tượng thắng lợi; đúng nửa trên đỏ, nửa dưới xanh, sao vàng.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H20",
+            "H21",
+            "H24"
+          ],
+          "id": "S10_O3",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Cờ trên nóc Dinh",
+          "completionEvent": "detail_read",
+          "hint": "Tìm cờ trên nóc dinh ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 922,
+            "cy": 166,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O4",
+          "name": "Cửa sảnh Dinh",
+          "kind": "archive",
+          "layer": "BG",
+          "anchor": [
+            0.85,
+            0.45
+          ],
+          "support": "Cửa sảnh là bộ phận tòa nhà, không lộ phòng không thể thấy",
+          "text": "Mở thẻ tư liệu về việc chính quyền Sài Gòn đầu hàng. Hình ảnh ngoài sân được nối với diễn biến bên trong và ý nghĩa kết thúc chiến dịch.",
+          "meaning": "Giải thích kết quả chính trị của sự kiện, không dừng ở hình ảnh xe tăng.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H20"
+          ],
+          "id": "S10_O4",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Cửa sảnh Dinh",
+          "completionEvent": "detail_read",
+          "hint": "Tìm cửa sảnh dinh ở phía xa.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 1088,
+            "cy": 324,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "O5",
+          "name": "Radio chuyển tin",
+          "kind": "minigame",
+          "layer": "FG",
+          "anchor": [
+            0.64,
+            0.73
+          ],
+          "support": "Đặt trên bàn trực ngoài sân, đạo cụ dàn dựng",
+          "text": "Bản tin diễn giải mở Timeline. Nối lại sáu mốc đã trải qua để thấy hành trình từ độc lập năm 1945 tới thắng lợi năm 1975.",
+          "meaning": "Đưa người mới từ khoảnh khắc riêng lẻ tới toàn bộ tiến trình; không giả làm bản ghi phát thanh nguyên gốc.",
+          "evidence": "illustrative",
+          "sourceIds": [
+            "H20"
+          ],
+          "id": "S10_O5",
+          "required": true,
+          "hidden": false,
+          "claimStatus": "illustrative",
+          "visualStatus": "illustrative",
+          "popupTitle": "Radio chuyển tin",
+          "completionEvent": "detail_read",
+          "hint": "Tìm radio chuyển tin ở phía gần.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Chi tiết minh họa cho sự kiện, không phải hiện vật xác thực.",
+          "hitboxDraft": {
+            "cx": 819,
+            "cy": 526,
+            "width": 104,
+            "height": 76
+          }
+        },
+        {
+          "key": "H1",
+          "name": "Xe tăng 843",
+          "kind": "inspect",
+          "layer": "MG",
+          "anchor": [
+            0.1,
+            0.42
+          ],
+          "support": "Xích xe trên sân cạnh khu cổng phụ",
+          "text": "Xe 843 gắn với Bùi Quang Thận, người lên cắm cờ. Xe húc đổ cổng chính là 390; hai vai trò cần được phân biệt.",
+          "meaning": "Bổ sung một chi tiết dễ nhầm nhưng gắn trực tiếp với cùng sự kiện.",
+          "evidence": "historical",
+          "sourceIds": [
+            "H30"
+          ],
+          "hidden": true,
+          "id": "S10_H1",
+          "required": false,
+          "claimStatus": "historical",
+          "visualStatus": "illustrative",
+          "popupTitle": "Xe tăng 843",
+          "completionEvent": "detail_read",
+          "hint": "Tìm xe tăng 843 ở giữa cảnh.",
+          "repeatText": "Bạn có thể đọc lại nội dung hoặc trở về cảnh.",
+          "readingNote": "Thông tin lịch sử có nguồn; hình vẽ được dàn dựng theo brief.",
+          "hitboxDraft": {
+            "cx": 128,
+            "cy": 302,
+            "width": 58,
+            "height": 46
+          }
+        }
+      ],
+      "dialogue": [
+        [
+          "Người dẫn",
+          "Xe tăng, cổng Dinh và lá cờ giúp nhận ra thời khắc ngày 30/4/1975."
+        ],
+        [
+          "Người dẫn",
+          "Đây là thắng lợi của Chiến dịch Hồ Chí Minh và mốc lịch sử giải phóng miền Nam, thống nhất đất nước."
+        ],
+        [
+          "Người dẫn",
+          "Hành trình khép lại với mong ước đoàn tụ, cùng trách nhiệm hàn gắn và xây dựng cuộc sống."
+        ]
+      ],
+      "archiveTitle": "Mốc 30/4 và chặng đường hàn gắn",
+      "archive": "Ngày 30/4/1975 đánh dấu thắng lợi của Chiến dịch Hồ Chí Minh và mốc lịch sử giải phóng miền Nam, thống nhất đất nước. Tại Dinh Độc Lập, lá cờ cách mạng tung bay lúc 11 giờ 30. Cần phân biệt thắng lợi năm 1975 với quá trình hoàn thành thống nhất về mặt nhà nước trong năm 1976. Game khép hành trình chính ở năm 1975 và hướng suy nghĩ tới hàn gắn, đoàn tụ, xây dựng đời sống.",
+      "closing": "Từ ngày độc lập tới ngày đất nước liền một dải, những mốc đã khám phá nối thành một hành trình.",
+      "cutscene": {
+        "frames": [
+          [
+            "Mười hình nhận diện của các scene xuất hiện trên cùng một dải thời gian, dừng ở lá cờ trên nóc Dinh.",
+            "Từ nền độc lập năm 1945, nhiều thế hệ đi qua chiến tranh để hướng tới ngày đất nước liền một dải."
+          ],
+          [
+            "Cảnh biểu trưng một lớp học và mái nhà bình yên, ngoài thời gian cụ thể; không dùng như ảnh tư liệu 1975.",
+            "Ngày mai cần được tiếp tục bằng hàn gắn, học tập và chăm lo cuộc sống."
+          ]
+        ],
+        "card": "GIỮ LẤY NGÀY MAI — Trân trọng hòa bình, gìn giữ ký ức",
+        "duration": 28,
+        "sourceIds": [
+          "H20",
+          "H21"
+        ],
+        "id": "CS10",
+        "finalFrame": {
+          "type": "title_card",
+          "text": "GIỮ LẤY NGÀY MAI — Trân trọng hòa bình, gìn giữ ký ức"
+        }
+      },
+      "artPrompt": "Hand-painted 2D Independence Palace Saigon after 11:30 April 30 1975, grounded tank 390 in courtyard, collapsed main gate and palace architecture in coherent perspective, Liberation Front flag red top blue bottom yellow star on roof, tank 843 partly visible beside side-gate area, illustrative radio on low duty table, no modern skyline, no readable text.",
+      "order": 10,
+      "archiveId": "AR10",
+      "nextSceneId": null,
+      "completion": {
+        "requiredObjectIds": [
+          "S10_O1",
+          "S10_O2",
+          "S10_O3",
+          "S10_O4",
+          "S10_O5"
+        ],
+        "minigameId": "MG03",
+        "requiresHidden": false,
+        "autoAdvance": false,
+        "exitPrompt": "Đã khám phá đủ nội dung chính. Bạn có thể tìm thêm hoặc tiếp tục."
+      },
+      "recognition": "Xe tăng 390, cổng Dinh Độc Lập và lá cờ trên nóc Dinh",
+      "question": "Điều gì xảy ra ở Dinh Độc Lập ngày 30/4 và vì sao đây là mốc kết thúc hành trình?",
+      "minigame": "MG03"
+    }
+  ],
+  "minigames": [
+    {
+      "id": "MG01",
+      "sceneId": "S03",
+      "objectId": "S03_O4",
+      "title": "Một chuyến hàng qua nhiều bàn tay",
+      "estimatedMinutes": 2,
+      "mechanic": "Sắp thứ tự bốn thẻ công việc theo chuỗi tiếp tế minh họa.",
+      "intro": "Đưa các thẻ vào bốn ô để nhìn rõ những công việc nối tiếp một chuyến hàng.",
+      "cards": [
+        {
+          "id": "G1",
+          "label": "Chuẩn bị và kiểm hàng",
+          "detail": "Người ở hậu phương chuẩn bị hàng gửi đi."
+        },
+        {
+          "id": "G2",
+          "label": "Vận chuyển qua từng chặng",
+          "detail": "Các lực lượng đưa hàng theo tuyến tiếp tế."
+        },
+        {
+          "id": "G3",
+          "label": "Giao nhận ở trạm",
+          "detail": "Người nhận đối chiếu và chuyển phần việc tiếp."
+        },
+        {
+          "id": "G4",
+          "label": "Đưa tới đơn vị sử dụng",
+          "detail": "Hàng đến nơi cần để phục vụ chiến dịch."
+        }
+      ],
+      "correctOrder": [
+        "G1",
+        "G2",
+        "G3",
+        "G4"
+      ],
+      "initialOrder": [
+        "G3",
+        "G1",
+        "G4",
+        "G2"
+      ],
+      "hint": "Hãy bắt đầu ở nơi chuẩn bị hàng, rồi đi theo hành trình của nó.",
+      "wrongFeedback": "Thử đi theo chuyến hàng từ nơi chuẩn bị tới nơi sử dụng. Bạn có thể đổi vị trí các thẻ.",
+      "successFeedback": "Bạn đã nối một chuyến hàng với những công việc phía sau nó.",
+      "explanation": "Đây là chuỗi minh họa đã giản lược, không phải quy trình vận tải chuẩn của mọi đơn vị.",
+      "sources": [
+        "H07"
+      ],
+      "skipOutcome": "assisted",
+      "accessibleInput": "Click thẻ rồi click ô; kéo thả là lựa chọn bổ sung."
+    },
+    {
+      "id": "MG02",
+      "sceneId": "S08",
+      "objectId": "S08_O5",
+      "title": "Những việc cùng giữ thành phố",
+      "estimatedMinutes": 2,
+      "mechanic": "Ghép bốn chú thích với bốn tranh công việc.",
+      "intro": "Mỗi bức tranh kể một phần việc. Chọn chú thích rồi chọn tranh phù hợp.",
+      "cards": [
+        {
+          "id": "L1",
+          "label": "Bảo vệ bầu trời",
+          "target": "P1"
+        },
+        {
+          "id": "L2",
+          "label": "Tổ chức sơ tán",
+          "target": "P2"
+        },
+        {
+          "id": "L3",
+          "label": "Cứu hộ và hỗ trợ người dân",
+          "target": "P3"
+        },
+        {
+          "id": "L4",
+          "label": "Giữ liên lạc và lời nhắn",
+          "target": "P4"
+        }
+      ],
+      "panels": [
+        {
+          "id": "P1",
+          "description": "Kíp trực phòng không tại vị trí làm việc, không mô tả kỹ thuật vũ khí."
+        },
+        {
+          "id": "P2",
+          "description": "Gia đình cùng đồ dùng tới địa điểm sơ tán."
+        },
+        {
+          "id": "P3",
+          "description": "Đội dân phòng giúp người dân rời một khu nhà hư hại, không hướng dẫn thao tác cứu hộ."
+        },
+        {
+          "id": "P4",
+          "description": "Người ghi sổ lời nhắn và người tới hỏi tin."
+        }
+      ],
+      "hint": "Tìm hoạt động nổi bật của từng tranh: quan sát, di chuyển, giúp đỡ hay ghi tin.",
+      "wrongFeedback": "Hãy nhìn việc mọi người đang làm trong tranh, rồi thử lại.",
+      "successFeedback": "Những công việc khác nhau cùng góp phần bảo vệ con người và thành phố.",
+      "explanation": "Hoạt động ghép hình để nhận biết vai trò; không phải hướng dẫn ứng phó khẩn cấp hay đánh giá kỹ năng cứu hộ.",
+      "sources": [
+        "H14",
+        "H15"
+      ],
+      "skipOutcome": "assisted",
+      "accessibleInput": "Chọn một chú thích, sau đó chọn một tranh; không có đồng hồ đếm ngược."
+    },
+    {
+      "id": "MG03",
+      "sceneId": "S10",
+      "objectId": "S10_O5",
+      "title": "Nối lại ba mươi năm",
+      "estimatedMinutes": 3,
+      "mechanic": "Sắp sáu thẻ có sẵn ngày tháng lên Timeline từ sớm tới muộn.",
+      "intro": "Bạn đã gặp những dấu mốc này. Đặt chúng theo thứ tự để xem hành trình nối lại.",
+      "cards": [
+        {
+          "id": "T1",
+          "date": "2/9/1945",
+          "label": "Tuyên ngôn Độc lập tại Ba Đình"
+        },
+        {
+          "id": "T2",
+          "date": "19/12/1946",
+          "label": "Toàn quốc kháng chiến"
+        },
+        {
+          "id": "T3",
+          "date": "7/5/1954",
+          "label": "Chiến thắng Điện Biên Phủ"
+        },
+        {
+          "id": "T4",
+          "date": "17/1/1960",
+          "label": "Đồng Khởi ở Bến Tre"
+        },
+        {
+          "id": "T5",
+          "date": "27/1/1973",
+          "label": "Ký chính thức Hiệp định Paris"
+        },
+        {
+          "id": "T6",
+          "date": "30/4/1975",
+          "label": "Chiến thắng và khát vọng đoàn tụ"
+        }
+      ],
+      "initialOrder": [
+        "T4",
+        "T1",
+        "T5",
+        "T3",
+        "T6",
+        "T2"
+      ],
+      "correctOrder": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ],
+      "hint": "Ngày tháng đã có trên mỗi thẻ. Bạn không cần học thuộc; hãy đọc và nối chúng.",
+      "wrongFeedback": "Một thẻ đang ở trước mốc xảy ra sớm hơn. Bạn có thể đổi lại, hoặc mở Timeline để xem.",
+      "successFeedback": "Những cảnh đã đi qua giờ nằm trên cùng một hành trình.",
+      "explanation": "Sáu mốc dùng để kết nối trải nghiệm, không đại diện toàn bộ lịch sử 1945–1975.",
+      "sources": [
+        "H01",
+        "H03",
+        "H06",
+        "H10",
+        "H16",
+        "H20"
+      ],
+      "skipOutcome": "assisted",
+      "accessibleInput": "Click thẻ rồi click ô; có nút Xem gợi ý và Tự sắp giúp tôi."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "TL01",
+      "date": "2/9/1945",
+      "title": "Tuyên ngôn Độc lập",
+      "text": "Công bố tại Ba Đình; nước Việt Nam Dân chủ Cộng hòa ra đời.",
+      "unlock": "S01",
+      "sourceIds": [
+        "H01"
+      ]
+    },
+    {
+      "id": "TL02",
+      "date": "23/9/1945",
+      "title": "Nam Bộ kháng chiến",
+      "text": "Nhân dân Nam Bộ bước vào kháng chiến chống thực dân Pháp trở lại.",
+      "unlock": "CS01",
+      "sourceIds": [
+        "H02"
+      ]
+    },
+    {
+      "id": "TL03",
+      "date": "19/12/1946",
+      "title": "Toàn quốc kháng chiến",
+      "text": "Lời kêu gọi toàn quốc kháng chiến gắn với quyết tâm bảo vệ độc lập.",
+      "unlock": "S02",
+      "sourceIds": [
+        "H03"
+      ]
+    },
+    {
+      "id": "TL04",
+      "date": "Thu đông 1947",
+      "title": "Bảo vệ căn cứ Việt Bắc",
+      "text": "Quân dân chống cuộc tiến công lên căn cứ địa.",
+      "unlock": "CS02",
+      "sourceIds": [
+        "H04"
+      ]
+    },
+    {
+      "id": "TL05",
+      "date": "Tháng 9–10/1950",
+      "title": "Chiến dịch Biên giới",
+      "text": "Khai thông biên giới, củng cố và mở rộng căn cứ kháng chiến.",
+      "unlock": "CS02",
+      "sourceIds": [
+        "H05"
+      ]
+    },
+    {
+      "id": "TL06",
+      "date": "7/5/1954",
+      "title": "Chiến thắng Điện Biên Phủ",
+      "text": "Chiến dịch kết thúc thắng lợi.",
+      "unlock": "S03",
+      "sourceIds": [
+        "H06"
+      ]
+    },
+    {
+      "id": "TL07",
+      "date": "20–21/7/1954",
+      "title": "Các văn kiện Giơnevơ",
+      "text": "Phân biệt văn kiện đình chỉ chiến sự ngày 20/7 và Tuyên bố cuối cùng ngày 21/7.",
+      "unlock": "S04",
+      "sourceIds": [
+        "H08"
+      ]
+    },
+    {
+      "id": "TL08",
+      "date": "19/5/1959",
+      "title": "Khởi đầu Đoàn 559 và đường Trường Sơn",
+      "text": "Ngày giao nhiệm vụ mở tuyến chi viện, trở thành ngày truyền thống Đoàn 559.",
+      "unlock": "S05",
+      "sourceIds": [
+        "H11"
+      ]
+    },
+    {
+      "id": "TL09",
+      "date": "17/1/1960",
+      "title": "Đồng Khởi Bến Tre",
+      "text": "Phong trào mở đầu và lan rộng từ sự tham gia của quần chúng.",
+      "unlock": "S06",
+      "sourceIds": [
+        "H10"
+      ]
+    },
+    {
+      "id": "TL10",
+      "date": "20/12/1960",
+      "title": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+      "text": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam được thành lập.",
+      "unlock": "CS06",
+      "sourceIds": [
+        "H23"
+      ]
+    },
+    {
+      "id": "TL11",
+      "date": "Xuân 1968",
+      "title": "Tổng tiến công và nổi dậy Mậu Thân",
+      "text": "Bước ngoặt có tác động lớn, gắn với tổn thất nặng.",
+      "unlock": "S07",
+      "sourceIds": [
+        "H12"
+      ]
+    },
+    {
+      "id": "TL12",
+      "date": "24/7/1968",
+      "title": "Tưởng nhớ mười nữ TNXP Đồng Lộc",
+      "text": "Mốc hy sinh khi làm nhiệm vụ; không dùng như huy hiệu thành tích.",
+      "unlock": "CS07",
+      "sourceIds": [
+        "H13"
+      ]
+    },
+    {
+      "id": "TL13",
+      "date": "18–29/12/1972",
+      "title": "Hà Nội và miền Bắc trong cuộc tập kích đường không",
+      "text": "Quân dân tổ chức chiến đấu và bảo vệ đời sống.",
+      "unlock": "S08",
+      "sourceIds": [
+        "H14",
+        "H15"
+      ]
+    },
+    {
+      "id": "TL14",
+      "date": "27/1/1973",
+      "title": "Ký chính thức Hiệp định Paris",
+      "text": "Mốc ngoại giao quan trọng; chiến tranh chưa kết thúc ngay.",
+      "unlock": "S09",
+      "sourceIds": [
+        "H16",
+        "H17"
+      ]
+    },
+    {
+      "id": "TL15",
+      "date": "10–11/3/1975",
+      "title": "Buôn Ma Thuột",
+      "text": "Phân biệt ngày mở trận đánh với ngày giải phóng thị xã.",
+      "unlock": "CS09",
+      "sourceIds": [
+        "H19"
+      ]
+    },
+    {
+      "id": "TL16",
+      "date": "26/3/1975",
+      "title": "Giải phóng Huế",
+      "text": "Một mốc trong nhịp phát triển của mùa xuân 1975.",
+      "unlock": "CS09",
+      "sourceIds": [
+        "H22"
+      ]
+    },
+    {
+      "id": "TL17",
+      "date": "29/3/1975",
+      "title": "Giải phóng Đà Nẵng",
+      "text": "Chuyển biến ở miền Trung mở điều kiện cho chặng tiếp theo.",
+      "unlock": "CS09",
+      "sourceIds": [
+        "H22"
+      ]
+    },
+    {
+      "id": "TL18",
+      "date": "30/4/1975",
+      "title": "Chiến thắng và khát vọng đoàn tụ",
+      "text": "Chiến dịch Hồ Chí Minh kết thúc thắng lợi; thời khắc 11 giờ 30 tại Dinh Độc Lập.",
+      "unlock": "S10",
+      "sourceIds": [
+        "H20",
+        "H21"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "H01",
+      "title": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập",
+      "publisher": "Bảo tàng Hồ Chí Minh",
+      "url": "https://baotanghochiminh.vn/chu-tich-ho-chi-minh-doc-ban-tuyen-ngon-doc-lap-khai-sinh-nuoc-viet-nam-dan-chu-cong-hoa.htm",
+      "supports": "S01; ngày 2/9/1945, Ba Đình, sự ra đời của nước Việt Nam Dân chủ Cộng hòa."
+    },
+    {
+      "id": "H02",
+      "title": "Ngày Nam Bộ kháng chiến 23/9/1945",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/vi/Articles/3097/61816/ngay-nam-bo-khang-chien-23-9-1945.html",
+      "supports": "CS01; kháng chiến tại Nam Bộ và việc tổ chức tản cư, di chuyển cơ quan."
+    },
+    {
+      "id": "H03",
+      "title": "Chủ tịch Hồ Chí Minh với Ngày toàn quốc kháng chiến",
+      "publisher": "Báo Điện tử Chính phủ",
+      "url": "https://baochinhphu.vn/chu-tich-ho-chi-minh-voi-ngay-toan-quoc-khang-chien-102213564.htm",
+      "supports": "S02; bối cảnh tháng 12/1946, Lời kêu gọi ngày 19/12 và chuẩn bị di chuyển."
+    },
+    {
+      "id": "H04",
+      "title": "Sự kiểm nghiệm đường lối chiến tranh nhân dân",
+      "publisher": "Báo Quân đội nhân dân",
+      "url": "https://www.qdnd.vn/quoc-phong-an-ninh/nghe-thuat-quan-su-vn/su-kiem-nghiem-duong-loi-chien-tranh-nhan-dan-526205",
+      "supports": "CS02; cuộc tiến công lên Việt Bắc tháng 10/1947 và kháng chiến của quân dân."
+    },
+    {
+      "id": "H05",
+      "title": "Tổng cục Cung cấp trong Chiến dịch Biên giới",
+      "publisher": "Báo Quân đội nhân dân",
+      "url": "https://hc.qdnd.vn/lich-su-hau-can/tong-cuc-cung-cap-trong-chien-dich-bien-gioi-481907",
+      "supports": "CS02; hậu cần, dân công, đường sá, mở thông biên giới năm 1950."
+    },
+    {
+      "id": "H06",
+      "title": "Chiến thắng lịch sử Điện Biên Phủ",
+      "publisher": "Tư liệu Văn kiện Đảng",
+      "url": "https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-thang-lich-su-dien-bien-phu-751954-3368",
+      "supports": "S03; chiến dịch và thắng lợi ngày 7/5/1954; không dùng số ngày đêm trong bài."
+    },
+    {
+      "id": "H07",
+      "title": "Hiện vật hậu cần trong chiến dịch Điện Biên Phủ",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/VI/Articles/3096/72237/mot-so-hien-vat-ve-cong-tac-hau-can-trong-chien-dich-djien-bien-phu-1954-hien-luu-giu-trung-bay-tai-btlsqg.html",
+      "supports": "S03 và MG01; xe đạp thồ, sọt gùi, sổ tay dân công, công cụ làm đường."
+    },
+    {
+      "id": "H08",
+      "title": "Hội nghị Giơnevơ năm 1954 và những bài học đối ngoại",
+      "publisher": "Bộ Ngoại giao",
+      "url": "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/hoi-nghi-gio-ne-vo-nam-1954-nhung-bai-hoc-lon-cho-cong-tac-doi-ngoai-viet-nam-hom-nay-48982-251.html",
+      "supports": "S04; phân biệt văn kiện đình chỉ chiến sự ngày 20/7 và Tuyên bố cuối cùng ngày 21/7; tính tạm thời của giới tuyến."
+    },
+    {
+      "id": "H09",
+      "title": "Từ ngày 8/5 đến 21/7/1954 Hội nghị Giơnevơ",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/vi/Articles/3097/19190/tu-ngay-8-5-djen-21-7-1954-hoi-nghi-gionevo.html",
+      "supports": "S04; bối cảnh hội nghị, giới tuyến quân sự tạm thời và kế hoạch tổng tuyển cử. Về phân biệt ngày văn kiện, dùng H08."
+    },
+    {
+      "id": "H10",
+      "title": "Phát huy sức mạnh quần chúng từ phong trào Đồng Khởi",
+      "publisher": "Trường Chính trị tỉnh Bến Tre",
+      "url": "https://tctph.vinhlong.gov.vn/bentre/phat-huy-suc-manh-cua-quan-chung-nhan-dan-tu-phong-trao-dong-khoi-nam-1960-den-phong-trao-thi-dua",
+      "supports": "S06; Đồng Khởi tháng 1/1960, vai trò quần chúng và các hình thức đấu tranh."
+    },
+    {
+      "id": "H11",
+      "title": "Lịch sử truyền thống Đoàn 559 và Bộ đội Trường Sơn",
+      "publisher": "Binh đoàn 12",
+      "url": "https://binhdoan12.vn/gioi-thieu/lich-su-truyen-thong/",
+      "supports": "S05 và TL08; mốc giao nhiệm vụ 19/5/1959, Khe Hó, gùi bộ, đưa đón người và chuyển công văn. Cảnh mở tuyến không dùng ảnh binh trạm hay xe tải giai đoạn sau."
+    },
+    {
+      "id": "H12",
+      "title": "Cuộc tổng tiến công tạo bước ngoặt chiến lược",
+      "publisher": "Sự kiện và Nhân chứng, Báo Quân đội nhân dân",
+      "url": "https://sknc.qdnd.vn/theo-dong-su-kien/cuoc-tong-tien-cong-tao-buoc-ngoat-chien-luoc-504085",
+      "supports": "S07; lời kể Trần Bạch Đằng về Sài Gòn năm 1968, tác động chính trị và tổn thất."
+    },
+    {
+      "id": "H13",
+      "title": "Ngã ba Đồng Lộc nơi tuổi trẻ hóa thành bất tử",
+      "publisher": "Cổng thông tin tỉnh Hà Tĩnh",
+      "url": "https://hatinh.gov.vn/vi/page/du-lich/diem-den/nga-ba-dong-loc-noi-tuoi-tre-hoa-thanh-bat-tu",
+      "supports": "CS07 và Timeline; ngày 24/7/1968 và mười nữ TNXP Đồng Lộc. Không còn là scene tương tác riêng."
+    },
+    {
+      "id": "H14",
+      "title": "18 đến 29/12/1972 quân dân miền Bắc đánh trả cuộc tập kích đường không",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/vi/Articles/2002/68098/18-29-12-1972-quan-va-dan-mien-bac-djanh-thang-cuoc-chien-tranh-pha-hoai-lan-thu-hai-bang-khong-quan-cua-dje-quoc-my.html",
+      "supports": "S08; thời gian, địa bàn, sơ tán và vai trò phòng không; không dùng các thống kê thiệt hại trong bài."
+    },
+    {
+      "id": "H15",
+      "title": "Công an nhân dân với chiến thắng Hà Nội Điện Biên Phủ trên không",
+      "publisher": "Báo Điện tử Chính phủ",
+      "url": "https://baochinhphu.vn/cong-an-nhan-dan-voi-chien-thang-ha-noi-dien-bien-phu-tren-khong-102136389.htm",
+      "supports": "S08; sơ tán, dân phòng, cứu hộ và bảo vệ người dân."
+    },
+    {
+      "id": "H16",
+      "title": "Hiệp định Paris và thắng lợi trên ba mặt trận",
+      "publisher": "Báo Điện tử Chính phủ",
+      "url": "https://baochinhphu.vn/hiep-dinh-paris-moc-son-thang-loi-tren-ba-mat-tran-chinh-tri-quan-su-va-ngoai-giao-10210302.htm",
+      "supports": "S09; ngày ký chính thức 27/1/1973 và bốn bên; phân biệt ký tắt 23/1."
+    },
+    {
+      "id": "H17",
+      "title": "Tính lịch sử của một hiệp định lịch sử",
+      "publisher": "Báo Điện tử Chính phủ",
+      "url": "https://baochinhphu.vn/tinh-lich-su-cua-mot-hiep-dinh-lich-su-102230115220749867.htm",
+      "supports": "S09; quy định Mỹ rút quân trong 60 ngày và chiến tranh vẫn tiếp diễn sau hiệp định."
+    },
+    {
+      "id": "H18",
+      "title": "Chiến dịch Tây Nguyên từ 4/3 đến 24/3/1975",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/VI/Articles/3097/13921/chien-dich-tay-nguyen-tu-4-3-djen-24-3-1975.html",
+      "supports": "CS09; phạm vi chiến dịch và bước ngoặt chiến lược, huy động nhân lực địa phương."
+    },
+    {
+      "id": "H19",
+      "title": "Xây dựng kế hoạch chiến lược giải phóng miền Nam",
+      "publisher": "Báo Quân đội nhân dân",
+      "url": "https://www.qdnd.vn/ho-so-su-kien/40-nam-chien-thang-vi-dai-30-4/ky-2-xay-dung-ke-hoach-chien-luoc-giai-phong-mien-nam-259982",
+      "supports": "CS09; trận Buôn Ma Thuột bắt đầu 10/3, giải phóng thị xã 11/3; nhịp phát triển chiến dịch."
+    },
+    {
+      "id": "H20",
+      "title": "Chiến dịch Hồ Chí Minh lịch sử",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html",
+      "supports": "S10; 26–30/4/1975, Dinh Độc Lập và thời khắc lá cờ 11 giờ 30 ngày 30/4."
+    },
+    {
+      "id": "H21",
+      "title": "Trưng bày Non sông liền một dải",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/vi/Articles/3090/75397/bao-tang-lich-su-quoc-gia-khai-mac-trung-bay-chuyen-dje-non-song-lien-mot-dai.html",
+      "supports": "S10; xe tăng 390, cờ Mặt trận Dân tộc Giải phóng miền Nam; phân biệt mốc 1975 và quá trình thống nhất nhà nước năm 1976."
+    },
+    {
+      "id": "H22",
+      "title": "Đại thắng mùa Xuân 1975 và chỉ đạo chiến tranh",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/VI/Articles/3097/75415/djai-thang-mua-xuan-1975-thanh-cong-xuat-sac-cua-nghe-thuat-chi-djao-chien-tranh.html",
+      "supports": "CS09 và Timeline; các mốc Huế 26/3 và Đà Nẵng 29/3/1975."
+    },
+    {
+      "id": "H23",
+      "title": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam thành lập",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/vi/Articles/2002/68262/20-12-1960-mat-tran-dan-toc-giai-phong-mien-nam-viet-nam-thanh-lap.html",
+      "supports": "Timeline 20/12/1960; cờ nửa đỏ nửa xanh có sao vàng."
+    },
+    {
+      "id": "H24",
+      "title": "Chiến thắng 30/4 qua cảm nhận của nhà báo Nhật",
+      "publisher": "Báo Điện tử Chính phủ",
+      "url": "https://baochinhphu.vn/chien-thang-30-4-qua-cam-nhan-cua-nha-bao-nhat-10233070.htm",
+      "supports": "S15_O3; bố trí màu đỏ phía trên, xanh phía dưới và sao vàng giữa lá cờ."
+    },
+    {
+      "id": "H25",
+      "title": "Ngày toàn quốc kháng chiến 19/12/1946",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsuquocgia.vn/vi/Articles/3097/19663/19-12-1946-ngay-toan-quoc-khang-chien.html",
+      "supports": "S02; phố tắt điện, chiến lũy, giường tủ và sự tham gia của quân dân."
+    },
+    {
+      "id": "H26",
+      "title": "Phong trào Đồng Khởi 60 năm nhìn lại",
+      "publisher": "Báo Điện tử Chính phủ",
+      "url": "https://baochinhphu.vn/phong-trao-dong-khoi-60-nam-nhin-lai-102266952.htm",
+      "supports": "S06; ngày 17/1/1960, ba xã và trống mõ cùng quần chúng."
+    },
+    {
+      "id": "H27",
+      "title": "Trận đánh Tết Mậu Thân của Biệt động thành vào Dinh Độc Lập",
+      "publisher": "Báo Nhân Dân",
+      "url": "https://nhandan.vn/tran-danh-mong-mot-tet-mau-than-cua-biet-dong-thanh-vao-dinh-doc-lap-post568484.html",
+      "supports": "S07; nhà 287/70 Phan Đình Phùng, hầm chứa, lực lượng biệt động và phương tiện vận chuyển. Chỉ dùng thông tin cơ sở và vai trò; không dùng các thống kê, lời kể tổn thất hoặc chi tiết kỹ thuật trong bài."
+    },
+    {
+      "id": "H28",
+      "title": "Xác B52 rơi tại hồ Hữu Tiệp và tháng 12/1972",
+      "publisher": "Báo Điện tử Chính phủ",
+      "url": "https://baochinhphu.vn/nam-1972-thang-muoi-hai-co-12-ngay-dac-biet-102221227144839411.htm",
+      "supports": "S08; hồ Hữu Tiệp và xác B52 trong cuộc tập kích cuối tháng 12/1972; không dùng thống kê trong bài."
+    },
+    {
+      "id": "H29",
+      "title": "Hội nghị Paris về Việt Nam 1968 đến 1973",
+      "publisher": "Bảo tàng Lịch sử quốc gia",
+      "url": "https://baotanglichsu.vn/vi/Articles/2002/67956/hoi-nghi-pari-ve-viet-nam-1968-1973-dau-son-trong-djuong-loi-ngoai-giao-cua-viet-nam.html",
+      "supports": "S09; ảnh Nguyễn Thị Bình và Nguyễn Duy Trinh ký hiệp định, ngoại giao và dư luận quốc tế."
+    },
+    {
+      "id": "H30",
+      "title": "Vũ Đăng Toàn kể chuyện xe tăng tiến vào Dinh",
+      "publisher": "Di tích lịch sử Dinh Độc Lập",
+      "url": "https://dinhdoclap.gov.vn/ong-vu-dang-toan-ke-chuyen-khi-xe-tang-tien-vao-dinh-ngay-30-4-1975/",
+      "supports": "S10; phân biệt xe 390 húc cổng chính và xe 843, người chỉ huy Bùi Quang Thận."
+    }
+  ],
+  "rules": {
+    "requiredObjectsPerScene": 5,
+    "optionalHiddenPerScene": 1,
+    "completeObjectOn": "popup_read_and_closed",
+    "completeSceneOn": "required_objects_and_minigame_if_any_then_closing_dialogue",
+    "hiddenRequired": false,
+    "wrongAnswerPenalty": false,
+    "assistedCountsForProgress": true,
+    "autoAdvance": false,
+    "cutsceneSkipUnlocksTimeline": true,
+    "allNpcDialogueFiction": true,
+    "realPeopleUseNarratorOnly": true
+  },
+  "prologue": {
+    "visuals": [
+      "Mặt bàn với các mô-típ đồ vật.",
+      "Timeline 1945–1975 còn khoảng trống."
+    ],
+    "lines": [
+      "Có những dấu hiệu giúp ta nhớ một sự kiện: một lá cờ, một văn kiện, một tấm bản đồ.",
+      "Qua những dấu hiệu ấy, ta có thể hiểu lịch sử và những người đã đi qua chiến tranh.",
+      "Hãy bắt đầu từ một ngày rất nhiều người cùng mong đợi."
+    ],
+    "button": "Mở hành trình"
+  },
+  "epilogue": {
+    "lines": [
+      "Những người đi trước đã mong có một ngày được sống yên bình. Hôm nay, ta có thể học, làm việc, chăm sóc nhau và gìn giữ những điều tưởng như bình thường ấy."
+    ],
+    "question": "Bạn muốn gìn giữ điều gì cho ngày mai?",
+    "options": [
+      "Học tập",
+      "Chăm sóc người khác",
+      "Gìn giữ ký ức"
+    ],
+    "allowCustomNote": true,
+    "noteStorage": "local_only"
+  },
+  "progressSchema": {
+    "currentSceneId": "string",
+    "seenObjectIds": "string[]",
+    "minigameState": "map including assisted/completed",
+    "closingDialogueSeen": "sceneId[]",
+    "cutsceneFrame": "map cutsceneId to frame index",
+    "unlockedTimelineIds": "string[]",
+    "unlockedArchiveIds": "string[]",
+    "settings": "object",
+    "personalClosingNote": "string"
+  }
+}
+
