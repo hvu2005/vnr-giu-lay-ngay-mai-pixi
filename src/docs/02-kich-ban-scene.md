@@ -22,6 +22,10 @@
 
 **Điều người chơi hiểu thêm:** Ngày 2/9/1945 đánh dấu sự ra đời của một nhà nước độc lập.
 
+**Mô tả không gian để tạo ảnh:** Chiều 2/9/1945, khoảnh khắc công bố Tuyên ngôn; buổi lễ còn đang diễn ra. Camera ở rìa phía sau bên trái đám đông, cao khoảng 1,7 m, nhìn chéo qua người dự lễ về mặt trước lễ đài ở nửa phải ảnh. Khung rộng tương đương 35 mm, đường chân trời khoảng y=42%. Mặt bục hướng ra đám đông và về phía camera. Người dự lễ quay lưng hoặc nghiêng ba phần tư về phía camera, mặt nhìn lên lễ đài ở trên phải. Hồ Chí Minh đứng đối diện đám đông, nhìn hơi xuống bản giấy rồi về phía người nghe. Cờ bay cùng một hướng gió từ trái sang phải. Người đọc không quay lưng về phía khán giả. Ánh sáng: Ánh chiều dịu từ trên trái. Mặt trái cột, vai người và vải cờ sáng hơn; bóng đổ xuống đất theo hướng phải và xa nguồn. Nền đủ sáng để nhận hình, không dùng đèn sân khấu hoặc ánh đèn LED.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
+
 ### Object tương tác
 
 | Object và nguồn | Nội dung hiển thị | Ý nghĩa đối với sự kiện |
@@ -64,6 +68,10 @@
 **Mục tiêu:** Nhận biết mốc toàn quốc kháng chiến và vai trò của quân dân trong bảo vệ nền độc lập.
 
 **Điều người chơi hiểu thêm:** Kháng chiến bắt đầu bằng quyết tâm chung và sự tham gia của nhiều lực lượng.
+
+**Mô tả không gian để tạo ảnh:** Đêm 19/12/1946, sau khi phố đã tắt điện; một khoảnh khắc chuẩn bị và giữ chiến lũy. Camera ở sau chiến lũy, thấp ngang ngực khoảng 1,5 m, nhìn dọc con phố từ dưới ảnh lên điểm tụ x=62%, y=36%. Góc rộng vừa, không fisheye. Người xem đứng cùng phía với tự vệ, không đứng ở phía đối diện nhìn vào họ. Chiến sĩ ở sau vật chắn, đầu và thân nhìn dọc phố ra xa camera. Gia đình tản cư đi trong lối bên phải từ trung cảnh về gần camera và ra mép dưới phải; họ rời vùng giao tranh chứ không đi thẳng vào chiến lũy. Người liên lạc đứng sát cửa một ngôi nhà, không chạy xuyên qua đống bàn tủ. Ánh sáng: Ban đêm thực sự: ánh trời xanh xám rất yếu, vài nguồn đèn dầu được che trong hiên. Đèn điện trên phố đều tắt; không có nắng chiều, ánh bình minh hoặc đèn đường đang sáng. Chọn đèn dầu hiên trái làm nguồn ấm chính; không dùng lửa nổ làm nguồn sáng toàn cảnh.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
 
 ### Object tương tác
 
@@ -108,12 +116,16 @@
 
 **Điều người chơi hiểu thêm:** Thắng lợi quân sự gắn với tổ chức chiến đấu và sức huy động từ hậu phương.
 
+**Mô tả không gian để tạo ảnh:** Cuối chiều 7/5/1954, hình minh họa cô đọng thời khắc chiến thắng tại Điện Biên Phủ. Camera hơi cao khoảng 2 m ở mép một tuyến tiếp tế và hào, nhìn chéo về hầm chỉ huy phía trên phải. Góc rộng vừa 35 mm. Đây là bố cục diễn giải chiến dịch, không phải bản ghi địa hình từ một vị trí thật. Xe thồ đã dừng cạnh tuyến tiếp tế, bánh trước hướng lên phải theo đường; người đứng cạnh giữ tay lái. Nhóm chiến sĩ bước từ tuyến hào gần vào phía hầm xa. Cờ cùng hướng gió với bụi và vải; không có đội hình đang rút khỏi hầm về phía camera. Ánh sáng: Nắng cuối chiều dịu từ trên phải, mặt đất và mái hầm ấm, phần sâu trong hào tối. Bóng kéo nhẹ xuống trái. Không dùng bình minh hoặc sương sớm làm mất thời điểm cuối chiều.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
+
 ### Object tương tác
 
 | Object và nguồn | Nội dung hiển thị | Ý nghĩa đối với sự kiện |
 | --- | --- | --- |
 | **S03_O1 Hầm chỉ huy Đờ Cát** · Tư liệu · BG · Tư liệu. [H06](https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-thang-lich-su-dien-bien-phu-751954-3368) | Đây là hình ảnh khu chỉ huy của tập đoàn cứ điểm. Việc chiếm sở chỉ huy ngày 7/5/1954 đánh dấu thời khắc quyết định của chiến thắng. | Cung cấp biểu tượng địa điểm dễ nhận ra và diễn biến chốt của sự kiện. |
-| **S03_O2 Lá cờ trên nóc hầm** · Xem · MG · Tư liệu. [H06](https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-thang-lich-su-dien-bien-phu-751954-3368) | Lá cờ chiến thắng trên hầm chỉ huy trở thành hình ảnh gắn với Điện Biên Phủ ngày 7/5/1954. | Giúp nhớ thời điểm kết thúc chiến dịch qua một hình ảnh đặc trưng. |
+| **S03_O2 Lá cờ trên nóc hầm** · Xem · BG · Tư liệu. [H06](https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-thang-lich-su-dien-bien-phu-751954-3368) | Lá cờ chiến thắng trên hầm chỉ huy trở thành hình ảnh gắn với Điện Biên Phủ ngày 7/5/1954. | Giúp nhớ thời điểm kết thúc chiến dịch qua một hình ảnh đặc trưng. |
 | **S03_O3 Hệ thống giao thông hào** · Xem · MG · Tư liệu. [H06](https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-thang-lich-su-dien-bien-phu-751954-3368) | Hệ thống hào thể hiện quá trình bao vây và tiến gần các vị trí phòng ngự. Chiến thắng là kết quả của một chiến dịch kéo dài. | Giải thích chiến dịch có quá trình chuẩn bị và tiến công, tránh hiểu như một khoảnh khắc đơn lẻ. |
 | **S03_O4 Xe đạp thồ chở hàng** · Mini-game · FG · Tư liệu. [H07](https://baotanglichsu.vn/VI/Articles/3096/72237/mot-so-hien-vat-ve-cong-tac-hau-can-trong-chien-dich-djien-bien-phu-1954-hien-luu-giu-trung-bay-tai-btlsqg.html) | Xe đạp thồ là phương tiện tiếp tế tiêu biểu của chiến dịch. Khám phá chuỗi công việc đưa hàng từ hậu phương tới nơi sử dụng. | Nối chiến thắng với hậu cần và lực lượng dân công. |
 | **S03_O5 Nhóm chiến sĩ tại trận địa** · Nhân vật · MG · Tư liệu. [H06](https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-thang-lich-su-dien-bien-phu-751954-3368) · [H07](https://baotanglichsu.vn/VI/Articles/3096/72237/mot-so-hien-vat-ve-cong-tac-hau-can-trong-chien-dich-djien-bien-phu-1954-hien-luu-giu-trung-bay-tai-btlsqg.html) | Bộ đội trực tiếp chiến đấu tại mặt trận, cùng sự hỗ trợ của dân công và nhân dân làm nên thắng lợi. | Đặt con người vào quan hệ giữa chiến đấu và bảo đảm chiến dịch. |
@@ -150,6 +162,10 @@
 **Mục tiêu:** Phân biệt đình chỉ chiến sự, giới tuyến tạm thời và mục tiêu thống nhất.
 
 **Điều người chơi hiểu thêm:** Đình chỉ chiến sự là bước chuyển quan trọng; nhiệm vụ thống nhất vẫn còn.
+
+**Mô tả không gian để tạo ảnh:** Cuối Hội nghị Giơnevơ tháng 7/1954, khung thảo luận và đọc văn kiện; không chọn cảnh tất cả cùng ký. Camera ở đầu gần của phòng, cách bàn khoảng 2 m, cao 1,6 m, nhìn chéo dọc chiều dài bàn về phía cuối phòng. Mặt bàn là một mặt phẳng phối cảnh liên tục từ cạnh dưới lên giữa ảnh; không dùng góc nhìn trần nhà. Người đại diện ngồi hướng vào lòng bàn và các phái đoàn đối diện. Có người đọc tài liệu hoặc lắng nghe; không đồng loạt cầm bút ký. Phạm Văn Đồng không quay lưng về bàn. Văn kiện là đạo cụ giấy nhỏ, cận cảnh nội dung chỉ có ở UI. Ánh sáng: Ánh ban ngày tán qua cửa bên trái; giấy và mặt bàn sáng, vùng dưới bàn tối hơn. Ánh đèn phòng bổ trợ nhẹ cùng nhiệt độ ấm; không ghép phòng lạnh với mặt người sáng chói từ nguồn khác.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
 
 ### Object tương tác
 
@@ -194,6 +210,10 @@
 
 **Điều người chơi hiểu thêm:** Trường Sơn bắt đầu như một tuyến kết nối người, hàng và thông tin, rồi phát triển theo cuộc kháng chiến.
 
+**Mô tả không gian để tạo ảnh:** Giai đoạn mở tuyến Trường Sơn năm 1959 tại Khe Hó, khoảnh khắc nhận gùi trước một chặng đi bộ. Camera ở bên rìa đường và phía sau một phần nhóm giao liên, cao 1,6 m, nhìn theo đường mòn từ dưới trái tới trên phải. Điểm tụ khoảng x=80%,y=36%; rừng bao quanh nhưng không kín hết hướng ra của con đường. Nhóm chuẩn bị quay thân hướng vào đường mòn phía trên phải, không đi từ rừng trở ra trước camera. Người gần có thể nghiêng nửa người để nhận gùi; người xa đã quay lưng đi vào chiều sâu. Gùi bám lưng qua quai, kiện trên phản còn đang chờ bàn giao. Ánh sáng: Ánh buổi sáng dịu lọt từ trên trái qua tán cây; vùng hở trên đường sáng hơn hai bên rừng. Bóng trên đất cùng hướng xuống phải, không đặt đèn pha hoặc khói động cơ.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
+
 ### Object tương tác
 
 | Object và nguồn | Nội dung hiển thị | Ý nghĩa đối với sự kiện |
@@ -236,6 +256,10 @@
 **Mục tiêu:** Hiểu sức mạnh quần chúng, các hình thức đấu tranh và địa bàn khởi đầu Đồng Khởi.
 
 **Điều người chơi hiểu thêm:** Đồng Khởi phát triển từ sự tham gia tập thể của nhân dân, kết hợp nhiều hình thức đấu tranh.
+
+**Mô tả không gian để tạo ảnh:** Buổi tập hợp trong những ngày đầu Đồng Khởi tháng 1/1960; đoàn người đang hướng từ xóm ra trung tâm xã. Camera ở lề đường phía sau bên trái đoàn người, cao 1,6 m. Nhìn theo đường làng từ dưới trái lên trên phải; điểm tụ khoảng x=76%,y=38%. Góc ba phần tư từ sau, không nhìn đối diện đoàn như ảnh chụp tập thể. Đoàn người quay thân và bước về trên phải, hướng khu trung tâm xã. Một vài người ở lề nghiêng nói chuyện nhưng hướng chung thống nhất. Nhóm tự vệ bên phải đi cùng chiều hoặc đứng hỗ trợ bên lề. Người đánh trống không vác chiếc trống lớn không có quai; nếu trống trên giá thì người đứng bên đánh. Ánh sáng: Nắng sáng dịu lọt qua tán dừa từ trên phải; bóng người đổ xuống trái. Không khí có sức tập hợp nhưng không phủ pháo giấy, băng rôn hiện đại hoặc ánh đèn sân khấu.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
 
 ### Object tương tác
 
@@ -280,6 +304,10 @@
 
 **Điều người chơi hiểu thêm:** Một cơ sở bí mật giúp hiểu công tác chuẩn bị trong đô thị; kết quả Mậu Thân phải được nhìn cả về tác động và cái giá phải trả.
 
+**Mô tả không gian để tạo ảnh:** Tết Mậu Thân 1968, khoảnh khắc chuẩn bị trong cơ sở nội thành trước khi nhóm rời nhà. Hình cắt lớp giải thích: camera ở ngoài mặt tường đã lược bỏ, hơi cao hơn sàn tầng trên, nhìn xuống khoảng 15 độ. Chỉ dùng một hệ phối cảnh ba phần tư. Nhà tầng trên và hầm dưới thuộc cùng một khối, không ghép hai ảnh có góc máy khác nhau. Nhóm người trên tầng trên tập trung về phía cửa ra hẻm bên phải, không bước xuống xuyên trần hầm. Các kiện phía dưới đứng yên. Xe ngoài hẻm đã dừng, thân song song với hẻm, không chĩa đầu xe vào hầm hoặc phòng. Ánh sáng: Một nguồn đèn ấm ở trên trái phòng trên. Ánh sáng giảm rõ khi xuống hầm, có ánh bổ trợ yếu để thấy kiện hàng; không dùng hầm sáng hơn phòng. Khoảng cửa hẻm là ánh đêm xanh xám, không nắng giữa trưa.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
+
 ### Object tương tác
 
 | Object và nguồn | Nội dung hiển thị | Ý nghĩa đối với sự kiện |
@@ -322,6 +350,10 @@
 **Mục tiêu:** Nhận ra B52, vai trò phòng không và nỗ lực bảo vệ người dân trong 12 ngày đêm.
 
 **Điều người chơi hiểu thêm:** Chiến đấu bảo vệ bầu trời và tổ chức đời sống dân cư cùng tạo sức chống chịu của thành phố.
+
+**Mô tả không gian để tạo ảnh:** Buổi sáng sau khi xác B52 đã rơi xuống hồ Hữu Tiệp trong đợt tập kích cuối tháng 12/1972; không phải lúc máy bay đang rơi. Camera ở một bờ hồ, cao khoảng 1,6 m, nhìn chéo qua mặt nước về mảnh xác ở bờ đối diện phía trên phải. FG là lối đi dân cư và cửa hầm, không đứng giữa mặt hồ. Đường chân trời ở khoảng y=36%. Mọi người đang đứng hỏi tin hoặc quan sát sau sự kiện, không chạy dạt cùng một hướng như đang có vụ nổ trước mặt. Không có người điều khiển vũ khí bắn vào xác. Máy bay trong ảnh là mảnh xác nằm yên; không đồng thời có một B52 nguyên vẹn đang rơi. Ánh sáng: Ánh sáng sáng sớm âm u từ trên trái, màu xanh xám và nâu; bóng ngắn mềm. Trong hầm có thể có ánh ấm rất yếu. Không dùng sân đêm xanh tối, đèn pha hoặc chớp lửa làm nguồn sáng chính.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
 
 ### Object tương tác
 
@@ -366,6 +398,10 @@
 
 **Điều người chơi hiểu thêm:** Hiệp định là bước tiến quan trọng về rút quân và hòa bình; diễn biến sau ký kết vẫn cần được hiểu riêng.
 
+**Mô tả không gian để tạo ảnh:** Ngày 27/1/1973, một nhịp tại bàn ký sau khi bút đã được đặt xuống để xem văn kiện; không phải mọi người đồng loạt đang ký. Camera ở khu báo chí đầu gần bên trái, cao khoảng 1,5 m, nhìn ba phần tư vào mặt trước bàn ký. Mặt bà Nguyễn Thị Bình nhìn thấy nghiêng ba phần tư, thân hướng vào tờ giấy trên bàn. Khung rộng vừa để thấy người, bìa văn kiện và khu báo chí. Nguyễn Thị Bình ngồi xem văn kiện, tay đặt tự nhiên trên bàn. Bút ký chính của bố cục nằm trên bàn gần bìa, không đồng thời có một bản sao của cùng bút đang cầm để ký. Nhiếp ảnh gia hướng ống kính về bàn ký; đại biểu không quay lưng với bàn. Ánh sáng: Ánh phòng hội nghị tán đều, thêm ánh cửa trái rất nhẹ. Mặt người và giấy cùng nhiệt độ màu; bóng dưới cánh tay và bìa mỏng. Không nắng xiên chói xuyên qua đầu người hoặc đèn spotlight kiểu sân khấu hiện đại.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
+
 ### Object tương tác
 
 | Object và nguồn | Nội dung hiển thị | Ý nghĩa đối với sự kiện |
@@ -409,12 +445,16 @@
 
 **Điều người chơi hiểu thêm:** Thắng lợi ngày 30/4/1975 khép chặng chiến tranh, mở ra đoàn tụ và công việc hàn gắn.
 
+**Mô tả không gian để tạo ảnh:** Ảnh master sau 11 giờ 30 ngày 30/4/1975: xe đã đi qua cổng, đang dừng trong sân, đầu thân và nòng cùng hướng vào phía Dinh. Cờ đã có trên nóc. Đây không phải khoảnh khắc xe đang húc cổng. Camera ở NGOÀI khuôn viên, trên phía đường trước cổng chính, lệch trái trục cổng một chút, cao 1,6 m. Camera nhìn QUA cổng VÀO sân, thấy mặt trước Dinh ở BG. Phía gần camera là đường và phần cổng; phía xa là sân rồi tòa nhà. Khung rộng 30–35 mm, không nhìn từ trong Dinh ra đường. Trục thân xe đi từ điểm đuôi khoảng (39%,73%) tới điểm mũi khoảng (62%,55%): hướng LÊN PHẢI, đi XA camera về phía Dinh. Camera thấy ĐUÔI và SƯỜN TRÁI xe, không thấy toàn mặt giáp trước. Phần sau động cơ gần dưới trái; phần mũi trước ở trên phải. Tháp pháo và nòng song song gần trục thân, nòng chĩa sâu vào sân phía Dinh, không chĩa về camera, không bắn. Xe 843 ở vùng cổng phụ bên trái cũng hướng vào khuôn viên, không quay đầu ra đường. Ánh sáng: Ánh TRƯA đầu giờ chiều ngắn sau 11:30, nắng từ trên trái; bóng tương đối ngắn xuống phải. Mặt sân sáng rõ, không ánh hoàng hôn hoặc bóng dài kiểu chiều muộn. Vết bẩn và bụi trên xích có mức độ, không phủ đám khói che hình xe.
+
+Khung bao từng object, prompt master và checklist nằm trong phần Brief và vị trí từng cảnh, đồng thời có ở 04-brief-hinh-anh.md.
+
 ### Object tương tác
 
 | Object và nguồn | Nội dung hiển thị | Ý nghĩa đối với sự kiện |
 | --- | --- | --- |
 | **S10_O1 Xe tăng 390** · Tư liệu · FG · Tư liệu. [H30](https://dinhdoclap.gov.vn/ong-vu-dang-toan-ke-chuyen-khi-xe-tang-tien-vao-dinh-ngay-30-4-1975/) | Xe tăng 390 húc đổ cổng chính Dinh Độc Lập ngày 30/4/1975. Đây là hình ảnh nhận diện nổi bật của thời khắc tiến vào Dinh. | Giúp nhớ biểu tượng chính và phân biệt đúng xe tăng húc cổng chính. |
-| **S10_O2 Cổng Dinh Độc Lập** · Xem · MG · Tư liệu. [H20](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html) · [H21](https://baotanglichsu.vn/vi/Articles/3090/75397/bao-tang-lich-su-quoc-gia-khai-mac-trung-bay-chuyen-dje-non-song-lien-mot-dai.html) | Dinh Độc Lập là nơi làm việc của chính quyền Việt Nam Cộng hòa. Việc chiếm Dinh gắn với thời điểm kết thúc Chiến dịch Hồ Chí Minh. | Giải thích vì sao một cánh cổng và tòa nhà trở thành địa điểm biểu tượng. |
+| **S10_O2 Cổng Dinh Độc Lập** · Xem · FG · Tư liệu. [H20](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html) · [H21](https://baotanglichsu.vn/vi/Articles/3090/75397/bao-tang-lich-su-quoc-gia-khai-mac-trung-bay-chuyen-dje-non-song-lien-mot-dai.html) | Dinh Độc Lập là nơi làm việc của chính quyền Việt Nam Cộng hòa. Việc chiếm Dinh gắn với thời điểm kết thúc Chiến dịch Hồ Chí Minh. | Giải thích vì sao một cánh cổng và tòa nhà trở thành địa điểm biểu tượng. |
 | **S10_O3 Cờ trên nóc Dinh** · Xem · BG · Tư liệu. [H20](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html) · [H21](https://baotanglichsu.vn/vi/Articles/3090/75397/bao-tang-lich-su-quoc-gia-khai-mac-trung-bay-chuyen-dje-non-song-lien-mot-dai.html) · [H24](https://baochinhphu.vn/chien-thang-30-4-qua-cam-nhan-cua-nha-bao-nhat-10233070.htm) | Lúc 11 giờ 30 ngày 30/4/1975, cờ Mặt trận Dân tộc Giải phóng miền Nam tung bay trên nóc Dinh Độc Lập. | Đưa vào thời khắc cụ thể và biểu tượng thắng lợi; đúng nửa trên đỏ, nửa dưới xanh, sao vàng. |
 | **S10_O4 Cửa sảnh Dinh** · Tư liệu · BG · Tư liệu. [H20](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html) | Mở thẻ tư liệu về việc chính quyền Sài Gòn đầu hàng. Hình ảnh ngoài sân được nối với diễn biến bên trong và ý nghĩa kết thúc chiến dịch. | Giải thích kết quả chính trị của sự kiện, không dừng ở hình ảnh xe tăng. |
 | **S10_O5 Radio chuyển tin** · Mini-game · FG · Minh họa. [H20](https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html) | Bản tin diễn giải mở Timeline. Nối lại sáu mốc đã trải qua để thấy hành trình từ độc lập năm 1945 tới thắng lợi năm 1975. | Đưa người mới từ khoảnh khắc riêng lẻ tới toàn bộ tiến trình; không giả làm bản ghi phát thanh nguyên gốc. |
@@ -935,4 +975,3 @@ Phạm vi dùng: S10; phân biệt xe 390 húc cổng chính và xe 843, ngườ
 ## Tài liệu thiết kế tham chiếu
 
 [High Concept Đi tìm con đường](https://docs.google.com/document/d/1dK3lcvf3GU59XUSsl5rCkFcPEwdry0wQdPgXWLrnVPw/edit?usp=sharing), file ĐI TÌM CON ĐƯỜNG — 10 Scene & 10 Cutscene và Pipeline Clean do người dùng cung cấp. Bản 2.0 giữ 10 scene và 10 cutscene; tập trung vào sự kiện nổi bật cùng object có ý nghĩa lịch sử cụ thể.
-

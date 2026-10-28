@@ -164,4 +164,3 @@ Câu kết chương: Chiến tranh khép lại, hàn gắn và xây dựng tiế
 ## Mốc được kể qua cutscene và tư liệu
 
 Nam Bộ kháng chiến 1945 ở CS01; Việt Bắc 1947 và Biên giới 1950 ở CS02; sự ra đời Mặt trận Dân tộc Giải phóng miền Nam Việt Nam ở CS06; Đồng Lộc ở CS07; Tây Nguyên, Huế và Đà Nẵng năm 1975 ở CS09. Các mốc này vẫn có trên Timeline nhưng không làm tăng số scene tương tác.
-
