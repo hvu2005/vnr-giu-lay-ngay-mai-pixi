@@ -57,44 +57,49 @@ export const AMBIENCE = {
         ],
     },
 
-    // ── S02 Đêm 19/12/1946 — phố tắt đèn, ánh dầu trong nhà, lửa xa ─────────
+    // ── S02 Đêm 19/12/1946 — phố tắt điện, đèn dầu hiên trái là nguồn ấm ────
+    // Brief 2.1: đèn điện đều tắt, không lấy lửa nổ làm nguồn sáng toàn cảnh →
+    // bỏ quầng lửa xa của bản cũ, chỉ còn đèn dầu hiên trái.
     s02: {
         props: {
-            O2: { type: "breathe", amp: 0.01, period: 3.0 },
+            // Tự vệ đứng TRƯỚC chiến lũy (phía camera) nhưng chân cao hơn chân
+            // chiến lũy (724 < 727) → ép vẽ sau, không thì bàn tủ đè lên người.
+            O2: { type: "breathe", amp: 0.01, period: 3.0, z: 730 },
             O4: { type: "breathe", amp: 0.01, period: 3.6, phase: 1 },
             O5: { type: "breathe", amp: 0.008, period: 3.3, phase: 2 },
         },
         emitters: [
-            { type: "smoke", x: 230, y: 236, rate: 2.5, color: 0x4a3a36, drift: 10, size: 44, alpha: 0.35 },
-            { type: "dust", rect: [520, 300, 900, 520], count: 12, color: 0xffd48a },
+            { type: "dust", rect: [250, 200, 480, 420], count: 10, color: 0xffd48a },
         ],
         halos: [
-            { x: 225, y: 240, r: 150, color: 0xff8a3a, alpha: 0.22, flicker: 0.25 },
-            { x: 603, y: 385, r: 70, color: WARM, alpha: 0.45, flicker: 0.18 },
-            { x: 845, y: 410, r: 90, color: WARM, alpha: 0.5, flicker: 0.18 },
-            { x: 48, y: 350, r: 40, color: WARM, alpha: 0.4, flicker: 0.2 },
+            { x: 340, y: 262, r: 80, color: WARM, alpha: 0.5, flicker: 0.18 },
+            { x: 380, y: 330, r: 150, color: WARM, alpha: 0.18, flicker: 0.12 },
         ],
     },
 
-    // ── S03 Điện Biên Phủ — sương sớm, cờ trên nóc hầm ─────────────────────
+    // ── S03 Điện Biên Phủ — cuối chiều, cờ trên nóc hầm ────────────────────
+    // Brief 2.1: nắng cuối chiều từ trên phải, KHÔNG sương sớm → bỏ lớp sương,
+    // khói bốc từ các cột khói ở chân trời của ảnh.
     s03: {
         props: {
             // Cờ cắm TRÊN nóc hầm: chân cờ cao hơn chân hầm nhưng phải vẽ trên.
-            O2: { type: "flag", pole: "right", yMax: 0.72, amp: 7, freq: 9, speed: 4, z: 1000 },
+            // Cán bên trái, vải bay sang phải; sprite kèm người giữ cờ ở cửa hầm.
+            O2: { type: "flag", pole: "left", yMax: 0.45, amp: 6, freq: 9, speed: 4, z: 1000 },
             O5: { type: "breathe", amp: 0.009, period: 3.4 },
         },
         emitters: [
-            { type: "smoke", x: 1300, y: 330, rate: 1.6, color: 0x7d7470, drift: -14, size: 40, alpha: 0.3 },
-            { type: "smoke", x: 760, y: 300, rate: 1.0, color: 0x8a817a, drift: -10, size: 34, alpha: 0.22 },
-            { type: "fog", rect: [-200, 180, 1576, 330], count: 6, color: 0xd8e0e8, alpha: 0.2 },
+            { type: "smoke", x: 560, y: 100, rate: 1.4, color: 0x7d7470, drift: 12, size: 36, alpha: 0.25 },
+            { type: "smoke", x: 900, y: 70, rate: 1.0, color: 0x8a817a, drift: 10, size: 30, alpha: 0.2 },
+            { type: "smoke", x: 1340, y: 95, rate: 1.0, color: 0x8a817a, drift: 10, size: 30, alpha: 0.2 },
             { type: "birds", rect: [200, 40, 700, 160], count: 3 },
         ],
         halos: [
-            { x: 110, y: 50, r: 260, color: 0xfff6dc, alpha: 0.2, flicker: 0.03 },
+            { x: 1250, y: 40, r: 300, color: 0xffe6b0, alpha: 0.16, flicker: 0.03 },
         ],
     },
 
-    // ── S04 Giơnevơ — ánh cửa sổ trái, đèn chùm ─────────────────────────────
+    // ── S04 Giơnevơ — ánh ban ngày qua cửa sổ trái ──────────────────────────
+    // Ảnh 2.1 không có đèn chùm → chỉ còn quầng cửa sổ và bụi trong vệt nắng.
     s04: {
         props: {
             O2: { type: "breathe", amp: 0.006, period: 4 },
@@ -103,18 +108,11 @@ export const AMBIENCE = {
             { type: "dust", rect: [40, 40, 520, 520], count: 30, color: 0xfff6e0 },
         ],
         halos: [
-            { x: 478, y: 80, r: 90, color: WARM, alpha: 0.35, flicker: 0.04 },
-            { x: 700, y: 60, r: 120, color: WARM, alpha: 0.35, flicker: 0.04 },
-            { x: 1190, y: 25, r: 80, color: WARM, alpha: 0.3, flicker: 0.04 },
-            { x: 112, y: 200, r: 30, color: WARM, alpha: 0.4, flicker: 0.1 },
-            { x: 310, y: 222, r: 28, color: WARM, alpha: 0.4, flicker: 0.1 },
-            { x: 603, y: 228, r: 26, color: WARM, alpha: 0.4, flicker: 0.1 },
-            { x: 792, y: 220, r: 26, color: WARM, alpha: 0.4, flicker: 0.1 },
-            { x: 1028, y: 205, r: 28, color: WARM, alpha: 0.4, flicker: 0.1 },
+            { x: 120, y: 160, r: 280, color: 0xfff6e0, alpha: 0.12, flicker: 0.02 },
         ],
     },
 
-    // ── S05 Trường Sơn — tia nắng xuyên tán rừng ────────────────────────────
+    // ── S05 Trường Sơn — tia nắng sáng xuyên tán rừng ───────────────────────
     s05: {
         props: {
             O2: { type: "breathe", amp: 0.01, period: 3.2 },
@@ -122,14 +120,14 @@ export const AMBIENCE = {
         emitters: [
             { type: "dust", rect: [60, 0, 560, 480], count: 34, color: 0xfff2b0 },
             { type: "fog", rect: [-200, 330, 1576, 520], count: 6, color: 0xc8d4c0, alpha: 0.16 },
-            { type: "fireflies", rect: [560, 200, 1000, 520], count: 8 },
         ],
         halos: [
             { x: 140, y: 60, r: 260, color: 0xfff6c8, alpha: 0.22, flicker: 0.04 },
         ],
     },
 
-    // ── S06 Bến Tre — nắng qua tán dừa, kênh nước ───────────────────────────
+    // ── S06 Bến Tre — nắng sáng qua tán dừa từ trên phải ────────────────────
+    // Ảnh 2.1 không có kênh nước trong khung → bỏ hai vùng mặt nước gợn.
     s06: {
         props: {
             O2: { type: "breathe", amp: 0.009, period: 3.1 },
@@ -139,58 +137,57 @@ export const AMBIENCE = {
             { type: "dust", rect: [300, 150, 1100, 600], count: 20, color: 0xfff0b0 },
             { type: "birds", rect: [300, 20, 900, 140], count: 4 },
         ],
-        ripples: [
-            { mode: "water", rect: [80, 270, 440, 318], amp: 1.6, freq: 40, speed: 1.8 },
-            { mode: "water", rect: [1000, 196, 1225, 300], amp: 1.6, freq: 40, speed: 1.6 },
-        ],
     },
 
-    // ── S07 Mậu Thân — đèn ấm trong phòng, hầm tối ──────────────────────────
+    // ── S07 Mậu Thân — đèn treo ấm giữa phòng, hầm tối ─────────────────────
     s07: {
         props: {
             O3: { type: "breathe", amp: 0.008, period: 3.5 },
         },
         emitters: [
-            { type: "dust", rect: [430, 120, 760, 420], count: 14, color: 0xffe0a0 },
+            { type: "dust", rect: [470, 90, 760, 400], count: 14, color: 0xffe0a0 },
         ],
         halos: [
-            { x: 556, y: 182, r: 170, color: WARM, alpha: 0.28, flicker: 0.06 },
-            { x: 556, y: 182, r: 50, color: 0xffe8b0, alpha: 0.5, flicker: 0.08 },
+            { x: 585, y: 105, r: 170, color: WARM, alpha: 0.28, flicker: 0.06 },
+            { x: 585, y: 100, r: 45, color: 0xffe8b0, alpha: 0.5, flicker: 0.08 },
         ],
     },
 
-    // ── S08 Hồ Hữu Tiệp — sáng xám, xác B52 dưới hồ ─────────────────────────
+    // ── S08 Hồ Hữu Tiệp — sáng xám, xác máy bay nằm yên trên hồ ────────────
+    // Brief 2.1: không khói dày che xác → một làn khói mỏng; trong hầm có ánh
+    // ấm rất yếu.
     s08: {
         props: {
             O4: { type: "breathe", amp: 0.009, period: 3.4 },
         },
         emitters: [
-            { type: "smoke", x: 1150, y: 330, rate: 1.4, color: 0x5d5a58, drift: -12, size: 44, alpha: 0.3 },
+            { type: "smoke", x: 1080, y: 260, rate: 1.0, color: 0x5d5a58, drift: -10, size: 38, alpha: 0.22 },
             { type: "fog", rect: [-200, 230, 1576, 360], count: 6, color: 0xdfe3e6, alpha: 0.16 },
         ],
+        halos: [
+            { x: 395, y: 600, r: 70, color: WARM, alpha: 0.25, flicker: 0.12 },
+        ],
         ripples: [
-            { mode: "water", rect: [600, 318, 1376, 470], amp: 1.8, freq: 36, speed: 1.4 },
+            { mode: "water", rect: [440, 330, 1240, 520], amp: 1.8, freq: 36, speed: 1.4 },
         ],
     },
 
-    // ── S09 Paris — nắng đông nhạt qua cửa trái, đèn chùm ───────────────────
+    // ── S09 Paris — ánh phòng đều, đèn chùm và đèn tường ───────────────────
     s09: {
         props: {
             O2: { type: "breathe", amp: 0.006, period: 4.2 },
         },
         emitters: [
-            { type: "dust", rect: [150, 60, 640, 520], count: 30, color: 0xfff6e0 },
+            { type: "dust", rect: [100, 40, 520, 520], count: 30, color: 0xfff6e0 },
         ],
         halos: [
-            { x: 1030, y: 70, r: 160, color: WARM, alpha: 0.3, flicker: 0.04 },
-            { x: 1020, y: 170, r: 80, color: WARM, alpha: 0.3, flicker: 0.05 },
-            { x: 130, y: 50, r: 60, color: WARM, alpha: 0.4, flicker: 0.1 },
-            { x: 430, y: 140, r: 45, color: WARM, alpha: 0.35, flicker: 0.1 },
-            { x: 570, y: 175, r: 40, color: WARM, alpha: 0.35, flicker: 0.1 },
-            { x: 893, y: 210, r: 38, color: WARM, alpha: 0.35, flicker: 0.1 },
-            { x: 1172, y: 205, r: 38, color: WARM, alpha: 0.35, flicker: 0.1 },
-            // Đèn bàn rọi xuống tập giấy và cây bút.
-            { x: 1130, y: 640, r: 150, color: 0xfff2c8, alpha: 0.22, flicker: 0.03 },
+            { x: 860, y: 25, r: 140, color: WARM, alpha: 0.28, flicker: 0.04 },
+            { x: 785, y: 90, r: 70, color: WARM, alpha: 0.28, flicker: 0.05 },
+            { x: 270, y: 40, r: 50, color: WARM, alpha: 0.38, flicker: 0.1 },
+            { x: 430, y: 95, r: 40, color: WARM, alpha: 0.35, flicker: 0.1 },
+            { x: 705, y: 115, r: 35, color: WARM, alpha: 0.35, flicker: 0.1 },
+            { x: 930, y: 115, r: 35, color: WARM, alpha: 0.35, flicker: 0.1 },
+            { x: 1340, y: 55, r: 50, color: WARM, alpha: 0.38, flicker: 0.1 },
         ],
     },
 
@@ -198,7 +195,7 @@ export const AMBIENCE = {
     s10: {
         props: {
             // Cờ trên nóc: chân cờ cao hơn chân toà nhà nhưng phải vẽ trên.
-            O3: { type: "flag", pole: "left", yMax: 0.62, amp: 6, freq: 9, speed: 4.4, z: 1000 },
+            O3: { type: "flag", pole: "left", yMax: 0.42, amp: 6, freq: 9, speed: 4.4, z: 1000 },
         },
         emitters: [
             { type: "dust", rect: [200, 150, 1200, 650], count: 22, color: 0xfff6d0 },

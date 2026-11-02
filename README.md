@@ -2,7 +2,7 @@
 
 Game point & click giáo dục lịch sử 1945–1975: 10 cảnh sự kiện (Ba Đình → Dinh Độc
 Lập), mỗi cảnh 5 chi tiết chính + 1 chi tiết thêm, 3 mini-game, 10 cutscene. Nội dung
-đọc thẳng từ `src/docs/content-pack.json` (gói nội dung bản 2.0).
+đọc thẳng từ `src/docs/content-pack.json` (gói nội dung bản 2.1).
 
 Kiến trúc, art style và giao diện theo `D:/Pixi/hcm-di-tim-con-duong` (bản đã pull mới:
 UI giấy hồ sơ / sơn mài / đồng thau, bộ sưu tập kỷ vật, bảng chuyển cảnh, trỏ chuột
@@ -13,7 +13,7 @@ không lộ vật). `src/engine/` giữ nguyên, game nằm ở `src/scripts/_ga
 ```
 npm install
 npm run build                 # dev server + watch
-node tools/build-once.mjs     # build một lần ra dist/ (~6.5 MB, 1 file JS)
+node tools/build-once.mjs     # build một lần ra dist/ (~7.3 MB, 1 file JS)
 node tools/serve.mjs 8131     # soi dist/ — http://127.0.0.1:8131/
 ```
 
@@ -43,8 +43,12 @@ Thẻ tư liệu ghi nhãn ba lớp nội dung (Tư liệu / Dàn dựng minh ho
 
 ## Asset — sinh bằng Gemini trong Chrome
 
-Prompt ở `art/prompts/scenes.md` (10 cảnh) và `art/prompts/cover.md` (bìa). Mỗi cảnh
-ba ảnh cùng một cuộc chat Gemini 3.1 Pro, cùng khung hình:
+Ảnh 10 cảnh làm lại theo **brief hình ảnh 2.1** (`src/docs/04-brief-hinh-anh.md`,
+`visual-briefs.json`): mỗi cảnh một khoảnh khắc, một camera, một trục không gian. Prompt
+sinh bằng `node tools/build-prompts.mjs` → `art/prompts/prompts.json` (khối style giữ nét
+vẽ cũ + prompt master của docs nguyên văn + khung `visualBoxPercent` của 6 vật + danh sách
+xoá cho clean/bare). Ghi chú từng cảnh, lần sinh hỏng và lý do ở `art/prompts/scenes.md`;
+bìa ở `art/prompts/cover.md`. Mỗi cảnh ba ảnh cùng một cuộc chat Gemini (Pro), cùng khung hình:
 
 | Ảnh | Nội dung | Dùng làm |
 |---|---|---|
@@ -56,12 +60,21 @@ ba ảnh cùng một cuộc chat Gemini 3.1 Pro, cùng khung hình:
 - `diff` — mặt nạ = master ≠ clean (người, cờ). Bóng đổ tách thành `shadow_*.webp`
   (đứng yên, không viền vàng). Cảnh tối thêm `refine` (GrabCut theo hạt giống diff).
 - `bare` — mặt nạ = clean ≠ bare, pixel lấy từ nền → sprite trùng khít nền.
-- `grab` / `poly` / `rect` — dự phòng (S04 dùng `grab`: bản bare của Gemini lệch khung).
+- `src: "bare2"` — mặt nạ lấy từ một ảnh bare phụ `sNN_bare2.png` (Gemini xoá riêng vật
+  khó xoá chung một lượt: cột đèn mảnh S02, hào đất S03, lối mòn S05).
+- `poly` / `polys` — giới hạn mặt nạ diff/bare khi Gemini vẽ lại cả đám đông/người nền
+  phía sau (S01 Bác, micro, bục; S04 đoàn VN; S09 bảng tên, máy quay); ở mode `poly` là
+  vùng cắt luôn (cửa hầm, cửa ra hẻm S07, cửa sảnh S10). `cut` + `actors` tách bóng xe thồ S03.
+- `grab` / `rect` — dự phòng.
 - Ảnh xuất 1.5× (2064×1152) cho nét trên màn PC; toạ độ dữ liệu vẫn 1376×768.
 - `art/debug/sNN_cut.jpg` vẽ viền mọi mặt nạ để soi; script cảnh báo khi hai vật giao nhau.
 
 `tools/recv-server.mjs`: máy chủ nhận ảnh — tab Gemini đẩy ảnh full-size (data-url)
-qua một cửa sổ `127.0.0.1:8765` (nút tải của Gemini không ghi được file trong phiên tự động).
+qua một cửa sổ `127.0.0.1:8765` (nút tải của Gemini không ghi được file trong phiên tự động:
+Chrome chặn lượt tải thứ hai không có cử chỉ chuột). Cách lấy PNG gốc 2752×1536: bọc
+`window.fetch` của trang Gemini, bấm nút "Tải hình ảnh có kích thước đầy đủ", bắt response
+`image/png` rồi gửi data-url sang cửa sổ nhận. Cửa sổ nhận phải mở bằng một cú bấm thật
+(popup mở bằng script bị chặn); các tab Gemini khác chuyển ảnh qua `BroadcastChannel`.
 
 ## Bố cục & chồng vật
 

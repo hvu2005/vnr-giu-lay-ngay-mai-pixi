@@ -262,7 +262,10 @@ def build_mask(master, clean, spec, bare=None):
     if mode == "grab":
         return mask_grab(src, spec), src
     if mode == "poly":
-        return poly_mask(spec["poly"]), src
+        m = np.zeros((AH, AW), np.uint8)
+        for p in [spec["poly"]] if "poly" in spec else spec["polys"]:
+            m |= poly_mask(p)
+        return m, src
     if mode == "rect":
         return _rect_mask(spec["rect"]), src
     raise ValueError(mode)
@@ -307,7 +310,10 @@ def build_scene(key, cfg):
     masks = {}
 
     def emit(name, spec):
-        mask, src = build_mask(master, clean if spec["mode"] in ("diff", "bare") else bg, spec, bare)
+        # `src`: ảnh bare phụ (sNN_<src>.png) — Gemini xoá riêng vật khó xoá
+        # chung một lượt (cột đèn mảnh, hào đất), cùng khung với clean.
+        b = load(os.path.join(SRC, f"{key}_{spec['src']}.png")) if "src" in spec else bare
+        mask, src = build_mask(master, clean if spec["mode"] in ("diff", "bare") else bg, spec, b)
         if spec["mode"] == "bare":
             src = bg
         # Vật không được ăn vào vùng của vật khác đã khai trước (ràng buộc
@@ -371,6 +377,8 @@ def build_scene(key, cfg):
 
 
 def main():
+    # Console Windows mặc định cp1252 — in "⚠ … ∩ …" là vỡ.
+    sys.stdout.reconfigure(encoding="utf-8")
     cfg = json.load(open(CFG, encoding="utf8"))
     only = sys.argv[1:]
     layout = {}
