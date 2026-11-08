@@ -34,6 +34,27 @@ const SCENES = {
     S01: {
         // Lần 1: cả quảng trường là một khối người dày, chồng lên nhóm dự lễ và
         // che chân lễ đài → không tách được O4 / lễ đài thành sprite.
+        // Góp ý duyệt art (11/2026): ảnh cũ là bãi cỏ công viên + sân khấu thấp, Bác
+        // nghiêng lưng về đám đông → phải là Quảng trường Ba Đình, Bác trên lễ đài gỗ.
+        brief:
+            "Create one 16:9 hand-painted 2D historical game master scene of the September 2, 1945 independence " +
+            "gathering at BA DINH SQUARE in Hanoi. The setting is the wide, flat, open Ba Dinh square: a huge sea of " +
+            "people filling the square far into the distance, many small red flags with yellow stars and red banners " +
+            "(no readable writing) above the crowd, rows of tall old trees and pale ochre French-colonial buildings " +
+            "with tiled roofs at the far edges of the square under a clear late-summer afternoon sky. NOT a park, NOT " +
+            "a lawn with scattered trees. Camera stands behind the left edge of the crowd at adult eye height, " +
+            "looking diagonally toward the FRONT of the independence platform in the upper-right half of the frame. " +
+            "The platform is the historical WOODEN tribune: a raised wooden stage about three meters high built of " +
+            "timber posts and planks, its front skirt draped with red cloth, a wooden staircase at its side, a tall " +
+            "flagpole with a red flag with a yellow star rising beside it. Ho Chi Minh stands ON this raised wooden " +
+            "platform behind a simple wooden lectern, ABOVE the heads of the crowd, his body and face turned toward " +
+            "the crowd and three-quarter toward the camera, never his back or side to the audience; thin, grey " +
+            "goatee, faded khaki jacket buttoned to the collar. The manuscript rests flat on the lectern, small at " +
+            "this distance. A period microphone on a physically supported stand on the platform floor points " +
+            "toward his mouth. Foreground civilians and a held red flag occupy the lower-left. Midground spectators " +
+            "face away from the camera toward the platform. A small sewing basket rests on a low foreground stool. " +
+            "Soft afternoon light comes from upper left, shadows fall right. Keep all platform elements in one " +
+            "coherent perspective. No modern mausoleum, no giant floating document, no readable text, no UI, no arrows.",
         notes:
             "Only these people stand in front of the platform: the flag bearer at lower-left and ONE compact group of " +
             "about six attendees in the middle ground. The large crowd stays small and far behind them, beyond a band " +
@@ -41,7 +62,7 @@ const SCENES = {
             "fully visible. Ho Chi Minh is the only person on the platform. Exactly one microphone.",
         items: {
             O1: "a red flag with a yellow star on a bamboo pole, held up by a civilian in the lower-left foreground",
-            O2: "Ho Chi Minh standing behind the lectern on the platform, front toward the crowd",
+            O2: "Ho Chi Minh standing on the raised wooden platform behind the lectern, front toward the crowd",
             O3: "the wooden lectern on the platform with the manuscript lying flat on its top",
             O4: "a group of attendees standing on the square, backs or rear three-quarter to camera, looking up-right at the platform",
             O5: "a period microphone on a supported stand, its head pointing at the speaker's mouth",
@@ -79,17 +100,39 @@ const SCENES = {
         ],
     },
     S03: {
+        // Góp ý duyệt art (11/2026): ảnh cũ lính đội mũ sắt kiểu Âu, đi thong thả
+        // giữa lòng hào; hầm như đồi đất trống → sửa quân phục, tư thế, bối cảnh.
+        brief:
+            "Single 16:9 hand-painted historical narrative panorama of Dien Bien Phu, LATE AFTERNOON May 7, 1954, the " +
+            "moment the Viet Minh captured the French command post. Setting: the flat Muong Thanh valley floor ringed " +
+            "by green forested mountains, ground churned by shell craters, coils of barbed wire, a few white and " +
+            "khaki supply parachutes lying crumpled on the ground, a wrecked French artillery piece, thin smoke " +
+            "columns. Slightly elevated camera at the edge of a supply path and trench, looking diagonally toward " +
+            "the De Castries command bunker in the upper-right background. The bunker is LOW and half-buried: an " +
+            "arched corrugated-steel roof covered with layers of sandbags and earth, a dark sandbagged entrance, " +
+            "logs at its edges. On top of the bunker roof two Viet Minh soldiers STAND and one of them holds upright " +
+            "a red flag with a yellow star whose pole is planted in the roof sandbags — the pole visibly meets the " +
+            "roof. HISTORICAL UNIFORMS: Viet Minh soldiers wear round woven bamboo/rattan helmets covered with " +
+            "camouflage netting and leaves (NOT steel helmets), plain olive-khaki cotton uniforms, cloth ammunition " +
+            "belts, rubber-tyre sandals, carrying rifles. In the midground a group of soldiers has CLIMBED OUT of the " +
+            "trench and advances across open ground toward the bunker in an energetic crouching run, rifles held " +
+            "forward, seen partly from behind — nobody strolls casually inside the trench. Midground zig-zag earth " +
+            "trenches lead from lower center toward the bunker. A supply bicycle has STOPPED in the lower-left " +
+            "foreground on a separate path, its front wheel pointing diagonally inward to the right, sacks tied to " +
+            "its frame and a civilian porter in a conical hat and brown peasant clothes steadying the handlebar. A " +
+            "notebook protrudes from the bicycle's cloth bag. Warm late-afternoon light from upper right casts " +
+            "shadows down-left. No dawn mist, no modern museum structures, no floating flag, no readable text or UI.",
         items: {
-            O1: "the low De Castries command bunker embedded in the earth",
-            O2: "the red flag with a yellow star planted directly on the bunker roof, its pole touching the roof",
+            O1: "the low De Castries command bunker with its sandbag-covered arched roof, embedded in the earth",
+            O2: "the red flag with a yellow star on the bunker roof, held upright by soldiers standing on the roof, its pole planted in the roof sandbags",
             O3: "the zig-zag earth communication trenches leading toward the bunker",
             O4: "the stopped supply bicycle loaded with sacks, a porter steadying its handlebar",
-            O5: "a group of soldiers moving toward the bunker, seen partly from behind",
+            O5: "a group of Viet Minh soldiers in camouflaged woven helmets advancing out of the trench toward the bunker, seen partly from behind",
             H1: "a cloth bag hanging on the bicycle with a notebook protruding from it",
         },
         clean: [
-            "the flag and its whole pole on the bunker roof",
-            "the group of soldiers in the middle ground",
+            "the flag, its whole pole and the soldiers standing on the bunker roof",
+            "the group of soldiers advancing in the middle ground",
             "the supply bicycle with its sacks, its cloth bag and the porter beside it",
         ],
         bare: [
@@ -97,16 +140,39 @@ const SCENES = {
         ],
     },
     S04: {
+        // Góp ý duyệt art (11/2026): bàn dài một dãy → bàn hội nghị xếp hình vuông
+        // rỗng. Giơnevơ 1954 phần Đông Dương có 9 đoàn (không phải "4 bên" — đó là
+        // Paris S09), nên các đoàn ngồi quanh cả bốn cạnh, không chia 4 phe.
+        brief:
+            "One 16:9 hand-painted historical game scene in the Geneva conference hall of the Palais des Nations, " +
+            "July 1954, during discussion and document review near the end of the Indochina phase of the conference. " +
+            "The conference tables are arranged as ONE large HOLLOW SQUARE: four straight wooden table sides joined " +
+            "at the corners around an empty open centre with a green carpet, covered with dark green baize. The nine " +
+            "delegations (it is NOT a four-party meeting) sit on the OUTER edges of all four sides facing inward " +
+            "across the hollow centre, each delegation a small cluster of men in dark 1950s suits with interpreters " +
+            "and advisers in a second row behind them. Camera is at the near-left outer corner of the square at " +
+            "seated-to-standing eye level, looking diagonally across the hollow centre to the far side. The NEAR " +
+            "table side runs across the bottom foreground of the frame; two separate modest paper folders lie flat " +
+            "on it, one lower-left and one lower-center, with a clear gap between them. Pham Van Dong and the " +
+            "Vietnamese Democratic Republic delegation sit on the LEFT table side in the middle-left of the frame, " +
+            "bodies facing inward across the hollow centre toward the opposite delegations; use historical " +
+            "references for appearance, no fabricated portrait claims. Small blank delegation nameplates stand on " +
+            "the far and right table sides with their bases touching the table. A small geographic schematic map " +
+            "stands on a real wooden easel in the far-right background behind the far table. Tall windows on the " +
+            "left wall, wood-panelled walls, high ceiling. Participants read and listen; do NOT show all delegations " +
+            "signing together. Diffuse window light from left. Keep all paper and people at correct scale. Papers, " +
+            "map and nameplates have no readable text. No floating folders, no modern screens, no long single " +
+            "rectangular table, no collage of incompatible camera angles.",
         items: {
             O1: "a closed modest paper folder (the armistice agreement) lying flat on the near table, lower-left",
-            O2: "Pham Van Dong and the Vietnamese delegation seated, bodies facing inward to the table",
+            O2: "Pham Van Dong and the Vietnamese delegation seated on the left side of the hollow square, bodies facing inward across it",
             O3: "a geographic schematic map on a wooden easel in the far-right background",
             O4: "a second paper folder (the final declaration) lying flat on the near table, lower-center, with empty table between it and the first",
-            O5: "small blank delegation nameplates standing along the receding table edge",
+            O5: "small blank delegation nameplates standing along the far and right sides of the hollow square",
             H1: "a note card partly tucked under a folder on a small side table near the camera",
         },
         clean: [
-            "Pham Van Dong and the Vietnamese delegation seated at the middle-left of the table (their chairs stay)",
+            "Pham Van Dong and the Vietnamese delegation seated on the left side of the hollow square (their chairs stay)",
         ],
         bare: [
             "the paper folder lying on the near table at lower-left",
@@ -164,6 +230,12 @@ const SCENES = {
         ],
     },
     S07: {
+        // Góp ý duyệt art (11/2026): một người mất đầu, tay cầm cuộn đồ + gậy.
+        notes:
+            "Every fighter is drawn complete: head, face or back of head, both arms and both feet clearly visible, " +
+            "nobody cropped by the doorway or the frame edge and nobody's head hidden behind another person. They " +
+            "carry only small cloth shoulder bags and backpacks — no rolled bundles, no poles, sticks or long " +
+            "objects in their hands. Four or five people, slightly spaced so each silhouette reads on its own.",
         items: {
             O1: "a modest square floor hatch opening in the upper room floor, its lid beside it",
             O2: "closed supply crates resting on the cellar floor or a low shelf",
@@ -257,7 +329,7 @@ for (const sc of BRIEF.scenes) {
     const master = [
         "Generate a brand-new 16:9 image.",
         STYLE,
-        "SCENE BRIEF: " + sc.promptMaster,
+        "SCENE BRIEF: " + (d.brief ?? sc.promptMaster),
         ...(d.notes ? ["SPRITE NOTES: " + d.notes] : []),
         LAYOUT,
         ...items,

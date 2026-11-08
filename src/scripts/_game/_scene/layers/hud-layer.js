@@ -5,6 +5,7 @@ import { chapterByKey, MINIGAMES } from "../../data/chapters";
 import LAYOUT from "../../data/layout.generated.json";
 import { DESIGN_HEIGHT, DESIGN_WIDTH, HINT, UI } from "../../data/scene-config";
 import { assetByPath } from "../../_shared/asset-path";
+import { itemImageFile } from "../../_shared/scene-crop";
 import { isMuted, setMuted } from "../../_shared/sfx";
 import { button, chamfer, drawSlot, framePanel, inkPanel, label, ornamentRule, roundButton, title, waxSeal } from "../../_shared/ui";
 
@@ -128,8 +129,12 @@ export class HudLayer {
 
         this.refresh();
 
-        // Quay lại cảnh đã xong: không phát lại đoạn chốt, hiện nút ngay.
-        if (this.scene.progress.isReady(key) && this.scene.progress.closingSeen.includes(key)) {
+        // Quay lại cảnh đã xong / đã qua: không phát lại đoạn chốt, hiện nút
+        // ngay. Thiếu nhánh `isPassed` thì cảnh đã qua mà chưa đủ điều kiện
+        // (qua bằng bảng chuyển cảnh, bản lưu cũ) không có đường đi tiếp —
+        // người chơi phải về màn hình chính (góp ý 11/2026).
+        const progress = this.scene.progress;
+        if (progress.isPassed(key) || (progress.isReady(key) && progress.closingSeen.includes(key))) {
             this.showContinue(false);
         }
 
@@ -184,7 +189,7 @@ export class HudLayer {
 
             const frame = drawSlot(new Graphics(), SLOT, SLOT, { fill: 0x0c0604, fillAlpha: 0.55, c: 9 });
 
-            const sprite = new Sprite(assetByPath(LAYOUT[key].props[item.id].file));
+            const sprite = new Sprite(assetByPath(itemImageFile(key, item.id)));
             const k = (SLOT - 10) / Math.max(sprite.texture.width, sprite.texture.height);
             sprite.anchor.set(0.5);
             sprite.scale.set(k);
@@ -237,7 +242,12 @@ export class HudLayer {
         const w = 800;
 
         const heading = title(chapter.title, { fontSize: 32, fill: UI.goldLight, align: "center", wordWrap: true, wordWrapWidth: w - 60 });
-        const date = label(`${chapter.date}  ·  ${chapter.place}`, { fontFamily: UI.fontTitle, fontSize: 20, fill: UI.paper, fontStyle: "italic" });
+        // Địa điểm S07 ("Cơ sở Biệt động 287/70 Phan Đình Phùng…; nay là đường
+        // Nguyễn Đình Chiểu") dài ~900 px ở cỡ 20 → tràn khung 800. Xuống dòng.
+        const date = label(`${chapter.date}  ·  ${chapter.place}`, {
+            fontFamily: UI.fontTitle, fontSize: 20, fill: UI.paper, fontStyle: "italic", align: "center",
+            wordWrap: true, wordWrapWidth: w - 80, lineHeight: 26,
+        });
         const opening = label(chapter.opening, {
             fontFamily: UI.fontBody, fontSize: 18, fill: UI.paper, align: "center",
             wordWrap: true, wordWrapWidth: w - 80, lineHeight: 26,

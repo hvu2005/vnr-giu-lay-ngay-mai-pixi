@@ -130,6 +130,18 @@ export class Progress {
         return CHAPTERS[index + 1]?.key ?? null;
     }
 
+    /**
+     * Cảnh đã QUA (cảnh sau nó đã mở) — quay lại cảnh này thì luôn đi tiếp được,
+     * kể cả khi chưa đủ điều kiện: qua bằng bảng chuyển cảnh, hoặc bản lưu cũ
+     * chưa ghi `closingSeen`. Cảnh cuối: đã xem hết hành trình.
+     *
+     * @param {string} key
+     */
+    isPassed(key) {
+        const index = CHAPTERS.findIndex((c) => c.key === key);
+        return index >= 0 && this.unlocked > index + 1;
+    }
+
     /** @param {number} index */
     isUnlocked(index) {
         return index < this.unlocked;

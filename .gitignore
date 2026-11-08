@@ -136,3 +136,8 @@ dist
 .pnp.*
 
 .meta.json
+
+# MobileSAM (tools/sam.py) — tải lại: xem README
+art/models/
+
+__pycache__/

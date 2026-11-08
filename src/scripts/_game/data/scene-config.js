@@ -35,27 +35,37 @@ export const ORDER = {
 };
 
 /**
- * Viền vàng phát sáng quanh vật ĐÃ KHÁM PHÁ (giữ luôn) và vật đang được gợi ý
- * — trỏ chuột vào vật chưa tìm thì không sáng (như bản mới của hcm).
+ * Vòng khoanh cọ đỏ quanh vật ĐÃ KHÁM PHÁ (giữ luôn) và vật đang được gợi ý —
+ * thay viền vàng (góp ý 11/2026: viền bám mép vật rối, lệch ở chỗ bị che).
+ * Trỏ chuột vào vật chưa tìm thì không khoanh.
  *
- * Hai lớp: `OutlineFilter` vẽ nét mảnh sắc cạnh bám sát biên alpha, rồi
- * `GlowFilter` loang quầng mềm ra ngoài nét đó. Chỉ một trong hai thì hoặc
- * trông như nét bút (thiếu sáng), hoặc như sương mù (thiếu biên).
- *
- * Độ dày tính bằng pixel TEXTURE — texture to gấp `artScale` lần khung thiết
- * kế, nên số ở đây lớn hơn project tham khảo (2.5 / 14) cùng tỉ lệ đó.
+ * Vòng lấy từ bộ vòng cọ Gemini vẽ (`tools/brush-rings.py`). Mỗi vật chọn vòng
+ * có tỉ lệ khung gần nhất và nét (sau khi co giãn) gần `stroke` nhất — xem
+ * `_shared/circle-mark.js`. Số tính bằng px KHUNG THIẾT KẾ (1376×768).
  */
-export const HOVER_GLOW = {
-    outlineColor: 0xffe58a,
-    outlineThickness: 3.5,
+export const CIRCLE_MARK = {
+    /** Vòng rộng hơn khung vật: nhân hệ số rồi cộng thêm lề. */
+    growX: 1.18,
+    growY: 1.1,
+    pad: 14,
+    /** Vòng nhỏ nhất (vật tí hon như micro vẫn có vòng đủ to để thấy). */
+    minSize: 70,
+    /** Nét chuẩn = `strokeK` × cạnh ngắn của vòng, kẹp trong [min, max]. */
+    strokeK: 0.05,
+    strokeMin: 4,
+    strokeMax: 9,
+    /** Co giãn lệch tỉ lệ tối đa — quá nữa thì nét ngang / dọc dày mỏng lệch. */
+    maxStretch: 1.45,
 
-    glowColor: 0xffc933,
-    /** Bán kính quầng, px của texture. */
-    glowDistance: 20,
-    glowStrengthMin: 1.6,
-    glowStrengthMax: 3.2,
-    /** Nhịp "thở" của quầng sáng, giây/chu kỳ. */
-    pulsePeriod: 1.1,
+    /** Hiệu ứng vẽ: quét theo góc + xoáy (xoay, thu từ to về). */
+    drawTime: 0.75,
+    swirlTurn: -0.45,
+    swirlScale: 1.22,
+    /** Gợi ý hết giờ → vòng mờ đi. */
+    fadeTime: 0.35,
+    /** Nhịp "thở" rất nhẹ khi đã khoanh. */
+    breathe: 0.012,
+    breathePeriod: 2.4,
 };
 
 /** Bảng màu giao diện — tông giấy cũ / mực nâu / đỏ cờ, giống project tham khảo. */

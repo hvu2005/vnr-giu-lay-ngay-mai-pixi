@@ -6,7 +6,6 @@ import { PixiObject } from "../../../engine/adapters/pixi/extensions/pixi-object
 
 import { CHAPTERS, chapterByKey, MINIGAMES, TIMELINE } from "../data/chapters";
 import { DESIGN_HEIGHT, DESIGN_WIDTH, ORDER, UI } from "../data/scene-config";
-import { GlowOutline } from "../_shared/glow-outline";
 import { play, SFX, unlockAudio } from "../_shared/sfx";
 import { Progress } from "../sim/progress";
 import { StageView } from "./stage-view";
@@ -84,7 +83,6 @@ export class GameScene extends Scene {
         loading.destroy();
 
         this.progress = new Progress();
-        this.glow = new GlowOutline();
 
         this.background = new BackgroundLayer(this);
         this.props = new PropLayer(this);
@@ -363,9 +361,21 @@ export class GameScene extends Scene {
         this.startChapter(CHAPTERS[(index - 1 + CHAPTERS.length) % CHAPTERS.length].key);
     }
 
-    /** Nút "Tiếp tục hành trình" — cutscene rồi sang cảnh kế. */
+    /**
+     * Nút "Tiếp tục hành trình" — cutscene rồi sang cảnh kế. Cảnh đã qua từ
+     * trước (người chơi quay lại xem): sang thẳng cảnh kế, cutscene đã xem rồi.
+     */
     async finishChapter() {
         if (this._busy || !this.chapterKey) return;
+
+        if (this.progress.isPassed(this.chapterKey)) {
+            const index = CHAPTERS.findIndex((c) => c.key === this.chapterKey);
+            const next = CHAPTERS[index + 1];
+            if (next) this.startChapter(next.key);
+            else this.showTitle();
+            return;
+        }
+
         this._busy = true;
         this.props.enabled = false;
 

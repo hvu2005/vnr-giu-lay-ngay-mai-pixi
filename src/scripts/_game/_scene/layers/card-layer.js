@@ -1,17 +1,17 @@
 import { gsap } from "gsap";
-import { Container, Graphics, Sprite } from "pixi.js";
+import { Container, Graphics } from "pixi.js";
 
 import { CLAIM_LABEL, SOURCES } from "../../data/chapters";
-import LAYOUT from "../../data/layout.generated.json";
 import { DESIGN_HEIGHT, DESIGN_WIDTH, UI } from "../../data/scene-config";
-import { assetByPath } from "../../_shared/asset-path";
+import { itemPhoto } from "../../_shared/scene-crop";
 import { play, SFX } from "../../_shared/sfx";
-import { softTexture } from "../../_shared/textures";
 import { button, label, ornamentRule, paperPanel, roundButton, title } from "../../_shared/ui";
 
 const W = 980;
 const H = 520;
 const IMAGE = 360;
+/** Cạnh ảnh khung cảnh trong cột ảnh — chừa viền ngà và con dấu bên dưới. */
+const PHOTO = 330;
 
 /**
  * Thẻ tư liệu — phần GIÁO DỤC của mỗi cú bấm.
@@ -25,8 +25,10 @@ const IMAGE = 360;
  *   │                [Đọc thêm tư liệu] / [Mở hoạt động] │
  *   └───────────────────────────────────────────────────┘
  *
- * Ảnh là CHÍNH sprite cắt từ ảnh master của cảnh (không vẽ riêng một bản Gemini
- * như project tham khảo): vật trong thẻ giống hệt vật người chơi vừa bấm.
+ * Ảnh là KHUNG CẢNH vuông quanh vật, dựng từ chính cảnh trong game
+ * (`_shared/scene-crop.js`, không vẽ riêng một bản Gemini như project tham
+ * khảo): vật trong thẻ giống hệt vật người chơi vừa bấm, và luôn nguyên vẹn —
+ * bản đầu dùng sprite cắt rời, lộ mép răng cưa / khúc cụt (góp ý 11/2026).
  *
  * Nhãn ba lớp nội dung (Tư liệu / Dàn dựng minh hoạ / Hư cấu) theo high
  * concept: "Nhãn Tư liệu chỉ xác nhận phần thông tin đi kèm; kiểu dáng vật vẽ
@@ -80,21 +82,20 @@ export class CardLayer {
         body.addChild(paperPanel(W, H));
 
         // ── Ảnh ──────────────────────────────────────────────────────────────
-        // Quầng sáng mềm như ánh đèn rọi xuống mặt giấy, không phải đĩa tròn.
-        const glow = new Sprite(softTexture());
-        glow.anchor.set(0.5);
-        glow.tint = 0xfff1c8;
-        glow.alpha = 0.9;
-        glow.width = glow.height = IMAGE * 1.25;
-        glow.position.set(36 + IMAGE / 2, H / 2);
+        // Khung cảnh vuông quanh vật, dán lên giấy như ảnh chụp có viền ngà —
+        // không dùng sprite cắt rời: đứng một mình nó lộ mép răng cưa, mảng nền
+        // dính theo, chỗ bị vật khác che thành khúc cụt (góp ý duyệt 11/2026).
+        const ix = 36 + (IMAGE - PHOTO) / 2;
+        const iy = (H - PHOTO) / 2 - 10;
+        const frame = new Graphics()
+            .rect(ix - 6, iy - 2, PHOTO + 16, PHOTO + 16).fill({ color: 0x2a1a10, alpha: 0.22 })
+            .rect(ix - 9, iy - 9, PHOTO + 18, PHOTO + 18).fill({ color: 0xefe3c6 })
+            .rect(ix - 9, iy - 9, PHOTO + 18, PHOTO + 18).stroke({ color: 0x8a6236, width: 1, alpha: 0.6 })
+            .rect(ix - 1, iy - 1, PHOTO + 2, PHOTO + 2).fill({ color: 0x120c07 });
+        const photo = itemPhoto(key, item.id, PHOTO, PHOTO).view;
+        photo.position.set(ix, iy);
 
-        const image = new Sprite(assetByPath(LAYOUT[key].props[item.id].file));
-        const k = Math.min(IMAGE / image.texture.width, (H - 80) / image.texture.height);
-        image.anchor.set(0.5);
-        image.scale.set(k);
-        image.position.set(36 + IMAGE / 2, H / 2);
-
-        body.addChild(glow, image);
+        body.addChild(frame, photo);
 
         // ── Chữ ──────────────────────────────────────────────────────────────
         const x = 36 + IMAGE + 40;
@@ -122,13 +123,9 @@ export class CardLayer {
         });
         desc.position.set(x, ruleY + 14);
 
-        const meaning = label(`Vì sao đáng chú ý: ${item.meaning}`, {
-            fontFamily: UI.fontTitle, fontSize: 17, fontStyle: "italic", fill: UI.inkSoft,
-            wordWrap: true, wordWrapWidth: textW, lineHeight: 24,
-        });
-        meaning.position.set(x, desc.y + desc.height + 14);
-
-        body.addChild(badge, name, rule, desc, meaning);
+        // Không hiện `meaning` ("Vì sao đáng chú ý"): đó là ý đồ của người thiết
+        // kế để diễn giải / thuyết trình, người chơi tự nhận ra — góp ý duyệt 11/2026.
+        body.addChild(badge, name, rule, desc);
 
         let bottom = H - 34;
 

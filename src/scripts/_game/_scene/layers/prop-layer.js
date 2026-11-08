@@ -2,11 +2,13 @@ import { Container, Sprite } from "pixi.js";
 
 import { AMBIENCE } from "../../data/ambience";
 import { chapterByKey } from "../../data/chapters";
+import { CIRCLE_OVERRIDES } from "../../data/circle-overrides";
 import { LAYOUT_OVERRIDES } from "../../data/layout-overrides";
 import LAYOUT from "../../data/layout.generated.json";
 import { HINT } from "../../data/scene-config";
 import { AlphaMask } from "../../_shared/alpha-mask";
 import { assetByPath } from "../../_shared/asset-path";
+import { CircleMark } from "../../_shared/circle-mark";
 import { createRippleFilter } from "../../_shared/ripple-filter";
 import { play, SFX } from "../../_shared/sfx";
 
@@ -19,7 +21,7 @@ const TAU = Math.PI * 2;
  *
  * Như bản mới của hcm: di chuột qua vật chưa khám phá không sáng, không hiện
  * tên, không đổi con trỏ — người chơi phải nhìn mà tìm. Bấm trúng thì mở thẻ;
- * vật đã khám phá giữ viền vàng trong cảnh từ đó về sau.
+ * vật đã khám phá giữ vòng khoanh đỏ trong cảnh từ đó về sau.
  *
  * ── MỘT HANDLER Ở STAGE, KHÔNG PHẢI MỖI VẬT MỘT HANDLER ─────────────────────
  *
@@ -41,8 +43,7 @@ const TAU = Math.PI * 2;
  * ── BÓNG ĐỔ ─────────────────────────────────────────────────────────────────
  *
  * Người / vật chuyển động có bóng tách riêng (`shadow_<id>.webp`, chỉ có độ
- * tối). Bóng nằm dưới mọi vật, KHÔNG idle và KHÔNG nhận viền vàng: người thở
- * mà bóng trên đất vẫn yên, viền sáng chỉ ôm thân người.
+ * tối). Bóng nằm dưới mọi vật, KHÔNG idle: người thở mà bóng trên đất vẫn yên.
  *
  * ── IDLE ────────────────────────────────────────────────────────────────────
  *
@@ -62,6 +63,7 @@ const TAU = Math.PI * 2;
  *   item: import("../../data/chapters").ChapterItem | null,
  *   sprite: Sprite,
  *   mask: AlphaMask | null,
+ *   circle: CircleMark | null,
  *   idle: any,
  *   base: number,
  *   baseX: number, baseY: number,
@@ -77,9 +79,16 @@ export class PropLayer {
     constructor(scene) {
         this.scene = scene;
         this.view = new Container();
+        // Phần dư của vật chuyển động (`rest_*`, xem tools/prepare-assets.py):
+        // pixel master mà mặt nạ SAM của vật bỏ ra — người phía sau, tay, nền vẽ
+        // lại. Tĩnh, dưới mọi vật, không khoanh / không bấm.
+        this.rests = new Container();
         this.shadows = new Container();
         this.bodies = new Container();
-        this.view.addChild(this.shadows, this.bodies);
+        // Vòng khoanh đỏ (vật đã tìm / đang gợi ý) TRÊN mọi vật: vòng quanh
+        // Bác không bị bục che mất một khúc.
+        this.marks = new Container();
+        this.view.addChild(this.rests, this.shadows, this.bodies, this.marks);
 
         /** @type {Entry[]} vật tương tác, THEO THỨ TỰ VẼ (dưới → trên) */
         this.props = [];
@@ -136,7 +145,9 @@ export class PropLayer {
             const moved = overrides[item.id];
             const placed = moved ? { ...info, x: moved.x, y: moved.y } : info;
 
-            props.push(this._build(item.id, placed, amb.props?.[item.id], item, base));
+            const entry = this._build(item.id, placed, amb.props?.[item.id], item, base);
+            entry.circle = new CircleMark(CIRCLE_OVERRIDES[key]?.[item.id] ?? placed, `${key}/${item.id}`);
+            props.push(entry);
         }
 
         // Thứ tự vẽ = CHIỀU SÂU: vật có chân thấp hơn trên màn (gần camera hơn)
@@ -152,7 +163,12 @@ export class PropLayer {
         for (const entry of props) {
             entry.mask = new AlphaMask(entry.sprite.texture);
             this.bodies.addChild(entry.sprite);
+            this.marks.addChild(entry.circle.view);
             this.props.push(entry);
+
+            // Vật tìm từ lần chơi trước: vòng có sẵn, không khoanh lại.
+            entry.lit = this.scene.progress.isFound(key, entry.id);
+            if (entry.lit) entry.circle.show(false);
         }
 
         this._hintReadyAt = 0;
@@ -164,20 +180,30 @@ export class PropLayer {
         this.props.length = 0;
         this.actors.length = 0;
 
+        for (const child of this.rests.removeChildren()) child.destroy();
         for (const child of this.shadows.removeChildren()) child.destroy();
         for (const child of this.bodies.removeChildren()) child.destroy();
+        for (const child of this.marks.removeChildren()) child.destroy({ children: true });
     }
 
     /**
      * @param {string} id
      * @param {{ file: string, x: number, y: number, w: number, h: number,
-     *   shadow?: { file: string, x: number, y: number } }} info
+     *   shadow?: { file: string, x: number, y: number },
+     *   rest?: { file: string, x: number, y: number } }} info
      * @param {any} idle
      * @param {import("../../data/chapters").ChapterItem | null} item
      * @param {number} base tỉ lệ gốc = 1 / artScale
      * @returns {Entry}
      */
     _build(id, info, idle, item, base) {
+        if (info.rest) {
+            const rest = new Sprite(assetByPath(info.rest.file));
+            rest.scale.set(base);
+            rest.position.set(info.rest.x, info.rest.y);
+            this.rests.addChild(rest);
+        }
+
         if (info.shadow) {
             const shadow = new Sprite(assetByPath(info.shadow.file));
             shadow.scale.set(base);
@@ -201,7 +227,7 @@ export class PropLayer {
         }
 
         return {
-            id, item, sprite, mask: null,
+            id, item, sprite, mask: null, circle: null,
             idle: idle ? { period: 3, phase: Math.random() * TAU, ...idle } : null,
             base,
             baseX: sprite.x, baseY: sprite.y,
@@ -221,7 +247,7 @@ export class PropLayer {
         for (const e of this.actors) _applyIdle(e, this._time, dt);
         for (const e of this.props) _applyIdle(e, this._time, dt);
 
-        // Viền vàng = vật ĐÃ KHÁM PHÁ (giữ luôn), hoặc vật đang được gợi ý.
+        // Vòng khoanh = vật ĐÃ KHÁM PHÁ (giữ luôn), hoặc vật đang được gợi ý.
         // Trỏ chuột vào vật chưa tìm thì KHÔNG sáng — như hcm-di-tim-con-duong:
         // lộ sẵn thì người chơi chỉ cần quét chuột là thấy hết, mất phần "tìm".
         const progress = this.scene.progress;
@@ -231,22 +257,12 @@ export class PropLayer {
             const lit = e.hintUntil > 0 || progress.isFound(this._chapterKey, e.id);
             if (lit !== e.lit) {
                 e.lit = lit;
-                this._glow(e, lit);
+                if (lit) e.circle.show(true);
+                else e.circle.hide(true);
             }
+
+            e.circle.update(dt);
         }
-
-        this.scene.glow.update(dt);
-    }
-
-    /**
-     * Bật/tắt viền vàng mà KHÔNG làm mất filter riêng của vật (sóng cờ).
-     *
-     * @param {Entry} e
-     * @param {boolean} on
-     */
-    _glow(e, on) {
-        const own = e.baseFilters ?? [];
-        e.sprite.filters = on ? [...own, ...this.scene.glow.filters] : (own.length ? own : null);
     }
 
     // ══ TRỎ CHUỘT ════════════════════════════════════════════════════════════
@@ -336,9 +352,9 @@ export class PropLayer {
     _setHover(entry) {
         if (entry === this.hovered) return;
 
-        // Trỏ vào KHÔNG làm vật sáng viền, không hiện nhãn tên, không đổi con
-        // trỏ (theo bản cập nhật "remove hover info & pointing" của hcm). Viền
-        // vàng do `update()` lo: vật đã khám phá sáng luôn, vật đang gợi ý sáng tạm.
+        // Trỏ vào KHÔNG khoanh vật, không hiện nhãn tên, không đổi con trỏ
+        // (theo bản cập nhật "remove hover info & pointing" của hcm). Vòng
+        // khoanh do `update()` lo: vật đã khám phá giữ luôn, vật đang gợi ý tạm.
         this.hovered = entry;
     }
 
@@ -477,3 +493,4 @@ function _applyIdle(e, time, dt) {
             break;
     }
 }
+

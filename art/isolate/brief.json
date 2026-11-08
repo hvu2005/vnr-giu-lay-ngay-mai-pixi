@@ -1,0 +1,488 @@
+{
+ "s02": {
+  "title": "Toàn quốc kháng chiến",
+  "date": "Đêm 19/12/1946",
+  "items": {
+   "O1": {
+    "name": "Chiến lũy bằng giường tủ",
+    "facing": "Mặt dài của đồ gỗ nằm ngang hoặc chéo chắn đường, có khe nhìn phía trên.",
+    "occlusion": "Chiến lũy che phần chân tự vệ, không che đầu họ.",
+    "support": "Chân và cạnh tủ, giường tiếp xúc mặt đường và bao đất; không nổi.",
+    "text": "Giường, tủ và nhiều vật dụng được đưa ra đường làm chiến lũy. Không gian sinh hoạt trở thành nơi quân dân bảo vệ thành phố.",
+    "aspect": "ngang"
+   },
+   "O2": {
+    "name": "Chiến sĩ tự vệ",
+    "facing": "Lưng hoặc ba phần tư lưng hướng người xem, nhìn theo phố ra xa.",
+    "occlusion": "Thấy đầu, vai, tay và đủ thân để hiểu tư thế giữ vị trí.",
+    "support": "Đứng sau vật chắn trên cùng mặt đường.",
+    "text": "Lực lượng tự vệ cùng bộ đội và nhân dân tham gia chiến đấu. Cảnh này thể hiện tinh thần bảo vệ Thủ đô.",
+    "aspect": "vuong"
+   },
+   "O3": {
+    "name": "Dãy đèn phố đã tắt",
+    "facing": "Dãy đèn nhỏ dần theo đường phố.",
+    "occlusion": "Không để khói che hết dãy đèn.",
+    "support": "Cột và dây gắn vào nhà; bóng đèn tối.",
+    "text": "Đêm 19/12/1946, điện Hà Nội tắt trước khi cuộc chiến đấu bùng lên. Bóng tối trong cảnh là dấu hiệu của thời khắc mở đầu.",
+    "aspect": "doc"
+   },
+   "O4": {
+    "name": "Người liên lạc",
+    "facing": "Người liên lạc nghiêng về cửa nhà bên trái, nhìn về người nhận tin.",
+    "occlusion": "Tách rõ khỏi chiến sĩ để hai hitbox không chồng.",
+    "support": "Chân trên bậc và đường, túi công văn tựa hông.",
+    "text": "Người liên lạc nối các vị trí trong thành phố. Từ đây, mở văn kiện Lời kêu gọi toàn quốc kháng chiến ngày 19/12/1946.",
+    "aspect": "doc"
+   },
+   "O5": {
+    "name": "Gia đình tản cư",
+    "facing": "Tiến về gần và xuống phải, theo lối rời phố.",
+    "occlusion": "Không đặt gia đình ở sau nòng súng hoặc trong đường giao tranh chính.",
+    "support": "Người lớn giữ hành lý, trẻ đi cùng; chân cùng mặt đường.",
+    "text": "Tản cư đưa người dân và những công việc cần thiết ra khỏi nơi chiến đấu. Giữ sức người là một phần của chuẩn bị kháng chiến lâu dài.",
+    "aspect": "doc"
+   },
+   "H1": {
+    "name": "Toa xe điện chắn phố",
+    "facing": "Toa xe nằm ngang tương đối so với con phố, nhận ra hình toa.",
+    "occlusion": "Bị góc nhà che khoảng một phần ba, vẫn thấy bánh và thân.",
+    "support": "Trên ray và mặt đường, không đứng nghiêng vô lý.",
+    "text": "Toa xe điện cũng được dùng làm chướng ngại trên phố Hà Nội. Cơ sở hạ tầng đô thị tham gia vào không gian chiến đấu.",
+    "aspect": "doc"
+   }
+  }
+ },
+ "s03": {
+  "title": "Chiến thắng Điện Biên Phủ",
+  "date": "7/5/1954",
+  "items": {
+   "O1": {
+    "name": "Hầm chỉ huy Đờ Cát",
+    "facing": "Cửa hầm nhìn được theo góc ba phần tư; hầm thấp ăn vào đất.",
+    "occlusion": "Thấy rõ mép mái, cửa và phần đất chung quanh.",
+    "support": "Mái và bao đất nối với địa hình.",
+    "text": "Đây là hình ảnh khu chỉ huy của tập đoàn cứ điểm. Việc chiếm sở chỉ huy ngày 7/5/1954 đánh dấu thời khắc quyết định của chiến thắng.",
+    "aspect": "ngang"
+   },
+   "O2": {
+    "name": "Lá cờ trên nóc hầm",
+    "facing": "Cán xuống tới đúng mái hầm; vải bay sang trái.",
+    "occlusion": "Không cắt rời cột khỏi mái và không che hầm.",
+    "support": "Người giữ hoặc chân cán nằm trực tiếp trên mái; chọn một cách trong ảnh.",
+    "text": "Lá cờ chiến thắng trên hầm chỉ huy trở thành hình ảnh gắn với Điện Biên Phủ ngày 7/5/1954.",
+    "aspect": "vuong"
+   },
+   "O3": {
+    "name": "Hệ thống giao thông hào",
+    "facing": "Hào uốn và lùi theo chiều sâu về khu hầm.",
+    "occlusion": "Vài đoạn khuất hợp lý nhưng vẫn đọc được tính liên tục.",
+    "support": "Vách hào là đất, không là các đường vẽ nổi trên mặt.",
+    "text": "Hệ thống hào thể hiện quá trình bao vây và tiến gần các vị trí phòng ngự. Chiến thắng là kết quả của một chiến dịch kéo dài.",
+    "aspect": "ngang"
+   },
+   "O4": {
+    "name": "Xe đạp thồ chở hàng",
+    "facing": "Xe nhìn ngang ba phần tư; bánh trước phía trên phải.",
+    "occlusion": "Không đặt cả xe chắn kín tuyến hào.",
+    "support": "Bánh chạm đường, bao trên khung, có người giữ.",
+    "text": "Xe đạp thồ là phương tiện tiếp tế tiêu biểu của chiến dịch. Khám phá chuỗi công việc đưa hàng từ hậu phương tới nơi sử dụng.",
+    "aspect": "vuong"
+   },
+   "O5": {
+    "name": "Nhóm chiến sĩ tại trận địa",
+    "facing": "Thân người nhìn về hầm trên phải; góc lưng hoặc nghiêng.",
+    "occlusion": "Thấy đủ vai, đầu và tư thế di chuyển.",
+    "support": "Chân ở đáy hoặc mép hào; không đi xuyên vách đất.",
+    "text": "Bộ đội trực tiếp chiến đấu tại mặt trận, cùng sự hỗ trợ của dân công và nhân dân làm nên thắng lợi.",
+    "aspect": "vuong"
+   },
+   "H1": {
+    "name": "Sổ tay dân công",
+    "facing": "Sổ lộ trong túi treo trên xe cùng lớp tiền cảnh.",
+    "occlusion": "Lộ hơn nửa cuốn sổ; không xuất hiện thành bảng lớn.",
+    "support": "Túi buộc vào xe, sổ tựa vào miệng túi.",
+    "text": "Sổ tay dân công là loại tư liệu về hoạt động vận chuyển. Những dòng ghi chép giúp thấy phần công việc phía sau mặt trận.",
+    "aspect": "vuong"
+   }
+  }
+ },
+ "s04": {
+  "title": "Hội nghị Giơnevơ",
+  "date": "20–21/7/1954",
+  "items": {
+   "O1": {
+    "name": "Văn kiện đình chỉ chiến sự",
+    "facing": "Bìa nằm dọc trục nhìn của người ngồi gần.",
+    "occlusion": "Không bị tay hoặc cốc che hết.",
+    "support": "Giấy nằm trên bàn gỗ, có mép và bóng mỏng.",
+    "text": "Văn kiện đình chỉ chiến sự được ký ngày 20/7/1954. Người chơi đọc bản diễn giải về ngừng bắn và việc tập kết lực lượng.",
+    "aspect": "ngang"
+   },
+   "O2": {
+    "name": "Phạm Văn Đồng và đoàn Việt Nam",
+    "facing": "Ngồi nghiêng vào bàn, mặt nhìn chếch phải tới đoàn đối diện.",
+    "occlusion": "Mặt và vai rõ; không dùng chân dung rời treo trong không gian.",
+    "support": "Thân ngồi ghế, khuỷu tay có thể trên bàn.",
+    "text": "Phạm Văn Đồng dẫn đầu đoàn Việt Nam Dân chủ Cộng hòa tại Hội nghị Giơnevơ, đưa yêu cầu của Việt Nam tới bàn đàm phán.",
+    "aspect": "ngang"
+   },
+   "O3": {
+    "name": "Sơ đồ giới tuyến quân sự",
+    "facing": "Mặt giá xoay nhẹ về camera, sơ đồ đọc rõ qua UI.",
+    "occlusion": "Tách khỏi đầu phái đoàn, không cắt qua người.",
+    "support": "Chân giá chạm sàn, bảng kê trên giá.",
+    "text": "Giới tuyến quân sự ở khu vực vĩ tuyến 17 có tính tạm thời. Nó không được hiểu như một biên giới quốc gia lâu dài.",
+    "aspect": "vuong"
+   },
+   "O4": {
+    "name": "Tuyên bố cuối cùng ngày 21/7",
+    "facing": "Tập văn kiện thứ hai tách bằng khoảng bàn trống.",
+    "occlusion": "Không vẽ các chữ ký hàng loạt để tránh nhận sai tính chất văn bản.",
+    "support": "Nằm phẳng trên cùng mặt bàn.",
+    "text": "Ngày 21/7/1954, hội nghị kết thúc với Tuyên bố cuối cùng. Nội dung đề cập các quyền dân tộc cơ bản và hướng tới thống nhất.",
+    "aspect": "ngang"
+   },
+   "O5": {
+    "name": "Bảng tên các phái đoàn",
+    "facing": "Bảng tên đặt theo mép bàn và hướng ghế ngồi.",
+    "occlusion": "Không xếp toàn bộ bảng thẳng hàng như menu UI.",
+    "support": "Đế bảng nằm thật trên bàn, chữ thêm bằng engine.",
+    "text": "Nhiều phái đoàn tham gia hội nghị. Kết quả thương lượng gắn với bối cảnh và quan hệ quốc tế phức tạp.",
+    "aspect": "ngang"
+   },
+   "H1": {
+    "name": "Thẻ ghi mốc tổng tuyển cử",
+    "facing": "Một góc trang ghi chú lộ bên bìa trên bàn phụ gần camera.",
+    "occlusion": "Nhìn rõ hơn nửa vùng dùng để click; cận cảnh giải thích ở UI.",
+    "support": "Trang nằm dưới bìa giấy, không là thẻ 3D bay.",
+    "text": "Các văn kiện đặt ra hướng tới tổng tuyển cử thống nhất. Một mục tiêu được ghi trên giấy vẫn cần được thực hiện sau hội nghị.",
+    "aspect": "vuong"
+   }
+  }
+ },
+ "s05": {
+  "title": "Mở đường Trường Sơn",
+  "date": "Năm 1959",
+  "items": {
+   "O1": {
+    "name": "Gùi hàng",
+    "facing": "Gùi dựng trên phản, thấy miệng và hai quai.",
+    "occlusion": "Không bị kiện hàng khác che hơn nửa.",
+    "support": "Đáy gùi trên mặt phản; phản có chân trên đất.",
+    "text": "Giai đoạn đầu, hàng được gùi bằng sức người qua đường rừng. Mỗi gùi là một phần của tuyến chi viện Bắc Nam.",
+    "aspect": "vuong"
+   },
+   "O2": {
+    "name": "Chiến sĩ giao liên",
+    "facing": "Thân ba phần tư lưng, hướng vào đường rừng trên phải.",
+    "occlusion": "Không trùng silhouette với cây hoặc người khác.",
+    "support": "Chân trên đường, gùi ôm vào lưng.",
+    "text": "Giao liên đảm nhiệm việc nối các chặng, đưa đón người và chuyển tin. Con đường cần người hiểu tuyến và giữ liên lạc.",
+    "aspect": "doc"
+   },
+   "O3": {
+    "name": "Kiện hàng quân sự",
+    "facing": "Kiện nằm theo chiều dài phản tre, bao gói kín.",
+    "occlusion": "Để rõ một mặt kiện phục vụ hotspot.",
+    "support": "Trọng lượng ép lên mặt phản, quai và dây không xuyên vật.",
+    "text": "Tuyến được mở để chi viện cho miền Nam. Những kiện hàng là dấu hiệu trực tiếp của nhiệm vụ này, được quan sát như tư liệu.",
+    "aspect": "ngang"
+   },
+   "O4": {
+    "name": "Sơ đồ nối Bắc Nam",
+    "facing": "Tấm giấy nhỏ kê trên bảng dưới mái lán, quay về người nhận hàng.",
+    "occlusion": "Không che đường nhìn vào lối mòn.",
+    "support": "Bảng tựa cột; giấy kẹp vào bảng.",
+    "text": "Sơ đồ minh họa nối hậu phương miền Bắc với chiến trường miền Nam. Đây là quan hệ chi viện, không phải bản đồ tuyến hành quân chi tiết.",
+    "aspect": "doc"
+   },
+   "O5": {
+    "name": "Lối mòn từ Khe Hó",
+    "facing": "Đường mòn tiếp nối thật từ người giao liên tới rừng xa.",
+    "occlusion": "Tán cây che một phần nhưng còn thấy hướng đi.",
+    "support": "Lối đất bám sườn và đi qua khoảng trống giữa cây.",
+    "text": "Khe Hó là điểm xuất phát ban đầu của tuyến. Từ đường mòn gùi bộ, Trường Sơn phát triển thành mạng chi viện qua nhiều năm.",
+    "aspect": "vuong"
+   },
+   "H1": {
+    "name": "Bọc công văn",
+    "facing": "Bọc giấy lộ trong túi giao liên đặt gần phản.",
+    "occlusion": "Lộ hơn nửa bọc, không đặt chữ lớn lên bìa.",
+    "support": "Túi tựa chân phản; giấy không nổi.",
+    "text": "Tuyến còn chuyển công văn, tài liệu theo cả hai chiều. Trường Sơn nối thông tin cùng với người và hàng.",
+    "aspect": "vuong"
+   }
+  }
+ },
+ "s06": {
+  "title": "Đồng Khởi Bến Tre",
+  "date": "17/1/1960 và những ngày đầu phong trào",
+  "items": {
+   "O1": {
+    "name": "Trống và mõ tre",
+    "facing": "Mặt trống hướng nghiêng về người đánh bên lề đường.",
+    "occlusion": "Để lộ mặt trống và tay người, không bị đám đông phủ kín.",
+    "support": "Trống trên hai chân giá; mõ do một người giữ.",
+    "text": "Trống, mõ và thanh la gắn với ngày Đồng Khởi ở Bến Tre. Âm thanh quen thuộc trở thành dấu hiệu tập hợp quần chúng.",
+    "aspect": "vuong"
+   },
+   "O2": {
+    "name": "Đoàn phụ nữ trong phong trào",
+    "facing": "Đoàn phụ nữ nhìn về cổng xã trên phải, thấy lưng và mặt nghiêng.",
+    "occlusion": "Nhóm có độ sâu, không nhân bản một sprite.",
+    "support": "Chân có bước đi trên đất, người đứng khác tư thế.",
+    "text": "Phụ nữ là lực lượng nổi bật trong phong trào đấu tranh ở Bến Tre. Hình ảnh này gắn Đồng Khởi với sức mạnh quần chúng.",
+    "aspect": "doc"
+   },
+   "O3": {
+    "name": "Đường làng tới ba xã khởi đầu",
+    "facing": "Đoạn đường phía xa mở tiếp sau đoàn, click mở sơ đồ địa danh.",
+    "occlusion": "Vẫn thấy đích và lối tiếp nối qua vai người.",
+    "support": "Đường bám địa hình, không thành bảng giữa trời.",
+    "text": "Định Thủy, Phước Hiệp và Bình Khánh gắn với những ngày đầu Đồng Khởi ở Bến Tre, bắt đầu từ mốc 17/1/1960.",
+    "aspect": "ngang"
+   },
+   "O4": {
+    "name": "Cổng trụ sở cấp xã",
+    "facing": "Mặt cổng hướng về đường đoàn đang đi tới.",
+    "occlusion": "Không để thân dừa che toàn bộ cổng.",
+    "support": "Hai trụ gắn đất và tường thấp, kiến trúc làng quê minh họa.",
+    "text": "Phong trào làm thay đổi quyền kiểm soát tại nhiều địa phương. Mục tiêu là phá sự kìm kẹp và giành quyền làm chủ ở cơ sở.",
+    "aspect": "ngang"
+   },
+   "O5": {
+    "name": "Nhóm tự vệ và quần chúng",
+    "facing": "Nhóm tự vệ và người dân ở lề cùng hướng đoàn chính.",
+    "occlusion": "Tách đủ khỏi đoàn phụ nữ để chọn riêng.",
+    "support": "Chân trên đường; trang bị thể hiện tiết chế.",
+    "text": "Đồng Khởi kết hợp lực lượng chính trị quần chúng với sự hỗ trợ của lực lượng vũ trang và hoạt động binh vận.",
+    "aspect": "vuong"
+   },
+   "H1": {
+    "name": "Loa tay",
+    "facing": "Loa tay đặt nghiêng trên ghế, miệng loa hướng ra đường.",
+    "occlusion": "Bị mép vải che khoảng một phần tư.",
+    "support": "Thân loa nằm trên ghế dưới mái hiên.",
+    "text": "Lời kêu gọi và vận động cũng là một phần của đấu tranh. Chiếc loa mở thêm thông tin về vai trò tuyên truyền, binh vận.",
+    "aspect": "vuong"
+   }
+  }
+ },
+ "s07": {
+  "title": "Tổng tiến công và nổi dậy Mậu Thân",
+  "date": "Tết Mậu Thân 1968",
+  "items": {
+   "O1": {
+    "name": "Cửa hầm dưới nền nhà",
+    "facing": "Nắp mở hoặc đặt lệch ngay cạnh miệng, nhìn được mối nối với sàn.",
+    "occlusion": "Miệng hầm rõ, không có người đứng chắn hết.",
+    "support": "Khung cửa nằm trong sàn; không treo giữa hai tầng.",
+    "text": "Căn nhà có hầm phục vụ hoạt động của Biệt động Sài Gòn. Cơ sở nội thành là một phần của công tác chuẩn bị Mậu Thân.",
+    "aspect": "ngang"
+   },
+   "O2": {
+    "name": "Các kiện vũ khí trong hầm",
+    "facing": "Kiện kín đặt theo sàn hầm, các cạnh cùng điểm tụ.",
+    "occlusion": "Xếp vừa phải, không nhét vật xuyên nền hoặc vách.",
+    "support": "Kiện trên nền hoặc kệ thấp, không treo.",
+    "text": "Cơ sở từng chứa vũ khí phục vụ lực lượng biệt động. Người chơi chỉ khám phá vai trò lịch sử, không thao tác sử dụng.",
+    "aspect": "ngang"
+   },
+   "O3": {
+    "name": "Nhóm chiến sĩ biệt động",
+    "facing": "Nhóm nghiêng thân về cửa phải, trò chuyện nhỏ hoặc chuẩn bị đồ.",
+    "occlusion": "Phân biệt từng dáng, không cần bày đủ số người theo ảnh tư liệu chưa có.",
+    "support": "Chân ở sàn tầng trên; không lọt vào trần hầm.",
+    "text": "Lực lượng biệt động hoạt động trong đô thị và tham gia tiến công các mục tiêu tại Sài Gòn dịp Tết Mậu Thân.",
+    "aspect": "vuong"
+   },
+   "O4": {
+    "name": "Xe tải nhỏ ngoài cửa",
+    "facing": "Xe nằm dọc hẻm theo phương ngang, thấy sườn qua khoảng cửa.",
+    "occlusion": "Khung cửa che một phần thân, vẫn nhận ra xe nhỏ.",
+    "support": "Bánh trên mặt hẻm ngang với sàn tầng trên.",
+    "text": "Phương tiện vận chuyển nối cơ sở nội thành với công tác chuẩn bị và di chuyển lực lượng. Căn nhà thuộc một mạng hoạt động rộng hơn.",
+    "aspect": "vuong"
+   },
+   "O5": {
+    "name": "Cửa ra hẻm Sài Gòn",
+    "facing": "Phần trên cửa và khoảng hẻm lùi ra sau tường.",
+    "occlusion": "Cửa và xe là hai vùng chọn khác cao độ hình ảnh, không cùng một hitbox.",
+    "support": "Cửa gắn tường, có ngưỡng và bản lề.",
+    "text": "Cuộc tiến công hướng vào nhiều đô thị và mục tiêu quan trọng. Sài Gòn là một địa bàn nổi bật của Mậu Thân 1968.",
+    "aspect": "doc"
+   },
+   "H1": {
+    "name": "Tờ lịch Tết Mậu Thân",
+    "facing": "Lịch treo trên mặt trong bức tường gần đã lược một phần.",
+    "occlusion": "Cạnh vật khác che nhẹ; giấy để trống cho engine.",
+    "support": "Móc lịch thật trên cột hoặc tường còn lại.",
+    "text": "Thời điểm Tết là dấu hiệu quan trọng để nhớ sự kiện. Người chơi mở thẻ giải thích tên gọi Tết Mậu Thân 1968.",
+    "aspect": "doc"
+   }
+  }
+ },
+ "s08": {
+  "title": "Hà Nội Điện Biên Phủ trên không",
+  "date": "Cuối tháng 12/1972",
+  "items": {
+   "O1": {
+    "name": "Mảnh xác B52 trên hồ",
+    "facing": "Mảnh thân kim loại gãy nghiêng, một phần chìm.",
+    "occlusion": "Không che bằng khói dày, không phóng to thành nguyên máy bay.",
+    "support": "Có tiếp xúc mặt nước và bùn, phản chiếu vỡ nhẹ.",
+    "text": "Xác B52 ở hồ Hữu Tiệp gắn với cuộc tập kích cuối tháng 12/1972. Đây là dấu tích giúp nhận diện sự kiện Điện Biên Phủ trên không.",
+    "aspect": "ngang"
+   },
+   "O2": {
+    "name": "Lối xuống hầm phòng không",
+    "facing": "Miệng hầm nhìn chéo, bậc đi xuống dưới mặt đất.",
+    "occlusion": "Để lộ lối vào đủ rõ và không có người đè kín cửa.",
+    "support": "Nằm trong nền lối đi, không là hộp đặt trên mặt nước.",
+    "text": "Hầm phòng không và công tác sơ tán góp phần bảo vệ người dân. Chiến tranh tác động trực tiếp tới sinh hoạt trong thành phố.",
+    "aspect": "ngang"
+   },
+   "O3": {
+    "name": "Loa truyền tin khu dân cư",
+    "facing": "Miệng loa hướng về khu dân cư, không chĩa vào trời.",
+    "occlusion": "Để khoảng trời tách loa khỏi thân cây.",
+    "support": "Gắn chắc vào cột cạnh nhà.",
+    "text": "Thông tin báo động và liên lạc hỗ trợ người dân trong những ngày bị đánh phá. Âm thanh game là diễn giải, không giả bản ghi lịch sử.",
+    "aspect": "ngang"
+   },
+   "O4": {
+    "name": "Chiến sĩ phòng không",
+    "facing": "Đứng nghiêng hướng về tổ dân phòng và hồ.",
+    "occlusion": "Không dựng thành chân dung tách nền quá sáng.",
+    "support": "Chân trên lối đi cùng độ cao với bàn trực.",
+    "text": "Lực lượng phòng không là nòng cốt đánh trả cuộc tập kích. Click mở thẻ minh họa các công việc bảo vệ bầu trời.",
+    "aspect": "doc"
+   },
+   "O5": {
+    "name": "Tổ dân phòng",
+    "facing": "Nhóm người quanh bàn, một người ghi tin, một người hỏi.",
+    "occlusion": "Không che xác B52 phía trên phải.",
+    "support": "Bàn và ghế trên bờ đất, cách mép nước.",
+    "text": "Dân phòng cùng nhiều lực lượng hỗ trợ sơ tán, cứu hộ và liên lạc. Ghép các công việc để thấy cách thành phố tự bảo vệ.",
+    "aspect": "doc"
+   },
+   "H1": {
+    "name": "Sổ ghi nơi sơ tán",
+    "facing": "Sổ nằm trên góc bàn trực kéo về phía gần camera.",
+    "occlusion": "Lộ hơn nửa trang; không cần chữ đọc được trong ảnh.",
+    "support": "Trên mặt bàn phụ cùng không gian bờ hồ.",
+    "text": "Sổ dàn dựng ghi những lời nhắn về nơi các gia đình đã tới. Nó giải thích vì sao giữ liên lạc là một việc cần thiết.",
+    "aspect": "ngang"
+   }
+  }
+ },
+ "s09": {
+  "title": "Ký Hiệp định Paris",
+  "date": "27/1/1973",
+  "items": {
+   "O1": {
+    "name": "Bản Hiệp định Paris",
+    "facing": "Văn kiện quay theo chiều người ký; phần chữ để engine/cận cảnh.",
+    "occlusion": "Không giấu kín sau bảng tên.",
+    "support": "Trang và bìa nằm trên mặt bàn theo đúng phối cảnh.",
+    "text": "Hiệp định Paris được ký chính thức ngày 27/1/1973. Người chơi đọc nội dung về chấm dứt chiến tranh, rút quân và các quyền dân tộc cơ bản.",
+    "aspect": "ngang"
+   },
+   "O2": {
+    "name": "Nguyễn Thị Bình tại bàn ký",
+    "facing": "Ngồi nhìn xuống và vào bàn, mặt ba phần tư về camera.",
+    "occlusion": "Khuôn mặt rõ; tham khảo ảnh nhân vật thật.",
+    "support": "Thân trên ghế, bàn tay chạm bàn.",
+    "text": "Nguyễn Thị Bình đại diện Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam ký Hiệp định Paris ngày 27/1/1973.",
+    "aspect": "doc"
+   },
+   "O3": {
+    "name": "Bảng tên bốn bên",
+    "facing": "Các bảng tên phân bố theo chỗ đoàn ngồi; vùng này mở UI tên bốn bên.",
+    "occlusion": "Không che tay và văn kiện; không phóng to thành bốn poster.",
+    "support": "Đế gập của từng bảng nằm trên bàn.",
+    "text": "Bốn bên: Việt Nam Dân chủ Cộng hòa, Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam, Hoa Kỳ và Việt Nam Cộng hòa.",
+    "aspect": "ngang"
+   },
+   "O4": {
+    "name": "Bút ký văn kiện",
+    "facing": "Bút nằm chéo nhẹ cùng mặt bàn, thân ngắn bằng vật thật.",
+    "occlusion": "Không nằm dưới tay người; vẫn nhìn thấy hình bút.",
+    "support": "Bút và nắp trên bìa giấy; dùng vùng bìa làm proxy khi bút quá nhỏ.",
+    "text": "Chữ ký xác lập những cam kết trong văn kiện. Người chơi mở phần giải thích việc ký kết và quá trình thi hành sau đó.",
+    "aspect": "ngang"
+   },
+   "O5": {
+    "name": "Máy ảnh và micro báo chí",
+    "facing": "Ống kính và micro hướng về bàn ký, chân máy ở phía báo chí.",
+    "occlusion": "Không chặn mặt đại biểu.",
+    "support": "Chân máy tiếp đất, camera trên đầu chân.",
+    "text": "Hội nghị còn gắn với dư luận quốc tế và hoạt động thông tin. Ngoại giao phối hợp với đấu tranh quân sự, chính trị.",
+    "aspect": "doc"
+   },
+   "H1": {
+    "name": "Hồ sơ đàm phán từ năm 1968",
+    "facing": "Tập hồ sơ trên bàn phụ gần camera, mép bìa quay về phía người xem.",
+    "occlusion": "Một phần bìa bị tờ giấy che, còn đủ vùng chọn.",
+    "support": "Nằm trên bàn phụ, giấy không trôi.",
+    "text": "Kết quả năm 1973 đến sau nhiều năm đàm phán. Hồ sơ dàn dựng giúp nối Mậu Thân 1968 với chặng ngoại giao kéo dài.",
+    "aspect": "ngang"
+   }
+  }
+ },
+ "s10": {
+  "title": "Ngày 30 tháng 4 tại Dinh Độc Lập",
+  "date": "Trưa 30/4/1975, sau thời khắc 11 giờ 30",
+  "items": {
+   "O1": {
+    "name": "Xe tăng 390",
+    "facing": "Nhìn từ phía sau bên trái; đuôi gần camera, mũi xa camera hướng sảnh Dinh.",
+    "occlusion": "Cánh cổng có thể che rất ít mép xích gần nhưng không che silhouette đuôi; số 390 đặt sau lên sườn tháp.",
+    "support": "Hai dải xích áp mặt sân liên tục, bóng tiếp xúc dưới xích.",
+    "text": "Xe tăng 390 húc đổ cổng chính Dinh Độc Lập ngày 30/4/1975. Đây là hình ảnh nhận diện nổi bật của thời khắc tiến vào Dinh.",
+    "aspect": "ngang"
+   },
+   "O2": {
+    "name": "Cổng Dinh Độc Lập",
+    "facing": "Cổng chính bị đổ vào trong khoảng sân; thấy trụ và cánh cổng từ phía đường.",
+    "occlusion": "Đủ nhận ra cổng; để khoảng trống trung tâm cho lối vào.",
+    "support": "Bản lề nối trụ, phần cánh nằm trên mặt đất; không đè xuyên thân xe.",
+    "text": "Dinh Độc Lập là nơi làm việc của chính quyền Việt Nam Cộng hòa. Việc chiếm Dinh gắn với thời điểm kết thúc Chiến dịch Hồ Chí Minh.",
+    "aspect": "ngang"
+   },
+   "O3": {
+    "name": "Cờ trên nóc Dinh",
+    "facing": "Cờ nhìn theo mặt trước tòa nhà, nửa trên đỏ, nửa dưới xanh, sao vàng.",
+    "occlusion": "Không tách thành cờ lơ lửng trên trời hoặc cắm lên đầu xe thay cho cờ trên mái.",
+    "support": "Cán nối với đúng nóc Dinh; vị trí có đối chiếu ảnh.",
+    "text": "Lúc 11 giờ 30 ngày 30/4/1975, cờ Mặt trận Dân tộc Giải phóng miền Nam tung bay trên nóc Dinh Độc Lập.",
+    "aspect": "doc"
+   },
+   "O4": {
+    "name": "Cửa sảnh Dinh",
+    "facing": "Mặt trước sảnh mở về phía sân và camera.",
+    "occlusion": "Không bị toàn bộ xe che khuất; còn thấy lối vào sảnh.",
+    "support": "Cột, cửa và bậc thuộc cùng kiến trúc; không nhìn xuyên phòng.",
+    "text": "Mở thẻ tư liệu về việc chính quyền Sài Gòn đầu hàng. Hình ảnh ngoài sân được nối với diễn biến bên trong và ý nghĩa kết thúc chiến dịch.",
+    "aspect": "ngang"
+   },
+   "O5": {
+    "name": "Radio chuyển tin",
+    "facing": "Radio trên bàn trực nhỏ tại rìa ngoài cổng, mặt quay về người trực.",
+    "occlusion": "Đạo cụ minh họa nằm lệch phải, không ở giữa đường xe.",
+    "support": "Bàn có chân trên đất, radio tựa hoàn toàn trên mặt bàn.",
+    "text": "Bản tin diễn giải mở Timeline. Nối lại sáu mốc đã trải qua để thấy hành trình từ độc lập năm 1945 tới thắng lợi năm 1975.",
+    "aspect": "vuong"
+   },
+   "H1": {
+    "name": "Xe tăng 843",
+    "facing": "Xe 843 ở vùng bên trái, thân và nòng cùng hướng vào sân.",
+    "occlusion": "Trụ cổng che khoảng một phần tư đến một phần ba; không bị che quá nửa.",
+    "support": "Xích trên mặt đất; bố cục vị trí hai xe là thu gọn để kể chuyện.",
+    "text": "Xe 843 gắn với Bùi Quang Thận, người lên cắm cờ. Xe húc đổ cổng chính là 390; hai vai trò cần được phân biệt.",
+    "aspect": "doc"
+   }
+  }
+ }
+}

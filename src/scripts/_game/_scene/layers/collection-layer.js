@@ -5,6 +5,7 @@ import { CHAPTERS, CLAIM_LABEL, SOURCES } from "../../data/chapters";
 import LAYOUT from "../../data/layout.generated.json";
 import { DESIGN_HEIGHT, DESIGN_WIDTH, UI } from "../../data/scene-config";
 import { assetByPath } from "../../_shared/asset-path";
+import { itemImageFile, itemPhoto } from "../../_shared/scene-crop";
 import { play, SFX } from "../../_shared/sfx";
 import { softTexture } from "../../_shared/textures";
 import { chamfer, drawSlot, framePanel, label, ornamentRule, roundButton, title, waxSeal } from "../../_shared/ui";
@@ -51,7 +52,7 @@ const SILHOUETTE = 0x0d0906;
  * (hcm dùng ảnh public domain từ Wikimedia, có ghi công): khung ảnh ở đầu panel
  * hiện chính khung cảnh trong game, ghi rõ "hình minh hoạ, không phải ảnh tư
  * liệu" — đúng quy tắc ba lớp nội dung của high concept. Chi tiết lấy từ gói
- * nội dung: `meaning` (ý nghĩa với sự kiện) + `archive` của cảnh + nguồn.
+ * nội dung: `archive` của cảnh + nguồn (`meaning` là ý đồ thiết kế, không hiện).
  *
  * Vật đã tìm hiện sprite màu (bấm xem lại mô tả). Vật chưa tìm hiện BÓNG ĐEN
  * của chính sprite đó — đúng dáng vật (đoàn người, xe đạp thồ…) nên bóng đen
@@ -420,30 +421,14 @@ export class CollectionLayer {
             .rect(PHOTO_PAD, PHOTO_PAD, photoW, PHOTO_H).fill({ color: 0x120c07 });
         this.detail.addChild(frame);
 
-        const photoBox = new Container();
-        const photoMask = new Graphics().rect(PHOTO_PAD, PHOTO_PAD, photoW, PHOTO_H).fill(0xffffff);
-        photoBox.mask = photoMask;
-        this.detail.addChild(photoBox, photoMask);
-
         // Phóng vào quanh vật trong cảnh: người chơi nhận ra đúng chỗ đã tìm thấy.
-        const layout = LAYOUT[chapter.key];
-        const info = layout.props[item.id];
-        const art = layout.artScale ?? 1;
-        const zoom = Math.max(photoW / (layout.width * art), PHOTO_H / (layout.height * art)) * 1.6;
-        const scene = new Sprite(assetByPath(layout.bg));
-        scene.scale.set(zoom);
-        const cx = (info.x + info.w / 2) * art * zoom;
-        const cy = (info.y + info.h / 2) * art * zoom;
-        scene.position.set(
-            Math.min(PHOTO_PAD, Math.max(PHOTO_PAD + photoW - scene.width, DETAIL_W / 2 - cx)),
-            Math.min(PHOTO_PAD, Math.max(PHOTO_PAD + PHOTO_H - scene.height, PHOTO_PAD + PHOTO_H / 2 - cy)),
-        );
-        const prop = new Sprite(assetByPath(info.file));
-        prop.scale.set(zoom);
-        prop.position.set(scene.x + info.x * art * zoom, scene.y + info.y * art * zoom);
-        photoBox.addChild(scene, prop);
+        // Dựng đủ lớp (nền clean + người, cờ, vật khác) — bản đầu chỉ ghép nền
+        // với đúng vật này nên người xung quanh biến mất khỏi khung.
+        const { view: photo, isolated } = itemPhoto(chapter.key, item.id, photoW, PHOTO_H, { pad: 2.2, min: 220 });
+        photo.position.set(PHOTO_PAD, PHOTO_PAD);
+        this.detail.addChild(photo);
 
-        const tag = label("KHUNG CẢNH TRONG GAME", {
+        const tag = label(isolated ? "MINH HOẠ" : "KHUNG CẢNH TRONG GAME", {
             fontFamily: UI.fontBody, fontSize: 10, fontWeight: "bold", letterSpacing: 1.5, fill: UI.ink,
         });
         const tagBg = chamfer(new Graphics(), 0, 0, tag.width + 14, tag.height + 6, 3).fill({ color: UI.gold, alpha: 0.92 });
@@ -510,7 +495,8 @@ export class CollectionLayer {
                 fontFamily: UI.fontBody, fontSize: 14.5, fill: UI.paper, wordWrap: true, wordWrapWidth: w, lineHeight: 21,
             }), 14);
         };
-        section("Ý NGHĨA VỚI SỰ KIỆN", item.meaning);
+        // `meaning` là ý đồ thiết kế (để diễn giải / thuyết trình), không hiện
+        // cho người chơi — cùng lý do thẻ tư liệu.
         section("BỐI CẢNH", chapter.archive);
 
         if (item.src?.length) {
@@ -574,7 +560,7 @@ export class CollectionLayer {
 
     /** Sprite vật cắt từ cảnh: đã tìm → màu; chưa tìm → bóng đen theo đúng dáng. */
     _itemSprite(chapterKey, item, found, size) {
-        const sprite = new Sprite(assetByPath(LAYOUT[chapterKey].props[item.id].file));
+        const sprite = new Sprite(assetByPath(itemImageFile(chapterKey, item.id)));
         const k = size / Math.max(sprite.texture.width, sprite.texture.height);
         sprite.anchor.set(0.5);
         sprite.scale.set(k);

@@ -18857,43 +18857,47 @@
       "imports": []
     },
     "src/drop-assets-in-me/s01/actor_0.webp": {
-      "bytes": 60132,
+      "bytes": 20666,
       "imports": []
     },
     "src/drop-assets-in-me/s01/bg.webp": {
-      "bytes": 237858,
+      "bytes": 235154,
       "imports": []
     },
     "src/drop-assets-in-me/s01/prop_H1.webp": {
-      "bytes": 21722,
+      "bytes": 10790,
       "imports": []
     },
     "src/drop-assets-in-me/s01/prop_O1.webp": {
-      "bytes": 47772,
+      "bytes": 30504,
       "imports": []
     },
     "src/drop-assets-in-me/s01/prop_O2.webp": {
-      "bytes": 26588,
+      "bytes": 13898,
       "imports": []
     },
     "src/drop-assets-in-me/s01/prop_O3.webp": {
-      "bytes": 20060,
+      "bytes": 7750,
       "imports": []
     },
     "src/drop-assets-in-me/s01/prop_O4.webp": {
-      "bytes": 50138,
+      "bytes": 78156,
       "imports": []
     },
     "src/drop-assets-in-me/s01/prop_O5.webp": {
-      "bytes": 12858,
+      "bytes": 3524,
       "imports": []
     },
-    "src/drop-assets-in-me/s01/shadow_O4.webp": {
-      "bytes": 8892,
+    "src/drop-assets-in-me/s01/rest_O1.webp": {
+      "bytes": 7360,
       "imports": []
     },
-    "src/drop-assets-in-me/s01/shadow_actor_0.webp": {
-      "bytes": 4540,
+    "src/drop-assets-in-me/s01/rest_O4.webp": {
+      "bytes": 31446,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s01/rest_actor_0.webp": {
+      "bytes": 9872,
       "imports": []
     },
     "src/drop-assets-in-me/s02/bg.webp": {
@@ -18901,91 +18905,111 @@
       "imports": []
     },
     "src/drop-assets-in-me/s02/prop_H1.webp": {
-      "bytes": 15160,
+      "bytes": 17202,
       "imports": []
     },
     "src/drop-assets-in-me/s02/prop_O1.webp": {
-      "bytes": 63770,
+      "bytes": 39674,
       "imports": []
     },
     "src/drop-assets-in-me/s02/prop_O2.webp": {
-      "bytes": 41696,
+      "bytes": 39932,
       "imports": []
     },
     "src/drop-assets-in-me/s02/prop_O3.webp": {
-      "bytes": 17840,
+      "bytes": 15116,
       "imports": []
     },
     "src/drop-assets-in-me/s02/prop_O4.webp": {
-      "bytes": 5766,
+      "bytes": 6536,
       "imports": []
     },
     "src/drop-assets-in-me/s02/prop_O5.webp": {
-      "bytes": 24850,
+      "bytes": 26052,
       "imports": []
     },
-    "src/drop-assets-in-me/s03/actor_0.webp": {
-      "bytes": 20444,
+    "src/drop-assets-in-me/s02/rest_O2.webp": {
+      "bytes": 3270,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s02/rest_O5.webp": {
+      "bytes": 1638,
       "imports": []
     },
     "src/drop-assets-in-me/s03/bg.webp": {
-      "bytes": 316520,
+      "bytes": 219098,
       "imports": []
     },
     "src/drop-assets-in-me/s03/prop_H1.webp": {
-      "bytes": 11934,
+      "bytes": 4544,
       "imports": []
     },
     "src/drop-assets-in-me/s03/prop_O1.webp": {
-      "bytes": 84810,
+      "bytes": 40540,
       "imports": []
     },
     "src/drop-assets-in-me/s03/prop_O2.webp": {
-      "bytes": 24304,
+      "bytes": 17826,
       "imports": []
     },
     "src/drop-assets-in-me/s03/prop_O3.webp": {
-      "bytes": 93302,
+      "bytes": 40066,
       "imports": []
     },
     "src/drop-assets-in-me/s03/prop_O4.webp": {
-      "bytes": 85736,
+      "bytes": 44918,
       "imports": []
     },
     "src/drop-assets-in-me/s03/prop_O5.webp": {
-      "bytes": 87460,
+      "bytes": 43636,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s03/rest_H1.webp": {
+      "bytes": 1068,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s03/rest_O4.webp": {
+      "bytes": 1902,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s03/rest_O5.webp": {
+      "bytes": 7228,
       "imports": []
     },
     "src/drop-assets-in-me/s03/shadow_O4.webp": {
-      "bytes": 11136,
+      "bytes": 1778,
       "imports": []
     },
     "src/drop-assets-in-me/s04/bg.webp": {
-      "bytes": 272840,
+      "bytes": 174240,
       "imports": []
     },
     "src/drop-assets-in-me/s04/prop_H1.webp": {
-      "bytes": 16828,
+      "bytes": 5174,
       "imports": []
     },
     "src/drop-assets-in-me/s04/prop_O1.webp": {
-      "bytes": 11368,
+      "bytes": 6100,
       "imports": []
     },
     "src/drop-assets-in-me/s04/prop_O2.webp": {
-      "bytes": 53452,
+      "bytes": 29692,
       "imports": []
     },
     "src/drop-assets-in-me/s04/prop_O3.webp": {
-      "bytes": 19470,
+      "bytes": 7362,
       "imports": []
     },
     "src/drop-assets-in-me/s04/prop_O4.webp": {
-      "bytes": 10176,
+      "bytes": 7754,
       "imports": []
     },
     "src/drop-assets-in-me/s04/prop_O5.webp": {
-      "bytes": 20548,
+      "bytes": 9898,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s04/rest_O2.webp": {
+      "bytes": 22280,
       "imports": []
     },
     "src/drop-assets-in-me/s05/bg.webp": {
@@ -18993,31 +19017,35 @@
       "imports": []
     },
     "src/drop-assets-in-me/s05/prop_H1.webp": {
-      "bytes": 19334,
+      "bytes": 15650,
       "imports": []
     },
     "src/drop-assets-in-me/s05/prop_O1.webp": {
-      "bytes": 20564,
+      "bytes": 17574,
       "imports": []
     },
     "src/drop-assets-in-me/s05/prop_O2.webp": {
-      "bytes": 55568,
+      "bytes": 48498,
       "imports": []
     },
     "src/drop-assets-in-me/s05/prop_O3.webp": {
-      "bytes": 39066,
+      "bytes": 29572,
       "imports": []
     },
     "src/drop-assets-in-me/s05/prop_O4.webp": {
-      "bytes": 9288,
+      "bytes": 8690,
       "imports": []
     },
     "src/drop-assets-in-me/s05/prop_O5.webp": {
-      "bytes": 43942,
+      "bytes": 41254,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s05/rest_O2.webp": {
+      "bytes": 5988,
       "imports": []
     },
     "src/drop-assets-in-me/s05/shadow_O2.webp": {
-      "bytes": 4932,
+      "bytes": 2922,
       "imports": []
     },
     "src/drop-assets-in-me/s06/bg.webp": {
@@ -19025,27 +19053,39 @@
       "imports": []
     },
     "src/drop-assets-in-me/s06/prop_H1.webp": {
-      "bytes": 26238,
+      "bytes": 20694,
       "imports": []
     },
     "src/drop-assets-in-me/s06/prop_O1.webp": {
-      "bytes": 53010,
+      "bytes": 56208,
       "imports": []
     },
     "src/drop-assets-in-me/s06/prop_O2.webp": {
-      "bytes": 65446,
+      "bytes": 61766,
       "imports": []
     },
     "src/drop-assets-in-me/s06/prop_O3.webp": {
-      "bytes": 9416,
+      "bytes": 9366,
       "imports": []
     },
     "src/drop-assets-in-me/s06/prop_O4.webp": {
-      "bytes": 45068,
+      "bytes": 38152,
       "imports": []
     },
     "src/drop-assets-in-me/s06/prop_O5.webp": {
-      "bytes": 63728,
+      "bytes": 57946,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s06/rest_O1.webp": {
+      "bytes": 11628,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s06/rest_O2.webp": {
+      "bytes": 42748,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s06/rest_O5.webp": {
+      "bytes": 4258,
       "imports": []
     },
     "src/drop-assets-in-me/s06/shadow_O1.webp": {
@@ -19053,11 +19093,11 @@
       "imports": []
     },
     "src/drop-assets-in-me/s06/shadow_O2.webp": {
-      "bytes": 11098,
+      "bytes": 20232,
       "imports": []
     },
     "src/drop-assets-in-me/s06/shadow_O5.webp": {
-      "bytes": 13678,
+      "bytes": 2042,
       "imports": []
     },
     "src/drop-assets-in-me/s07/bg.webp": {
@@ -19065,27 +19105,31 @@
       "imports": []
     },
     "src/drop-assets-in-me/s07/prop_H1.webp": {
-      "bytes": 4558,
+      "bytes": 3998,
       "imports": []
     },
     "src/drop-assets-in-me/s07/prop_O1.webp": {
-      "bytes": 8424,
+      "bytes": 8730,
       "imports": []
     },
     "src/drop-assets-in-me/s07/prop_O2.webp": {
-      "bytes": 11956,
+      "bytes": 14964,
       "imports": []
     },
     "src/drop-assets-in-me/s07/prop_O3.webp": {
-      "bytes": 38564,
+      "bytes": 39010,
       "imports": []
     },
     "src/drop-assets-in-me/s07/prop_O4.webp": {
-      "bytes": 17380,
+      "bytes": 16622,
       "imports": []
     },
     "src/drop-assets-in-me/s07/prop_O5.webp": {
-      "bytes": 10314,
+      "bytes": 13754,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s07/rest_O3.webp": {
+      "bytes": 4818,
       "imports": []
     },
     "src/drop-assets-in-me/s07/shadow_O3.webp": {
@@ -19097,27 +19141,31 @@
       "imports": []
     },
     "src/drop-assets-in-me/s08/prop_H1.webp": {
-      "bytes": 31432,
+      "bytes": 17982,
       "imports": []
     },
     "src/drop-assets-in-me/s08/prop_O1.webp": {
-      "bytes": 42260,
+      "bytes": 29780,
       "imports": []
     },
     "src/drop-assets-in-me/s08/prop_O2.webp": {
-      "bytes": 51784,
+      "bytes": 24600,
       "imports": []
     },
     "src/drop-assets-in-me/s08/prop_O3.webp": {
-      "bytes": 10806,
+      "bytes": 8414,
       "imports": []
     },
     "src/drop-assets-in-me/s08/prop_O4.webp": {
-      "bytes": 9622,
+      "bytes": 9408,
       "imports": []
     },
     "src/drop-assets-in-me/s08/prop_O5.webp": {
-      "bytes": 29414,
+      "bytes": 19074,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s08/rest_O5.webp": {
+      "bytes": 13458,
       "imports": []
     },
     "src/drop-assets-in-me/s08/shadow_O4.webp": {
@@ -19125,7 +19173,7 @@
       "imports": []
     },
     "src/drop-assets-in-me/s08/shadow_O5.webp": {
-      "bytes": 8852,
+      "bytes": 8086,
       "imports": []
     },
     "src/drop-assets-in-me/s09/bg.webp": {
@@ -19133,27 +19181,31 @@
       "imports": []
     },
     "src/drop-assets-in-me/s09/prop_H1.webp": {
-      "bytes": 7430,
+      "bytes": 6330,
       "imports": []
     },
     "src/drop-assets-in-me/s09/prop_O1.webp": {
-      "bytes": 12008,
+      "bytes": 11464,
       "imports": []
     },
     "src/drop-assets-in-me/s09/prop_O2.webp": {
-      "bytes": 24830,
+      "bytes": 24166,
       "imports": []
     },
     "src/drop-assets-in-me/s09/prop_O3.webp": {
-      "bytes": 12988,
+      "bytes": 11856,
       "imports": []
     },
     "src/drop-assets-in-me/s09/prop_O4.webp": {
-      "bytes": 11534,
+      "bytes": 11422,
       "imports": []
     },
     "src/drop-assets-in-me/s09/prop_O5.webp": {
-      "bytes": 37232,
+      "bytes": 45686,
+      "imports": []
+    },
+    "src/drop-assets-in-me/s09/rest_O2.webp": {
+      "bytes": 2614,
       "imports": []
     },
     "src/drop-assets-in-me/s10/bg.webp": {
@@ -19161,27 +19213,27 @@
       "imports": []
     },
     "src/drop-assets-in-me/s10/prop_H1.webp": {
-      "bytes": 19362,
+      "bytes": 12066,
       "imports": []
     },
     "src/drop-assets-in-me/s10/prop_O1.webp": {
-      "bytes": 99906,
+      "bytes": 79508,
       "imports": []
     },
     "src/drop-assets-in-me/s10/prop_O2.webp": {
-      "bytes": 55844,
+      "bytes": 50762,
       "imports": []
     },
     "src/drop-assets-in-me/s10/prop_O3.webp": {
-      "bytes": 4160,
+      "bytes": 4752,
       "imports": []
     },
     "src/drop-assets-in-me/s10/prop_O4.webp": {
-      "bytes": 9234,
+      "bytes": 6744,
       "imports": []
     },
     "src/drop-assets-in-me/s10/prop_O5.webp": {
-      "bytes": 12640,
+      "bytes": 5328,
       "imports": []
     },
     "src/engine/adapters/pixi/load/load-texture.js": {
@@ -19196,7 +19248,7 @@
       "format": "esm"
     },
     "src/engine/tooling/assets.js": {
-      "bytes": 23301,
+      "bytes": 26336,
       "imports": [
         {
           "path": "src/drop-assets-in-me/cover/bg.webp",
@@ -19244,14 +19296,19 @@
           "original": "../../drop-assets-in-me/s01/prop_O5.webp"
         },
         {
-          "path": "src/drop-assets-in-me/s01/shadow_O4.webp",
+          "path": "src/drop-assets-in-me/s01/rest_O1.webp",
           "kind": "import-statement",
-          "original": "../../drop-assets-in-me/s01/shadow_O4.webp"
+          "original": "../../drop-assets-in-me/s01/rest_O1.webp"
         },
         {
-          "path": "src/drop-assets-in-me/s01/shadow_actor_0.webp",
+          "path": "src/drop-assets-in-me/s01/rest_O4.webp",
           "kind": "import-statement",
-          "original": "../../drop-assets-in-me/s01/shadow_actor_0.webp"
+          "original": "../../drop-assets-in-me/s01/rest_O4.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s01/rest_actor_0.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s01/rest_actor_0.webp"
         },
         {
           "path": "src/drop-assets-in-me/s02/bg.webp",
@@ -19289,9 +19346,14 @@
           "original": "../../drop-assets-in-me/s02/prop_O5.webp"
         },
         {
-          "path": "src/drop-assets-in-me/s03/actor_0.webp",
+          "path": "src/drop-assets-in-me/s02/rest_O2.webp",
           "kind": "import-statement",
-          "original": "../../drop-assets-in-me/s03/actor_0.webp"
+          "original": "../../drop-assets-in-me/s02/rest_O2.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s02/rest_O5.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s02/rest_O5.webp"
         },
         {
           "path": "src/drop-assets-in-me/s03/bg.webp",
@@ -19327,6 +19389,21 @@
           "path": "src/drop-assets-in-me/s03/prop_O5.webp",
           "kind": "import-statement",
           "original": "../../drop-assets-in-me/s03/prop_O5.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s03/rest_H1.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s03/rest_H1.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s03/rest_O4.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s03/rest_O4.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s03/rest_O5.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s03/rest_O5.webp"
         },
         {
           "path": "src/drop-assets-in-me/s03/shadow_O4.webp",
@@ -19369,6 +19446,11 @@
           "original": "../../drop-assets-in-me/s04/prop_O5.webp"
         },
         {
+          "path": "src/drop-assets-in-me/s04/rest_O2.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s04/rest_O2.webp"
+        },
+        {
           "path": "src/drop-assets-in-me/s05/bg.webp",
           "kind": "import-statement",
           "original": "../../drop-assets-in-me/s05/bg.webp"
@@ -19402,6 +19484,11 @@
           "path": "src/drop-assets-in-me/s05/prop_O5.webp",
           "kind": "import-statement",
           "original": "../../drop-assets-in-me/s05/prop_O5.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s05/rest_O2.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s05/rest_O2.webp"
         },
         {
           "path": "src/drop-assets-in-me/s05/shadow_O2.webp",
@@ -19442,6 +19529,21 @@
           "path": "src/drop-assets-in-me/s06/prop_O5.webp",
           "kind": "import-statement",
           "original": "../../drop-assets-in-me/s06/prop_O5.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s06/rest_O1.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s06/rest_O1.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s06/rest_O2.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s06/rest_O2.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s06/rest_O5.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s06/rest_O5.webp"
         },
         {
           "path": "src/drop-assets-in-me/s06/shadow_O1.webp",
@@ -19494,6 +19596,11 @@
           "original": "../../drop-assets-in-me/s07/prop_O5.webp"
         },
         {
+          "path": "src/drop-assets-in-me/s07/rest_O3.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s07/rest_O3.webp"
+        },
+        {
           "path": "src/drop-assets-in-me/s07/shadow_O3.webp",
           "kind": "import-statement",
           "original": "../../drop-assets-in-me/s07/shadow_O3.webp"
@@ -19532,6 +19639,11 @@
           "path": "src/drop-assets-in-me/s08/prop_O5.webp",
           "kind": "import-statement",
           "original": "../../drop-assets-in-me/s08/prop_O5.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s08/rest_O5.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s08/rest_O5.webp"
         },
         {
           "path": "src/drop-assets-in-me/s08/shadow_O4.webp",
@@ -19577,6 +19689,11 @@
           "path": "src/drop-assets-in-me/s09/prop_O5.webp",
           "kind": "import-statement",
           "original": "../../drop-assets-in-me/s09/prop_O5.webp"
+        },
+        {
+          "path": "src/drop-assets-in-me/s09/rest_O2.webp",
+          "kind": "import-statement",
+          "original": "../../drop-assets-in-me/s09/rest_O2.webp"
         },
         {
           "path": "src/drop-assets-in-me/s10/bg.webp",
@@ -21623,7 +21740,7 @@
       "format": "esm"
     },
     "src/scripts/_game/data/ambience.js": {
-      "bytes": 10541,
+      "bytes": 11281,
       "imports": [],
       "format": "esm"
     },
@@ -21681,7 +21798,7 @@
       "format": "esm"
     },
     "src/scripts/_game/data/layout.generated.json": {
-      "bytes": 11807,
+      "bytes": 13282,
       "imports": []
     },
     "src/scripts/_game/_shared/asset-path.js": {
@@ -21742,6 +21859,42 @@
       ],
       "format": "esm"
     },
+    "src/scripts/_game/data/layout-overrides.js": {
+      "bytes": 481,
+      "imports": [],
+      "format": "esm"
+    },
+    "src/scripts/_game/_shared/scene-crop.js": {
+      "bytes": 4641,
+      "imports": [
+        {
+          "path": "node_modules/pixi.js/lib/index.mjs",
+          "kind": "import-statement",
+          "original": "pixi.js"
+        },
+        {
+          "path": "src/scripts/_game/data/ambience.js",
+          "kind": "import-statement",
+          "original": "../data/ambience"
+        },
+        {
+          "path": "src/scripts/_game/data/layout.generated.json",
+          "kind": "import-statement",
+          "original": "../data/layout.generated.json"
+        },
+        {
+          "path": "src/scripts/_game/data/layout-overrides.js",
+          "kind": "import-statement",
+          "original": "../data/layout-overrides"
+        },
+        {
+          "path": "src/scripts/_game/_shared/asset-path.js",
+          "kind": "import-statement",
+          "original": "./asset-path"
+        }
+      ],
+      "format": "esm"
+    },
     "src/scripts/_game/_shared/ui.js": {
       "bytes": 26936,
       "imports": [
@@ -21759,7 +21912,7 @@
       "format": "esm"
     },
     "src/scripts/_game/_scene/layers/card-layer.js": {
-      "bytes": 14045,
+      "bytes": 14394,
       "imports": [
         {
           "path": "node_modules/gsap/index.js",
@@ -21777,29 +21930,19 @@
           "original": "../../data/chapters"
         },
         {
-          "path": "src/scripts/_game/data/layout.generated.json",
-          "kind": "import-statement",
-          "original": "../../data/layout.generated.json"
-        },
-        {
           "path": "src/scripts/_game/data/scene-config.js",
           "kind": "import-statement",
           "original": "../../data/scene-config"
         },
         {
-          "path": "src/scripts/_game/_shared/asset-path.js",
+          "path": "src/scripts/_game/_shared/scene-crop.js",
           "kind": "import-statement",
-          "original": "../../_shared/asset-path"
+          "original": "../../_shared/scene-crop"
         },
         {
           "path": "src/scripts/_game/_shared/sfx.js",
           "kind": "import-statement",
           "original": "../../_shared/sfx"
-        },
-        {
-          "path": "src/scripts/_game/_shared/textures.js",
-          "kind": "import-statement",
-          "original": "../../_shared/textures"
         },
         {
           "path": "src/scripts/_game/_shared/ui.js",
@@ -21810,7 +21953,7 @@
       "format": "esm"
     },
     "src/scripts/_game/_scene/layers/collection-layer.js": {
-      "bytes": 27230,
+      "bytes": 26019,
       "imports": [
         {
           "path": "node_modules/gsap/index.js",
@@ -21841,6 +21984,11 @@
           "path": "src/scripts/_game/_shared/asset-path.js",
           "kind": "import-statement",
           "original": "../../_shared/asset-path"
+        },
+        {
+          "path": "src/scripts/_game/_shared/scene-crop.js",
+          "kind": "import-statement",
+          "original": "../../_shared/scene-crop"
         },
         {
           "path": "src/scripts/_game/_shared/sfx.js",
@@ -21902,7 +22050,7 @@
       "format": "esm"
     },
     "src/scripts/_game/_scene/layers/hud-layer.js": {
-      "bytes": 20867,
+      "bytes": 21179,
       "imports": [
         {
           "path": "node_modules/gsap/index.js",
@@ -21978,18 +22126,13 @@
       ],
       "format": "esm"
     },
-    "src/scripts/_game/data/layout-overrides.js": {
-      "bytes": 481,
-      "imports": [],
-      "format": "esm"
-    },
     "src/scripts/_game/_shared/alpha-mask.js": {
       "bytes": 2612,
       "imports": [],
       "format": "esm"
     },
     "src/scripts/_game/_scene/layers/prop-layer.js": {
-      "bytes": 19038,
+      "bytes": 19734,
       "imports": [
         {
           "path": "node_modules/pixi.js/lib/index.mjs",
@@ -23492,7 +23635,7 @@
           "bytesInOutput": 18838
         },
         "node_modules/gsap/index.js": {
-          "bytesInOutput": 48
+          "bytesInOutput": 49
         },
         "src/scripts/_game/_scene/game-scene.js": {
           "bytesInOutput": 5734
@@ -23510,178 +23653,211 @@
           "bytesInOutput": 317017
         },
         "src/drop-assets-in-me/s01/actor_0.webp": {
-          "bytesInOutput": 80209
+          "bytesInOutput": 27589
         },
         "src/drop-assets-in-me/s01/bg.webp": {
-          "bytesInOutput": 317177
+          "bytesInOutput": 313573
         },
         "src/drop-assets-in-me/s01/prop_H1.webp": {
-          "bytesInOutput": 28997
+          "bytesInOutput": 14421
         },
         "src/drop-assets-in-me/s01/prop_O1.webp": {
-          "bytesInOutput": 63729
+          "bytesInOutput": 40705
         },
         "src/drop-assets-in-me/s01/prop_O2.webp": {
-          "bytesInOutput": 35485
+          "bytesInOutput": 18565
         },
         "src/drop-assets-in-me/s01/prop_O3.webp": {
-          "bytesInOutput": 26781
+          "bytesInOutput": 10369
         },
         "src/drop-assets-in-me/s01/prop_O4.webp": {
-          "bytesInOutput": 66885
+          "bytesInOutput": 104241
         },
         "src/drop-assets-in-me/s01/prop_O5.webp": {
-          "bytesInOutput": 17177
+          "bytesInOutput": 4733
         },
-        "src/drop-assets-in-me/s01/shadow_O4.webp": {
-          "bytesInOutput": 11889
+        "src/drop-assets-in-me/s01/rest_O1.webp": {
+          "bytesInOutput": 9849
         },
-        "src/drop-assets-in-me/s01/shadow_actor_0.webp": {
-          "bytesInOutput": 6089
+        "src/drop-assets-in-me/s01/rest_O4.webp": {
+          "bytesInOutput": 41961
+        },
+        "src/drop-assets-in-me/s01/rest_actor_0.webp": {
+          "bytesInOutput": 13197
         },
         "src/drop-assets-in-me/s02/bg.webp": {
           "bytesInOutput": 180977
         },
         "src/drop-assets-in-me/s02/prop_H1.webp": {
-          "bytesInOutput": 20249
+          "bytesInOutput": 22969
         },
         "src/drop-assets-in-me/s02/prop_O1.webp": {
-          "bytesInOutput": 85061
+          "bytesInOutput": 52933
         },
         "src/drop-assets-in-me/s02/prop_O2.webp": {
-          "bytesInOutput": 55629
+          "bytesInOutput": 53277
         },
         "src/drop-assets-in-me/s02/prop_O3.webp": {
-          "bytesInOutput": 23821
+          "bytesInOutput": 20189
         },
         "src/drop-assets-in-me/s02/prop_O4.webp": {
-          "bytesInOutput": 7721
+          "bytesInOutput": 8749
         },
         "src/drop-assets-in-me/s02/prop_O5.webp": {
-          "bytesInOutput": 33169
+          "bytesInOutput": 34769
         },
-        "src/drop-assets-in-me/s03/actor_0.webp": {
-          "bytesInOutput": 27293
+        "src/drop-assets-in-me/s02/rest_O2.webp": {
+          "bytesInOutput": 4393
+        },
+        "src/drop-assets-in-me/s02/rest_O5.webp": {
+          "bytesInOutput": 2217
         },
         "src/drop-assets-in-me/s03/bg.webp": {
-          "bytesInOutput": 422061
+          "bytesInOutput": 292165
         },
         "src/drop-assets-in-me/s03/prop_H1.webp": {
-          "bytesInOutput": 15945
+          "bytesInOutput": 6093
         },
         "src/drop-assets-in-me/s03/prop_O1.webp": {
-          "bytesInOutput": 113113
+          "bytesInOutput": 54089
         },
         "src/drop-assets-in-me/s03/prop_O2.webp": {
-          "bytesInOutput": 32441
+          "bytesInOutput": 23801
         },
         "src/drop-assets-in-me/s03/prop_O3.webp": {
-          "bytesInOutput": 124437
+          "bytesInOutput": 53457
         },
         "src/drop-assets-in-me/s03/prop_O4.webp": {
-          "bytesInOutput": 114349
+          "bytesInOutput": 59925
         },
         "src/drop-assets-in-me/s03/prop_O5.webp": {
-          "bytesInOutput": 116649
+          "bytesInOutput": 58217
+        },
+        "src/drop-assets-in-me/s03/rest_H1.webp": {
+          "bytesInOutput": 1457
+        },
+        "src/drop-assets-in-me/s03/rest_O4.webp": {
+          "bytesInOutput": 2569
+        },
+        "src/drop-assets-in-me/s03/rest_O5.webp": {
+          "bytesInOutput": 9673
         },
         "src/drop-assets-in-me/s03/shadow_O4.webp": {
-          "bytesInOutput": 14881
+          "bytesInOutput": 2405
         },
         "src/drop-assets-in-me/s04/bg.webp": {
-          "bytesInOutput": 363821
+          "bytesInOutput": 232353
         },
         "src/drop-assets-in-me/s04/prop_H1.webp": {
-          "bytesInOutput": 22473
+          "bytesInOutput": 6933
         },
         "src/drop-assets-in-me/s04/prop_O1.webp": {
-          "bytesInOutput": 15193
+          "bytesInOutput": 8169
         },
         "src/drop-assets-in-me/s04/prop_O2.webp": {
-          "bytesInOutput": 71305
+          "bytesInOutput": 39625
         },
         "src/drop-assets-in-me/s04/prop_O3.webp": {
-          "bytesInOutput": 25993
+          "bytesInOutput": 9849
         },
         "src/drop-assets-in-me/s04/prop_O4.webp": {
-          "bytesInOutput": 13601
+          "bytesInOutput": 10373
         },
         "src/drop-assets-in-me/s04/prop_O5.webp": {
-          "bytesInOutput": 27433
+          "bytesInOutput": 13233
+        },
+        "src/drop-assets-in-me/s04/rest_O2.webp": {
+          "bytesInOutput": 29741
         },
         "src/drop-assets-in-me/s05/bg.webp": {
           "bytesInOutput": 484869
         },
         "src/drop-assets-in-me/s05/prop_H1.webp": {
-          "bytesInOutput": 25813
+          "bytesInOutput": 20901
         },
         "src/drop-assets-in-me/s05/prop_O1.webp": {
-          "bytesInOutput": 27453
+          "bytesInOutput": 23465
         },
         "src/drop-assets-in-me/s05/prop_O2.webp": {
-          "bytesInOutput": 74125
+          "bytesInOutput": 64697
         },
         "src/drop-assets-in-me/s05/prop_O3.webp": {
-          "bytesInOutput": 52121
+          "bytesInOutput": 39465
         },
         "src/drop-assets-in-me/s05/prop_O4.webp": {
-          "bytesInOutput": 12417
+          "bytesInOutput": 11621
         },
         "src/drop-assets-in-me/s05/prop_O5.webp": {
-          "bytesInOutput": 58625
+          "bytesInOutput": 55041
+        },
+        "src/drop-assets-in-me/s05/rest_O2.webp": {
+          "bytesInOutput": 8017
         },
         "src/drop-assets-in-me/s05/shadow_O2.webp": {
-          "bytesInOutput": 6609
+          "bytesInOutput": 3929
         },
         "src/drop-assets-in-me/s06/bg.webp": {
           "bytesInOutput": 400481
         },
         "src/drop-assets-in-me/s06/prop_H1.webp": {
-          "bytesInOutput": 35017
+          "bytesInOutput": 27625
         },
         "src/drop-assets-in-me/s06/prop_O1.webp": {
-          "bytesInOutput": 70713
+          "bytesInOutput": 74977
         },
         "src/drop-assets-in-me/s06/prop_O2.webp": {
-          "bytesInOutput": 87297
+          "bytesInOutput": 82389
         },
         "src/drop-assets-in-me/s06/prop_O3.webp": {
-          "bytesInOutput": 12589
+          "bytesInOutput": 12521
         },
         "src/drop-assets-in-me/s06/prop_O4.webp": {
-          "bytesInOutput": 60125
+          "bytesInOutput": 50905
         },
         "src/drop-assets-in-me/s06/prop_O5.webp": {
-          "bytesInOutput": 85005
+          "bytesInOutput": 77297
+        },
+        "src/drop-assets-in-me/s06/rest_O1.webp": {
+          "bytesInOutput": 15537
+        },
+        "src/drop-assets-in-me/s06/rest_O2.webp": {
+          "bytesInOutput": 57033
+        },
+        "src/drop-assets-in-me/s06/rest_O5.webp": {
+          "bytesInOutput": 5713
         },
         "src/drop-assets-in-me/s06/shadow_O1.webp": {
           "bytesInOutput": 20089
         },
         "src/drop-assets-in-me/s06/shadow_O2.webp": {
-          "bytesInOutput": 14833
+          "bytesInOutput": 27009
         },
         "src/drop-assets-in-me/s06/shadow_O5.webp": {
-          "bytesInOutput": 18273
+          "bytesInOutput": 2757
         },
         "src/drop-assets-in-me/s07/bg.webp": {
           "bytesInOutput": 175325
         },
         "src/drop-assets-in-me/s07/prop_H1.webp": {
-          "bytesInOutput": 6113
+          "bytesInOutput": 5365
         },
         "src/drop-assets-in-me/s07/prop_O1.webp": {
-          "bytesInOutput": 11265
+          "bytesInOutput": 11673
         },
         "src/drop-assets-in-me/s07/prop_O2.webp": {
-          "bytesInOutput": 15977
+          "bytesInOutput": 19985
         },
         "src/drop-assets-in-me/s07/prop_O3.webp": {
-          "bytesInOutput": 51453
+          "bytesInOutput": 52049
         },
         "src/drop-assets-in-me/s07/prop_O4.webp": {
-          "bytesInOutput": 23209
+          "bytesInOutput": 22197
         },
         "src/drop-assets-in-me/s07/prop_O5.webp": {
-          "bytesInOutput": 13785
+          "bytesInOutput": 18373
+        },
+        "src/drop-assets-in-me/s07/rest_O3.webp": {
+          "bytesInOutput": 6457
         },
         "src/drop-assets-in-me/s07/shadow_O3.webp": {
           "bytesInOutput": 11005
@@ -23690,76 +23866,82 @@
           "bytesInOutput": 378241
         },
         "src/drop-assets-in-me/s08/prop_H1.webp": {
-          "bytesInOutput": 41945
+          "bytesInOutput": 24009
         },
         "src/drop-assets-in-me/s08/prop_O1.webp": {
-          "bytesInOutput": 56381
+          "bytesInOutput": 39741
         },
         "src/drop-assets-in-me/s08/prop_O2.webp": {
-          "bytesInOutput": 69081
+          "bytesInOutput": 32833
         },
         "src/drop-assets-in-me/s08/prop_O3.webp": {
-          "bytesInOutput": 14441
+          "bytesInOutput": 11253
         },
         "src/drop-assets-in-me/s08/prop_O4.webp": {
-          "bytesInOutput": 12865
+          "bytesInOutput": 12577
         },
         "src/drop-assets-in-me/s08/prop_O5.webp": {
-          "bytesInOutput": 39253
+          "bytesInOutput": 25465
+        },
+        "src/drop-assets-in-me/s08/rest_O5.webp": {
+          "bytesInOutput": 17977
         },
         "src/drop-assets-in-me/s08/shadow_O4.webp": {
           "bytesInOutput": 3105
         },
         "src/drop-assets-in-me/s08/shadow_O5.webp": {
-          "bytesInOutput": 11837
+          "bytesInOutput": 10817
         },
         "src/drop-assets-in-me/s09/bg.webp": {
           "bytesInOutput": 277529
         },
         "src/drop-assets-in-me/s09/prop_H1.webp": {
-          "bytesInOutput": 9941
+          "bytesInOutput": 8473
         },
         "src/drop-assets-in-me/s09/prop_O1.webp": {
-          "bytesInOutput": 16045
+          "bytesInOutput": 15321
         },
         "src/drop-assets-in-me/s09/prop_O2.webp": {
-          "bytesInOutput": 33141
+          "bytesInOutput": 32257
         },
         "src/drop-assets-in-me/s09/prop_O3.webp": {
-          "bytesInOutput": 17353
+          "bytesInOutput": 15841
         },
         "src/drop-assets-in-me/s09/prop_O4.webp": {
-          "bytesInOutput": 15413
+          "bytesInOutput": 15265
         },
         "src/drop-assets-in-me/s09/prop_O5.webp": {
-          "bytesInOutput": 49677
+          "bytesInOutput": 60949
+        },
+        "src/drop-assets-in-me/s09/rest_O2.webp": {
+          "bytesInOutput": 3521
         },
         "src/drop-assets-in-me/s10/bg.webp": {
           "bytesInOutput": 409909
         },
         "src/drop-assets-in-me/s10/prop_H1.webp": {
-          "bytesInOutput": 25849
+          "bytesInOutput": 16121
         },
         "src/drop-assets-in-me/s10/prop_O1.webp": {
-          "bytesInOutput": 133241
+          "bytesInOutput": 106045
         },
         "src/drop-assets-in-me/s10/prop_O2.webp": {
-          "bytesInOutput": 74493
+          "bytesInOutput": 67717
         },
         "src/drop-assets-in-me/s10/prop_O3.webp": {
-          "bytesInOutput": 5581
+          "bytesInOutput": 6369
         },
         "src/drop-assets-in-me/s10/prop_O4.webp": {
-          "bytesInOutput": 12345
+          "bytesInOutput": 9025
         },
         "src/drop-assets-in-me/s10/prop_O5.webp": {
-          "bytesInOutput": 16889
+          "bytesInOutput": 7137
         },
         "src/engine/adapters/pixi/load/load-texture.js": {
           "bytesInOutput": 50
         },
         "src/engine/tooling/assets.js": {
-          "bytesInOutput": 7650
+          "bytesInOutput": 8791
         },
         "src/engine/adapters/pixi/extensions/pixi-object.js": {
           "bytesInOutput": 333
@@ -23816,7 +23998,7 @@
           "bytesInOutput": 978
         },
         "src/scripts/_game/data/ambience.js": {
-          "bytesInOutput": 3253
+          "bytesInOutput": 3255
         },
         "src/scripts/_game/_shared/particles.js": {
           "bytesInOutput": 4381
@@ -23828,7 +24010,7 @@
           "bytesInOutput": 774
         },
         "src/scripts/_game/data/layout.generated.json": {
-          "bytesInOutput": 5021
+          "bytesInOutput": 5635
         },
         "src/scripts/_game/_shared/asset-path.js": {
           "bytesInOutput": 462
@@ -23837,28 +24019,31 @@
           "bytesInOutput": 2447
         },
         "src/scripts/_game/_scene/layers/card-layer.js": {
-          "bytesInOutput": 5665
+          "bytesInOutput": 5491
+        },
+        "src/scripts/_game/_shared/scene-crop.js": {
+          "bytesInOutput": 1130
+        },
+        "src/scripts/_game/data/layout-overrides.js": {
+          "bytesInOutput": 10
         },
         "src/scripts/_game/_shared/ui.js": {
           "bytesInOutput": 10231
         },
         "src/scripts/_game/_scene/layers/collection-layer.js": {
-          "bytesInOutput": 11089
+          "bytesInOutput": 10601
         },
         "src/scripts/_game/_scene/layers/cutscene-layer.js": {
           "bytesInOutput": 5001
         },
         "src/scripts/_game/_scene/layers/hud-layer.js": {
-          "bytesInOutput": 9019
+          "bytesInOutput": 9079
         },
         "src/scripts/_game/_scene/layers/minigame-layer.js": {
           "bytesInOutput": 6494
         },
         "src/scripts/_game/_scene/layers/prop-layer.js": {
-          "bytesInOutput": 5459
-        },
-        "src/scripts/_game/data/layout-overrides.js": {
-          "bytesInOutput": 10
+          "bytesInOutput": 5653
         },
         "src/scripts/_game/_shared/alpha-mask.js": {
           "bytesInOutput": 744
@@ -23876,7 +24061,7 @@
           "bytesInOutput": 24
         }
       },
-      "bytes": 7463299
+      "bytes": 6694672
     }
   }
 }

@@ -26,16 +26,19 @@ theo đúng những gì có trong ảnh — ghi ở bảng dưới.
 
 | Cảnh | Ảnh dùng | Ghi chú |
 |---|---|---|
-| S01 | Ảnh S01 cũ (bố cục 26/10) do người làm nội dung sửa "đông hơn" trong chat Gemini | Hai lần sinh theo brief 2.1 bị bỏ: lần 1 đám đông dày chồng lên nhóm dự lễ, lần 2 quá thưa. **Lệch brief 2.1**: Bác đứng nghiêng về bục ở mép phải chứ không đối diện đám đông; micro bên trái Bác |
+| S01 | Sinh lại 11/2026 (Gemini bản thường, 1376×768), `brief` riêng: Quảng trường Ba Đình + lễ đài gỗ | Lần 1 có người đứng chắn trước lễ đài → xin lại "góc phải dưới để trống, lễ đài cao 3 m". Clean lần 1 không xoá nhóm dự lễ → lượt xoá riêng. Bare không xoá bục + micro (còn tự xoá 2 người bên trái) → O3/O5 cắt `poly` từ clean. Có thành viên Chính phủ đứng sau Bác (đúng lịch sử, nằm trong nền) |
 | S02 | lần 1 | Đạt checklist (đêm, camera phía tự vệ, đèn điện tắt, gia đình đi xuống phải). Bare không xoá được cột đèn → `bare2` xoá riêng cột đèn |
-| S03 | lần 1 | Cờ do một chiến sĩ cắm ở cửa hầm, cán dựng sát mái (brief cho phép "người giữ"). `bare2` lấp hào giữa để lấy mặt nạ hào |
-| S04 | lần 1 | Hai tập văn kiện tách nhau trên bàn gần; đoàn VN ở giữa trái hướng vào bàn; sơ đồ trên giá |
+| S03 | Sinh lại 11/2026, `brief` riêng: mũ nan nguỵ trang, lính chạy khỏi hào, hầm mái tôn vòm | Đạt ngay lần 1. Hai chiến sĩ đứng trên nóc giữ cờ. `bare2` lấp hào; mặt nạ hào cuối cùng khai `poly` tay (diff hào đứt từng khúc) |
+| S04 | Sinh lại 11/2026, `brief` riêng: bàn vuông rỗng, 9 đoàn | Lần 1 chỉ một cạnh có người → xin lại đủ các đoàn + bàn phụ có thẻ ghi chú. Bare lần đầu Gemini trả lời bằng chữ; viết lệnh ngắn "Create an edited image…" thì ra ảnh |
 | S05 | lần 1 | **Lệch nhỏ**: gùi và kiện nằm trên hai phản tre riêng (brief: một phản). `bare2` xoá lối mòn để lấy mặt nạ lối mòn |
 | S06 | lần 2 | Lần 1 nhóm tự vệ bên phải đi NGƯỢC về camera → thêm `notes` "mọi người đi xa camera" |
-| S07 | lần 1 | Lịch Gemini vẽ chữ "Tết 1968" → bản clean làm trang lịch trắng (sprite lịch cắt từ clean) |
+| S07 | lần 1 (cũ) | Lịch Gemini vẽ chữ "Tết 1968" → bản clean làm trang lịch trắng (sprite lịch cắt từ clean). Sinh lại 11/2026 hai lần đều không dùng: lần 1 viền giấy trắng quanh tranh; lần 2 (prompt + "full bleed", Gemini miễn phí 1376×768) phòng trống trơn, một người bị che nửa đầu. Góp ý "mất đầu, cầm gậy" là lỗi mặt nạ O3 (dính khung cửa, mất bàn tay) → sửa bằng `add`/`cut`, xem README |
 | S08 | lần 1 | Bare giữ cột điện, chỉ xoá loa (cột còn mang dây điện) |
 | S09 | lần 1 | Bare tự thêm một người quay phim ở khu báo chí → mặt nạ máy quay giới hạn bằng `poly` |
 | S10 | lần 1 | Đạt checklist (camera ngoài cổng, đuôi + sườn trái xe 390, nòng chĩa vào Dinh, cờ đã treo). **Lệch textRule**: Gemini vẽ sẵn số 390 / 843 đúng xe — giữ lại vì engine chưa có lớp đặt chữ |
+
+Ảnh mới gửi prompt thành MỘT đoạn (thay xuống dòng bằng dấu cách): ở trang chat mới, ký
+tự xuống dòng bị Gemini hiểu là Enter → chỉ gửi dòng đầu và ra ảnh hồ núi không liên quan.
 
 ## Ghi chú tách sprite (`notes` trong build-prompts.mjs)
 

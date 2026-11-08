@@ -41,12 +41,16 @@ export const AMBIENCE = {
     // ── S01 Ba Đình — nắng chiều từ trái, cờ bay, đám đông chờ đợi ──────────
     s01: {
         props: {
-            O1: { type: "flag", pole: "right", yMax: 0.31, amp: 9, freq: 10, speed: 4.2 },
+            // Ảnh 11/2026: vải cờ chiếm ~60% trên của sprite (cán dài xuống tay
+            // người cầm). Đầu và bàn tay người cầm cờ đứng TRƯỚC vải/cán nhưng
+            // actor luôn vẽ dưới vật → sprite cờ đã khoét hình người (`cut`
+            // trong scenes.json), người lộ qua lỗ.
+            O1: { type: "flag", pole: "right", yMax: 0.6, amp: 9, freq: 10, speed: 4.2 },
             O4: { type: "breathe", amp: 0.008, period: 3.4 },
             O2: { type: "breathe", amp: 0.007, period: 4.2 },
         },
         actors: [
-            { type: "breathe", amp: 0.01, period: 3.1, phase: 1.2 },
+            { type: "breathe", amp: 0.006, period: 3.1, phase: 1.2 },
         ],
         emitters: [
             { type: "dust", rect: [300, 60, 1100, 600], count: 26, color: 0xfff0c0 },
@@ -83,14 +87,16 @@ export const AMBIENCE = {
     s03: {
         props: {
             // Cờ cắm TRÊN nóc hầm: chân cờ cao hơn chân hầm nhưng phải vẽ trên.
-            // Cán bên trái, vải bay sang phải; sprite kèm người giữ cờ ở cửa hầm.
-            O2: { type: "flag", pole: "left", yMax: 0.45, amp: 6, freq: 9, speed: 4, z: 1000 },
+            // Ảnh 11/2026: hai chiến sĩ đứng trên nóc giữ cờ, cán bên trái, vải
+            // bay sang phải chiếm ~38% trên của sprite (dưới là người, đứng yên).
+            O2: { type: "flag", pole: "left", yMax: 0.38, amp: 6, freq: 9, speed: 4, z: 1000 },
             O5: { type: "breathe", amp: 0.009, period: 3.4 },
         },
         emitters: [
-            { type: "smoke", x: 560, y: 100, rate: 1.4, color: 0x7d7470, drift: 12, size: 36, alpha: 0.25 },
-            { type: "smoke", x: 900, y: 70, rate: 1.0, color: 0x8a817a, drift: 10, size: 30, alpha: 0.2 },
-            { type: "smoke", x: 1340, y: 95, rate: 1.0, color: 0x8a817a, drift: 10, size: 30, alpha: 0.2 },
+            // Gốc các cột khói vẽ sẵn trong ảnh 11/2026.
+            { type: "smoke", x: 790, y: 265, rate: 1.4, color: 0x7d7470, drift: 12, size: 36, alpha: 0.25 },
+            { type: "smoke", x: 420, y: 265, rate: 1.0, color: 0x8a817a, drift: 10, size: 30, alpha: 0.2 },
+            { type: "smoke", x: 1300, y: 610, rate: 1.0, color: 0x8a817a, drift: 10, size: 30, alpha: 0.2 },
             { type: "birds", rect: [200, 40, 700, 160], count: 3 },
         ],
         halos: [
@@ -102,7 +108,9 @@ export const AMBIENCE = {
     // Ảnh 2.1 không có đèn chùm → chỉ còn quầng cửa sổ và bụi trong vệt nắng.
     s04: {
         props: {
-            O2: { type: "breathe", amp: 0.006, period: 4 },
+            // Sprite đoàn VN ôm cả dải mép bàn giữa thân và chân (cho liền một
+            // khối trên thẻ tư liệu) → thở rất nhẹ để mép bàn không phập phồng.
+            O2: { type: "breathe", amp: 0.003, period: 4 },
         },
         emitters: [
             { type: "dust", rect: [40, 40, 520, 520], count: 30, color: 0xfff6e0 },

@@ -1,0 +1,62 @@
+[
+ {
+  "file": "ui/ring_0.webp",
+  "w": 746,
+  "h": 768,
+  "stroke": 35.0,
+  "cx": 0.5,
+  "cy": 0.495,
+  "start": 4.765,
+  "dir": 1
+ },
+ {
+  "file": "ui/ring_1.webp",
+  "w": 768,
+  "h": 767,
+  "stroke": 48.0,
+  "cx": 0.493,
+  "cy": 0.49,
+  "start": 1.571,
+  "dir": 1
+ },
+ {
+  "file": "ui/ring_2.webp",
+  "w": 768,
+  "h": 356,
+  "stroke": 16.0,
+  "cx": 0.511,
+  "cy": 0.458,
+  "start": 5.603,
+  "dir": 1
+ },
+ {
+  "file": "ui/ring_3.webp",
+  "w": 768,
+  "h": 263,
+  "stroke": 13.0,
+  "cx": 0.512,
+  "cy": 0.461,
+  "start": 4.294,
+  "dir": 1
+ },
+ {
+  "file": "ui/ring_4.webp",
+  "w": 373,
+  "h": 768,
+  "stroke": 31.0,
+  "cx": 0.504,
+  "cy": 0.497,
+  "start": 4.398,
+  "dir": 1
+ },
+ {
+  "file": "ui/ring_5.webp",
+  "w": 217,
+  "h": 768,
+  "stroke": 25.0,
+  "cx": 0.503,
+  "cy": 0.494,
+  "start": 4.608,
+  "dir": 1
+ }
+]
